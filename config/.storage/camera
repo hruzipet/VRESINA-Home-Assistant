@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "key": "camera",
+    "data": {
+        "camera.tapo_c200": {
+            "preload_stream": true
+        }
+    }
+}

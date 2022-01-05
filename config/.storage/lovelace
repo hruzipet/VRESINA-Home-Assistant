@@ -1,0 +1,1142 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Vresina HA",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "sensor.teplota_venku_vresina"
+                        },
+                        {
+                            "entity": "sensor.teplota_jezirko_vresina"
+                        },
+                        {
+                            "entity": "sensor.teplota_venku_lhota"
+                        },
+                        {
+                            "entity": "sensor.teplota_jezirko_lhota"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        },
+                        {
+                            "entity": "device_tracker.84_a9_3e_0d_50_f6"
+                        },
+                        {
+                            "entity": "device_tracker.gateway"
+                        },
+                        {
+                            "entity": "device_tracker.f0_98_9d_85_4d_28"
+                        },
+                        {
+                            "entity": "device_tracker.c4_84_66_94_e1_61"
+                        },
+                        {
+                            "entity": "device_tracker.b2_be_76_83_1b_84"
+                        },
+                        {
+                            "entity": "device_tracker.google_maps_100262547672918909918"
+                        },
+                        {
+                            "entity": "device_tracker.google_maps_106711500081468985994"
+                        },
+                        {
+                            "entity": "sensor.roomba966_battery_level"
+                        },
+                        {
+                            "entity": "sensor.roomba980_battery_level"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "picture-entity",
+                            "entity": "camera.tapo_c200",
+                            "show_name": true,
+                            "show_state": false,
+                            "name": "Kamera brana",
+                            "camera_view": "live"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone",
+                            "name": "Garaz"
+                        },
+                        {
+                            "type": "gauge",
+                            "min": 10,
+                            "max": 100,
+                            "name": "Aktualni spotreba jezirko TOPENI",
+                            "severity": {
+                                "green": 10,
+                                "yellow": 130,
+                                "red": 150
+                            },
+                            "entity": "sensor.shellyplug_s_b85d35_power"
+                        },
+                        {
+                            "entity": "climate.topeni_jezirko",
+                            "name": "Topeni jezirko",
+                            "type": "thermostat"
+                        },
+                        {
+                            "type": "gauge",
+                            "min": 10,
+                            "max": 100,
+                            "name": "Aktualni spotreba jezirko Vzduchovani",
+                            "severity": {
+                                "green": 10,
+                                "yellow": 130,
+                                "red": 150
+                            },
+                            "entity": "sensor.shelly_prvni_patro_power"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "name": "jezirko vzduchovani",
+                            "show_state": true,
+                            "show_icon": true,
+                            "icon_height": "41px",
+                            "entity": "switch.shelly_prvni_patro"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "climate.topeni_jezirko"
+                                },
+                                {
+                                    "entity": "sensor.teplota_jezirko_vresina"
+                                },
+                                {
+                                    "entity": "sensor.senzor_topeni_jezirko"
+                                },
+                                {
+                                    "entity": "switch.switch_topeni_jezirko"
+                                },
+                                {
+                                    "entity": "automation.info_o_zapnuti_topeni_jezirko"
+                                },
+                                {
+                                    "entity": "sensor.shellyplug_s_b85d35_power"
+                                },
+                                {
+                                    "entity": "switch.shellyplug_s_b85d35"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Topeni jezirko",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.vresina_ha",
+                            "name": "Pocasi Vresina",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.teplota_jezirko_vresina"
+                                },
+                                {
+                                    "entity": "sensor.teplota_jezirko_lhota"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 1,
+                            "type": "history-graph"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.teplota_venku_vresina"
+                                },
+                                {
+                                    "entity": "sensor.teplota_jezirko_vresina"
+                                },
+                                {
+                                    "entity": "sensor.teplota_venku_lhota"
+                                },
+                                {
+                                    "entity": "sensor.teplota_jezirko_lhota"
+                                }
+                            ],
+                            "title": "Teploty",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.teplota_venku_vresina"
+                                },
+                                {
+                                    "entity": "sensor.teplota_venku_lhota"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 1,
+                            "type": "history-graph"
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shellyplug_s_b85d35_power"
+                                },
+                                {
+                                    "entity": "switch.shellyplug_s_b85d35"
+                                },
+                                {
+                                    "entity": "sensor.shellyplug_s_b85d35_energy"
+                                },
+                                {
+                                    "entity": "binary_sensor.shellyplug_s_b85d35_overpowering"
+                                },
+                                {
+                                    "entity": "binary_sensor.shellyplug_s_b86990_overheating"
+                                }
+                            ],
+                            "title": "Zasuvka jeziko topeni"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.akvarium_on_off",
+                            "name": "Svetylka pristresek auto",
+                            "show_state": true
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "climate.topeni_1_patro",
+                            "name": "Topeni",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "input_select.vyber_cidlo"
+                                },
+                                {
+                                    "entity": "sensor.cidlorizeni"
+                                },
+                                {
+                                    "entity": "climate.topeni_1_patro"
+                                },
+                                {
+                                    "entity": "input_number.nastaveni_hystereze"
+                                },
+                                {
+                                    "entity": "automation.topeni_1_i_2_patro_pridej_topeni_den"
+                                },
+                                {
+                                    "entity": "automation.topeni_1_i_2_patro_uber_na_topeni_noc"
+                                },
+                                {
+                                    "entity": "automation.zeslab_plamen"
+                                },
+                                {
+                                    "entity": "switch.switch_rele1"
+                                }
+                            ],
+                            "type": "entities",
+                            "title": "Automatizace",
+                            "state_color": true,
+                            "show_header_toggle": false
+                        },
+                        {
+                            "entity": "sensor.teplota_prizemi",
+                            "max": 32,
+                            "min": 0,
+                            "name": "Teplota 1. patro",
+                            "severity": {
+                                "green": 21.5,
+                                "red": 23,
+                                "yellow": 18
+                            },
+                            "theme": "default",
+                            "type": "gauge",
+                            "unit": "\u00b0C"
+                        },
+                        {
+                            "entity": "sensor.teplota_patro",
+                            "max": 32,
+                            "min": 0,
+                            "name": "Teplota 2. patro",
+                            "severity": {
+                                "green": 21.5,
+                                "red": 23,
+                                "yellow": 18
+                            },
+                            "theme": "default",
+                            "type": "gauge",
+                            "unit": "\u00b0C"
+                        },
+                        {
+                            "entity": "sensor.teplota_venku_vresina",
+                            "max": 32,
+                            "min": 0,
+                            "name": "Teplota sachta jezirko",
+                            "severity": {
+                                "green": 22,
+                                "red": 23,
+                                "yellow": 18
+                            },
+                            "theme": "default",
+                            "type": "gauge",
+                            "unit": "\u00b0C"
+                        },
+                        {
+                            "entities": [
+                                "sensor.nastavena_teplota_topeni",
+                                "sensor.teplota_prizemi",
+                                "sensor.teplota_patro"
+                            ],
+                            "hours_to_show": 3,
+                            "type": "history-graph",
+                            "refresh_interval": 0
+                        },
+                        {
+                            "entities": [
+                                "sensor.teplota_venku_vresina"
+                            ],
+                            "hours_to_show": 24,
+                            "refresh": 120,
+                            "type": "history-graph"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.eqvitemp"
+                                },
+                                {
+                                    "entity": "sensor.teplota_topeni"
+                                },
+                                {
+                                    "entity": "sensor.teplota_zpatecka"
+                                },
+                                {
+                                    "entity": "sensor.hystereze_topeni"
+                                },
+                                {
+                                    "entity": "sensor.teplota_sklep"
+                                },
+                                {
+                                    "entity": "sensor.napajeni_z_kotle"
+                                },
+                                {
+                                    "entity": "sensor.napajeni_z_regulatoru_sds"
+                                },
+                                {
+                                    "entity": "sensor.napajeni_z_regulatoru_junkers"
+                                },
+                                {
+                                    "entity": "sensor.nastavena_teplota_topeni"
+                                },
+                                {
+                                    "entity": "sensor.teplota_venku_vresina"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "SDS kotelna",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.teplota_topeni"
+                                },
+                                {
+                                    "entity": "sensor.teplota_topeni_zpatecka_vresina"
+                                },
+                                {
+                                    "entity": "sensor.teplota_zpatecka"
+                                }
+                            ],
+                            "hours_to_show": 1,
+                            "refresh_interval": 0,
+                            "title": "Topna voda",
+                            "type": "history-graph"
+                        },
+                        {
+                            "entity": "sensor.napajeni_z_kotle",
+                            "type": "sensor"
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.pwm_procent_plamen",
+                            "min": 25,
+                            "max": 80,
+                            "severity": {
+                                "green": 23,
+                                "yellow": 60,
+                                "red": 80
+                            }
+                        }
+                    ],
+                    "title": "Topeni"
+                },
+                {
+                    "badges": [
+                        "media_player.formuler4turbo_local",
+                        "media_player.nahore"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "media_player.formuler4turbo_local"
+                                },
+                                {
+                                    "entity": "media_player.nahore"
+                                },
+                                {
+                                    "entity": "media_player.formulerf4"
+                                },
+                                {
+                                    "entity": "media_player.misanek_silvercrest"
+                                },
+                                {
+                                    "entity": "media_player.viera_et60_series"
+                                },
+                                {
+                                    "entity": "media_player.formuler4turbo_2_local"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Media",
+                            "type": "entities"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.formuler4turbo_local"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.formuler4turbo_2_local_2"
+                        },
+                        {
+                            "entity": "media_player.jidelna_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.googlehomehub5380"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "Brana",
+                            "image": "https://demo.home-assistant.io/stub_config/kitchen.png",
+                            "entities": [],
+                            "camera_image": "camera.kamera_brana",
+                            "camera_view": "live"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.chromecast4083"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.formulerf4"
+                        }
+                    ],
+                    "title": "Media"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.speedtest_download"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_upload"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_ping"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Internet pripojeni",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.monitor_google_internet"
+                                },
+                                {
+                                    "entity": "binary_sensor.spojeni_lhota_l2l"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Spojeni Vresina",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.cidlo_jezirko_uptime"
+                                },
+                                {
+                                    "entity": "sensor.cidlo_jezirko_wifi_signal"
+                                },
+                                {
+                                    "entity": "sensor.cidlo_jezirko_cpu_load"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Cidlo jezirko",
+                            "type": "entities"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "automation.database_purge"
+                                },
+                                {
+                                    "entity": "sensor.db_size"
+                                }
+                            ],
+                            "title": "HA - databaze",
+                            "show_header_toggle": false,
+                            "state_color": true
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.ping_dolca_average"
+                                },
+                                {
+                                    "entity": "sensor.ping_dolca_max"
+                                },
+                                {
+                                    "entity": "sensor.ping_dolca_min"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 0,
+                            "title": "Internet",
+                            "type": "history-graph"
+                        },
+                        {
+                            "type": "gauge",
+                            "min": 0,
+                            "max": 100,
+                            "entity": "sensor.shellyplug_s_b86990_power"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shellyplug_s_b86990_power"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_current"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_energy"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_energy_returned"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_power"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_power_factor"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_voltage"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_current"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_energy"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_energy_returned"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_power"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_power_factor"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_voltage"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_current"
+                                }
+                            ],
+                            "state_color": true
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "switch.shellyem3_8caab561eff8"
+                        }
+                    ],
+                    "panel": false,
+                    "title": "Monitoring"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "aspect_ratio": "10:9",
+                            "dark_mode": false,
+                            "default_zoom": 14,
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.google_maps_100262547672918909918"
+                                },
+                                {
+                                    "entity": "device_tracker.google_maps_vresinaha_gmail_com"
+                                },
+                                {
+                                    "entity": "zone.home"
+                                },
+                                {
+                                    "entity": "zone.skola_lhota"
+                                },
+                                {
+                                    "entity": "device_tracker.google_maps_106711500081468985994"
+                                }
+                            ],
+                            "geo_location_sources": [],
+                            "type": "map"
+                        },
+                        {
+                            "type": "map",
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.petr_mi_9"
+                                },
+                                {
+                                    "entity": "device_tracker.google_maps_106711500081468985994"
+                                }
+                            ],
+                            "dark_mode": true
+                        }
+                    ],
+                    "path": "map",
+                    "title": "Poloha"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.roomba966_bin_full"
+                                },
+                                {
+                                    "entity": "sensor.roomba966_battery_level"
+                                },
+                                {
+                                    "entity": "vacuum.roomba966"
+                                }
+                            ],
+                            "title": "Roomba_1P",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.roomba980_bin_full"
+                                },
+                                {
+                                    "entity": "sensor.roomba980_battery_level"
+                                },
+                                {
+                                    "entity": "vacuum.roomba980"
+                                }
+                            ],
+                            "title": "Roomba 2p",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "irobot",
+                    "title": "Irobot"
+                },
+                {
+                    "title": "Radio",
+                    "path": "radio",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "input_select.radio_station",
+                                "input_number.volume_radio",
+                                "input_boolean.play_radio",
+                                "input_select.media_player"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "R\u00e1dio",
+                            "type": "entities",
+                            "state_color": true
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.googlehomehub5380"
+                        }
+                    ]
+                },
+                {
+                    "title": "zigbee",
+                    "path": "zigbee",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entity",
+                            "entity": "binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone"
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.teplota_prizemi_temperature",
+                            "min": 0,
+                            "max": 100,
+                            "name": "1. patro teplota",
+                            "severity": {
+                                "green": 21,
+                                "yellow": 22,
+                                "red": 23
+                            }
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "switch.tz3000_wamqdr3f_ts011f_on_off"
+                        },
+                        {
+                            "type": "gauge",
+                            "min": 0,
+                            "max": 100,
+                            "entity": "sensor.teplota_prizemi_humidity",
+                            "name": "1. patro vlhkost",
+                            "severity": {
+                                "green": 40,
+                                "yellow": 55,
+                                "red": 60
+                            }
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "switch.tz3000_wamqdr3f_ts011f_29822bfe_on_off"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.tz1800_ejwkn2h2_ty0203_power"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.tz3000_wamqdr3f_ts011f_29822bfe_on_off"
+                                },
+                                {
+                                    "entity": "binary_sensor.pir_kuchyn_ias_zone"
+                                },
+                                {
+                                    "entity": "sensor.pir_kuchyn_power"
+                                },
+                                {
+                                    "entity": "switch.tz3000_wamqdr3f_ts011f_29822bfe_on_off"
+                                },
+                                {
+                                    "entity": "binary_sensor.pir_chodba_ias_zone"
+                                },
+                                {
+                                    "entity": "sensor.pir_chodba_power"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gauge",
+                            "min": 0,
+                            "max": 100,
+                            "entity": "sensor.sonoff_pracovna_temperature",
+                            "name": "Pracovna teplota",
+                            "severity": {
+                                "green": 40,
+                                "yellow": 55,
+                                "red": 60
+                            }
+                        },
+                        {
+                            "type": "gauge",
+                            "min": 0,
+                            "max": 100,
+                            "entity": "sensor.sonoff_pracovna_humidity",
+                            "name": "Pracovna vlhkost",
+                            "severity": {
+                                "green": 21,
+                                "yellow": 22,
+                                "red": 23
+                            }
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonoff_pracovna_temperature"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_pracovna_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_pracovna_power"
+                                }
+                            ],
+                            "title": "0. patro - Pracovna",
+                            "state_color": true
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.teplota_prizemi_temperature"
+                                },
+                                {
+                                    "entity": "sensor.teplota_prizemi_humidity"
+                                },
+                                {
+                                    "entity": "sensor.teplota_prizemi_power"
+                                }
+                            ],
+                            "title": "1. patro - obyvaci pokoj"
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonoff_venkovni_temperature"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_venkovni_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_venkovni_power"
+                                }
+                            ],
+                            "title": "1. patro - detsky pokoj",
+                            "state_color": false
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.tz3000_wamqdr3f_ts011f_29822bfe_on_off",
+                            "name": "led lista zasuvka"
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.sonoff_venkovni_temperature",
+                            "min": 0,
+                            "max": 100,
+                            "name": "1. patro - detsky pokoj"
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.sonoff_venkovni_humidity",
+                            "min": 0,
+                            "max": 100,
+                            "name": "1. patro - detsky pokoj"
+                        },
+                        {
+                            "type": "light",
+                            "entity": "light.tz3000_riwp3k79_ts0505a_9393d8fe_level_light_color_on_off",
+                            "name": "led lista pergola"
+                        },
+                        {
+                            "type": "light",
+                            "entity": "light.tz3000_rylaozuc_ts0502a_6a16fbfe_level_light_color_on_off"
+                        }
+                    ]
+                },
+                {
+                    "title": "ALARM",
+                    "path": "alarm",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "automation.pohyb_garaz_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone"
+                                },
+                                {
+                                    "entity": "sensor.tz1800_ejwkn2h2_ty0203_power"
+                                }
+                            ],
+                            "title": "GARAZ"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.pir_kuchyn_ias_zone"
+                                },
+                                {
+                                    "entity": "sensor.pir_kuchyn_power"
+                                },
+                                {
+                                    "entity": "binary_sensor.pir_chodba_ias_zone"
+                                },
+                                {
+                                    "entity": "sensor.pir_chodba_power"
+                                }
+                            ],
+                            "title": "PIR kuchyn",
+                            "state_color": true
+                        }
+                    ]
+                },
+                {
+                    "title": "ELEKTRINA",
+                    "path": "elektrina",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_voltage",
+                                    "min": 220,
+                                    "max": 250,
+                                    "severity": {
+                                        "green": 220,
+                                        "yellow": 240,
+                                        "red": 250
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_voltage",
+                                    "min": 220,
+                                    "max": 250,
+                                    "severity": {
+                                        "green": 220,
+                                        "yellow": 240,
+                                        "red": 250
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_voltage",
+                                    "min": 220,
+                                    "max": 250,
+                                    "severity": {
+                                        "green": 220,
+                                        "yellow": 240,
+                                        "red": 250
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_voltage"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_voltage"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_voltage"
+                                }
+                            ],
+                            "hours_to_show": 12,
+                            "refresh_interval": 0,
+                            "title": "Napeti"
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_power",
+                                    "min": 0,
+                                    "max": 10000,
+                                    "severity": {
+                                        "green": 0,
+                                        "yellow": 3000,
+                                        "red": 5000
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_power",
+                                    "min": 0,
+                                    "max": 10000,
+                                    "severity": {
+                                        "green": 0,
+                                        "yellow": 3000,
+                                        "red": 5000
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_power",
+                                    "min": 0,
+                                    "max": 10000,
+                                    "severity": {
+                                        "green": 0,
+                                        "yellow": 3000,
+                                        "red": 5000
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_power"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_power"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_power"
+                                }
+                            ],
+                            "hours_to_show": 12,
+                            "refresh_interval": 0,
+                            "title": "Vykon"
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_current",
+                                    "min": 0,
+                                    "max": 25,
+                                    "severity": {
+                                        "green": 0,
+                                        "yellow": 10,
+                                        "red": 20
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_current",
+                                    "min": 0,
+                                    "max": 25,
+                                    "severity": {
+                                        "green": 0,
+                                        "yellow": 10,
+                                        "red": 20
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_current",
+                                    "min": 0,
+                                    "max": 25,
+                                    "severity": {
+                                        "green": 0,
+                                        "yellow": 10,
+                                        "red": 20
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_a_current"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_b_current"
+                                },
+                                {
+                                    "entity": "sensor.shellyem3_8caab561eff8_channel_c_current"
+                                }
+                            ],
+                            "hours_to_show": 12,
+                            "refresh_interval": 0,
+                            "title": "Proud"
+                        }
+                    ]
+                },
+                {
+                    "title": "BOBIK",
+                    "path": "indego",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.indego_122605838_alert"
+                                },
+                                {
+                                    "entity": "binary_sensor.indego_122605838_online"
+                                },
+                                {
+                                    "entity": "binary_sensor.indego_122605838_update_available"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_battery_percentage"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_last_completed"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_lawm_mowed"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_mower_state"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_mower_state_detail"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_mowing_mode"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_next_mow"
+                                },
+                                {
+                                    "entity": "sensor.indego_122605838_runtime_total"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

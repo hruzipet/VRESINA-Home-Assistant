@@ -1,0 +1,480 @@
+- id: '1568971804825'
+  alias: Nastav teplotu topeni
+  trigger:
+  - entity_id: sensor.teplota_nastav
+    platform: state
+  condition: []
+  action:
+  - data:
+      ? ''
+      : ''
+    service: shell_command.nastav
+  - data:
+      message: 'Cilova teplota topeni zmenena na: {{ state_attr(''climate.topeni_1_patro'',
+        ''temperature'')|float |replace(''.'','''') | int*10 }}'
+    service: persistent_notification.create
+- id: '1569326550373'
+  alias: Nastav hysterezi
+  trigger:
+  - entity_id: input_number.nastaveni_hystereze
+    platform: state
+  condition: []
+  action:
+  - service: shell_command.nastav_hysterezi
+- id: '1569327068335'
+  alias: TOPENI - 1 i 2 patro - pridej topeni - den
+  trigger:
+  - at: 06:30:00
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: climate.topeni_1_patro
+      preset_mode: none
+    service: climate.set_preset_mode
+- id: '1569327114427'
+  alias: TOPENI - 1 i 2 patro - uber na topeni - noc
+  trigger:
+  - at: '22:00:00'
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: climate.topeni_1_patro
+      preset_mode: away
+    service: climate.set_preset_mode
+- id: '1571641470047'
+  alias: Notifikace - Misa ve skole
+  description: ''
+  trigger:
+  - entity_id: device_tracker.google_maps_106711500081468985994
+    platform: state
+    to: Skola
+  condition: []
+  action:
+  - data:
+      message: Misa je ve skole
+    service: notify.telegram_petr
+- id: '1571641895918'
+  alias: Notifikace - Misa mimo skolu
+  description: ''
+  trigger:
+  - entity_id: device_tracker.google_maps_106711500081468985994
+    from: Skola
+    platform: state
+  condition: []
+  action:
+  - data:
+      message: Misa opustil skolu
+    service: notify.telegram_petr
+- id: '1571655123927'
+  alias: Notifikace - Misa je doma
+  description: ''
+  trigger:
+  - entity_id: device_tracker.google_maps_106711500081468985994
+    platform: state
+    to: home
+  condition: []
+  action:
+  - data:
+      message: Misa je doma
+    service: notify.telegram_petr
+- id: '1571655188044'
+  alias: Notifikace - Misa odesel z domu
+  description: ''
+  trigger:
+  - entity_id: device_tracker.google_maps_106711500081468985994
+    from: home
+    platform: state
+    to: away
+  condition: []
+  action:
+  - data:
+      message: Misa odesel z domu.
+    service: notify.telegram_petr
+- id: '1603208326357'
+  alias: Nastav teplotu venku pro SDS
+  description: ''
+  trigger:
+  - platform: time_pattern
+    minutes: /1
+  condition: []
+  action:
+  - service: shell_command.nastav_teplotu_venku_pro_sds
+    data: {}
+  mode: single
+- id: '1603211732801'
+  alias: Zeslab plamen
+  description: ''
+  trigger:
+  - platform: template
+    value_template: '{{ states(''sensor.eqvitemp'')  <  states(''sensor.teplota_topeni'')
+      }}'
+  condition:
+  - condition: state
+    entity_id: climate.topeni_1_patro
+    state: heating
+    attribute: hvac_action
+  action:
+  - service: shell_command.plyn_plamen_minimum
+    data: {}
+  - service: notify.telegram_petr
+    data:
+      message: Snizuji plamen kotle Vresina na minimum.
+  mode: single
+- id: '1603265630950'
+  alias: Vyber ktere cidlo ridi topeni
+  description: ''
+  trigger:
+  - platform: time_pattern
+    hours: /1
+  condition: []
+  action:
+  - service: shell_command.nastav_cidlo_rizeni_topeni
+    data: {}
+  mode: single
+- id: '1603266667271'
+  alias: Zmena cidla topeni - updatuj SDS
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: input_select.vyber_cidlo
+  condition: []
+  action:
+  - service: shell_command.nastav_cidlo_rizeni_topeni
+    data: {}
+  - service: notify.telegram_petr
+    data:
+      message: Cidlo pro rizeni topeni zmeneno. Nyni cidlo {{(states.input_select.vyber_cidlo.state)
+        }} ridi chod topeni
+  mode: single
+- id: '1606564852678'
+  alias: Info o zapnuti topeni jezirko
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: switch.shellyplug_s_b85d35
+    from: 'off'
+    to: 'on'
+  condition: []
+  action:
+  - service: notify.telegram_petr
+    data:
+      message: Topeni jezirko Vresina zapnuto ! Teplota vody v potrubi je  {{ states('sensor.teplota_jezirko_vresina')}}
+        stupnu.
+  mode: single
+- id: '1608924640297'
+  alias: Notifikace-ranni info
+  description: ''
+  trigger:
+  - platform: time
+    at: '9:00:00'
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.6
+    entity_id: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Dobré ráno, právě je 9 hodin a je čas na kávičku. Teplota venku je
+        {{ states("sensor.teplota_venku_vresina")|int}} stupňů celsia, teplota jezírka
+        je {{ states("sensor.teplota_jezirko_vresina")|int}} stupňů celsia a teplota
+        doma je {{ states("sensor.teplota_patro")}} stupňů celsia.
+  mode: single
+- id: '1609004663582'
+  alias: Notifikace-vecerni info
+  description: ''
+  trigger:
+  - platform: time
+    at: '19:00:00'
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.6
+    entity_id: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Dobrý večer, právě je 19 hodin a je čas se napít a pomalu i vytaáhnout
+        vytahnout pyžamko. Teplota venku je {{ states("sensor.teplota_venku_vresina")|int}}
+        stupňů celsia, teplota jezírka je {{ states("sensor.teplota_jezirko_vresina")|int}}
+        stupňů celsia a teplota doma je {{ states("sensor.teplota_patro")}} stupňů
+        celsia. Babičko, pro jistotu opakuji, nezapomeň se napít.  Dědo, začínají
+        zprávy v televizi, tak šup, šup ať ti něco neuteče.
+  mode: single
+- id: '1609407763416'
+  alias: Cast to HUB
+  description: ''
+  trigger:
+  - platform: time_pattern
+    minutes: /5
+  condition:
+  - condition: time
+    after: '8:00'
+    before: '22:00'
+  action:
+  - service: shell_command.cast_topeni
+    data: {}
+  mode: single
+- id: '1609745837024'
+  alias: Database - purge
+  description: ''
+  trigger:
+  - platform: time_pattern
+    hours: /8
+  condition: []
+  action:
+  - service: recorder.purge
+    data:
+      keep_days: 2
+      repack: true
+  mode: single
+- id: '1609947722116'
+  alias: Pohyb GARAZ - otevreno
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
+    from: 'off'
+    to: 'on'
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.googlehomehub5380
+  - service: camera.play_stream
+    target:
+      entity_id: camera.tapo_c200
+    data:
+      media_player: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Garážová vrata byla právě otevřena.
+  - service: notify.persistent_notification
+    data:
+      message: Garážová vrata byla právě otevřena.
+  mode: single
+- id: '1610224803642'
+  alias: A - ON START
+  description: Akce udelej po startu HA
+  trigger:
+  - platform: homeassistant
+    event: start
+  condition: []
+  action:
+  - service: shell_command.install_catt
+    data: {}
+  mode: single
+- id: '1611568767861'
+  alias: Pohyb GARAZ - zavreno
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
+    from: 'on'
+    to: 'off'
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Garážová vrata byla právě zavřena.
+  - service: notify.persistent_notification
+    data:
+      message: Garážová vrata byla právě zavřena.
+  - delay: '10'
+  - service: shell_command.cast_topeni
+    data: {}
+  mode: single
+- id: '1613934330071'
+  alias: A-kuchyn-2p-svetlo ON-PIR
+  description: A-kuchyn-2p-svetlo ON-PIR
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.pir_kuchyn_ias_zone
+    from: 'off'
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: light.tz3000_riwp3k79_ts0505a_level_light_color_on_off
+    state: 'off'
+  action:
+  - service: light.turn_on
+    data: {}
+    entity_id: light.tz3000_riwp3k79_ts0505a_level_light_color_on_off
+  mode: single
+- id: '1614073766117'
+  alias: A-kuchyn-2p-svetlo OFF
+  description: A-kuchyn-2p-svetlo OFF
+  trigger:
+  - platform: event
+    event_type: zha_event
+    event_data:
+      device_ieee: 00:12:4b:00:22:43:09:70
+      unique_id: 00:12:4b:00:22:43:09:70:1:0x0006
+      command: toggle
+  condition:
+  - condition: state
+    entity_id: light.tz3000_riwp3k79_ts0505a_level_light_color_on_off
+    state: 'on'
+  action:
+  - service: light.turn_off
+    data: {}
+    entity_id: light.tz3000_riwp3k79_ts0505a_level_light_color_on_off
+  - service: notify.telegram_petr
+    data:
+      message: Svetlo kuchyn vypnuto
+  mode: single
+- id: '1614074261816'
+  alias: A-kuchyn-2p-svetlo OFF-PIR - neni pohyb
+  description: A-kuchyn-2p-svetlo OFF-PIR - neni pohyb
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.pir_kuchyn_ias_zone
+    from: 'on'
+    to: 'off'
+    for: 00:02:00
+  condition:
+  - condition: state
+    entity_id: light.tz3000_riwp3k79_ts0505a_level_light_color_on_off
+    state: 'on'
+  action:
+  - service: light.turn_off
+    data: {}
+    entity_id: light.tz3000_riwp3k79_ts0505a_level_light_color_on_off
+  - service: notify.telegram_petr
+    data:
+      message: Svetlo kuchyn vypnuto neni pohyb PIR pres 2 minuty
+  mode: single
+- id: '1621365139924'
+  alias: Indego - nastal problem
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.indego_122605838_alert
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Sekačka má problém a potřebuje kontrolu.
+  mode: single
+- id: '1621365311808'
+  alias: Indego - seceni
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.indego_122605831_mower_state
+    from: Docked
+    to: Mowing
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Sekačka zahájila sekání.
+  mode: single
+- id: '1621365449779'
+  alias: Indego - navrat do nabijecky
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.indego_122605831_mower_state
+    to: Docked
+    from: Mowing
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.googlehomehub5380
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.googlehomehub5380
+      message: Sekačka se vrátila do nabíječky.
+  mode: single
+- id: '1638812918615'
+  alias: akvarko zapnout
+  description: ''
+  trigger:
+  - platform: time
+    at: '16:00'
+  condition: []
+  action:
+  - service: switch.turn_on
+    target:
+      entity_id: switch.akvarium_on_off
+  mode: single
+- id: '1638812974658'
+  alias: akvarko vypnout
+  description: ''
+  trigger:
+  - platform: time
+    at: '23:55'
+  condition: []
+  action:
+  - service: switch.turn_off
+    target:
+      entity_id: switch.akvarium_on_off
+  mode: single
+- id: '1639325937437'
+  alias: Pohyb GARAZ - otevreno LENKA
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
+    from: 'off'
+    to: 'on'
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    target:
+      entity_id:
+      - media_player.nesthub7100
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.nesthub7100
+      message: Garážová vrata byla právě otevřena.
+  mode: single
+- id: '1639325998389'
+  alias: Pohyb GARAZ - zavreno LENKA
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
+    from: 'on'
+    to: 'off'
+  condition: []
+  action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.nesthub7100
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.nesthub7100
+      message: Garážová vrata byla právě zavřena.
+  - service: notify.persistent_notification
+    data:
+      message: Garážová vrata byla právě zavřena.
+  mode: single

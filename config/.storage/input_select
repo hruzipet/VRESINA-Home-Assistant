@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "key": "input_select",
+    "data": {
+        "items": [
+            {
+                "name": "vyber_cidlo_rizeni_topeni",
+                "options": [
+                    "1",
+                    "2"
+                ],
+                "id": "vzber_cidlo"
+            }
+        ]
+    }
+}

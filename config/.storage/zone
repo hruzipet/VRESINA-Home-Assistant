@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "key": "zone",
+    "data": {
+        "items": [
+            {
+                "icon": "mdi:map-marker",
+                "id": "lhota_petr",
+                "latitude": 49.840693120925856,
+                "longitude": 18.082235455513004,
+                "name": "LHOTA",
+                "passive": false,
+                "radius": 20.0
+            },
+            {
+                "name": "Tieto",
+                "icon": "mdi:map-marker",
+                "latitude": 49.830621,
+                "longitude": 18.2781283,
+                "passive": false,
+                "radius": 100.0,
+                "id": "tieto"
+            }
+        ]
+    }
+}

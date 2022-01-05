@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.google_maps_100262547672918909918",
+                    "device_tracker.petr_mi_9"
+                ],
+                "id": "5c8403d250bc410ea2eadc071de123de",
+                "name": "petr",
+                "user_id": "2d6b523208dc4b14a8304c668fdf615c"
+            },
+            {
+                "device_trackers": [],
+                "id": "b2a1da5f36284323bead8d4f20033dff",
+                "name": "martin",
+                "user_id": null
+            }
+        ]
+    }
+}

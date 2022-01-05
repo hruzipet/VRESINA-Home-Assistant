@@ -1,0 +1,128 @@
+input_boolean:
+  play_radio:
+    name: Přehrávání
+    initial: off
+    icon: mdi:play
+
+input_select:
+  radio_station:
+    name: 'Zvol stanici:'
+    options:
+      - ČRo Radiožurnál
+      - Country radio
+      - Evropa 2
+      - Impuls
+      - ČRo Rádio Wave
+      - Frekvence 1
+      - Hitrádio Orion
+      - Kiss Morava
+      - Čas Rádio
+      - Rádio Čas Rock
+      - Rádio Blaník
+      - Petrov - Folk and Country
+      - Rádio Folk
+    icon: mdi:radio
+
+  media_player:
+    name: Reproduktor
+    options:
+     - "Obyvak"
+     - "Jidelna"
+     - "Domaci skupina repro"
+    icon: mdi:speaker-wireless
+
+input_number:
+  volume_radio:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+    initial: '0.35'
+
+
+
+
+
+automation:
+  - alias: 'Play Radio'
+    initial_state: on
+    trigger:
+      platform: state
+      entity_id: input_boolean.play_radio
+      to: 'on'
+    action:
+      - service: switch.turn_off
+        entity_id: switch.google_music
+      -  service: media_player.play_media
+         data_template:
+           entity_id: >
+            {% if is_state("input_select.media_player", "Obyvak") %} media_player.googlehomehub5380
+            {% elif is_state("input_select.media_player", "Jidelna") %} media_player.jidelna_speaker
+            {% elif is_state("input_select.media_player", "Domaci skupina repro") %} media_player.domaci_skupina_repro
+            {% endif %}
+           media_content_id: >
+            {% if is_state("input_select.radio_station", "ČRo Radiožurnál") %} http://icecast8.play.cz/cro1-128.mp3
+            {% elif is_state("input_select.radio_station", "Country radio") %} http://icecast4.play.cz:443/country128.mp3
+            {% elif is_state("input_select.radio_station", "Evropa 2") %} http://icecast3.play.cz:80/evropa2-128.mp3
+            {% elif is_state("input_select.radio_station", "Impuls") %} http://icecast1.play.cz/impuls128.mp3
+            {% elif is_state("input_select.radio_station", "ČRo Rádio Wave") %} http://icecast3.play.cz/crowave-256.mp3
+            {% elif is_state("input_select.radio_station", "Frekvence 1") %} http://icecast4.play.cz:80/frekvence1-128.mp3
+            {% elif is_state("input_select.radio_station", "Hitrádio Orion") %} http://ice.abradio.cz:8000/orion128.mp3
+            {% elif is_state("input_select.radio_station", "Kiss Morava") %} http://icecast4.play.cz/kissmoravaov128.mp3
+            {% elif is_state("input_select.radio_station", "Čas Rádio") %} http://icecast7.play.cz:80/casradio128.mp3
+            {% elif is_state("input_select.radio_station", "Rádio Blaník") %} http://ice.abradio.cz:8000/blanikfm128.mp3
+            {% elif is_state("input_select.radio_station", "Rádio Čas Rock") %} http://icecast7.play.cz/casrock128.mp3
+            {% elif is_state("input_select.radio_station", "Petrov - Folk and Country") %} http://play.radiopetrov.com:8000/petrovFC
+            {% elif is_state("input_select.radio_station", "Rádio Folk") %} http://mp3stream2.abradio.cz/folk320.mp3
+            {% endif %}
+           media_content_type: 'audio/mp3'
+
+  - alias: 'Stop Radio if Google Music selected'
+    initial_state: on
+    trigger:
+      platform: state
+      entity_id: switch.google_music
+      to: 'on'
+    condition:
+      condition: state
+      entity_id: input_boolean.play_radio
+      state: 'on'
+    action:
+      service: homeassistant.turn_off
+      entity_id: input_boolean.play_radio
+
+  - alias: 'Set Music Volume'
+    initial_state: on
+    trigger:
+      platform: state
+      entity_id: input_number.volume_radio
+    action:
+      service: media_player.volume_set
+      data_template:
+        entity_id: >
+          {% if is_state("input_select.media_player", "Obyvak") %} media_player.googlehomehub5380
+          {% elif is_state("input_select.media_player", "Jidelna") %} media_player.jidelna_speaker
+          {% elif is_state("input_select.media_player", "Domaci skupina repro") %} media_player.domaci_skupina_repro
+          {% endif %}
+        volume_level: '{{  states.input_number.volume_radio.state  }}'
+
+  - alias: "Stop music"
+    initial_state: on
+    trigger:
+      - platform: state
+        entity_id: input_boolean.play_radio
+        to: 'off'
+    action:
+      - service: media_player.turn_off
+        data:
+          entity_id:
+            - media_player.googlehomehub5380
+            - media_player.jidelna_speaker
+            - media_player.domaci_skupina_repro
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.volume_radio
+          value: 0.40
+
+

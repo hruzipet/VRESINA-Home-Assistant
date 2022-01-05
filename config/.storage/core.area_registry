@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Living Room",
+                "id": "e13a1ba8b70e4505a1791cf8b51d1b57"
+            },
+            {
+                "name": "Kitchen",
+                "id": "7c14e3288dd44b9090b3271c03d1fc1c"
+            },
+            {
+                "name": "Bedroom",
+                "id": "d5b8dd5c4507407c889dfbb7c46c20ce"
+            },
+            {
+                "name": "Garaz",
+                "id": "garaz"
+            },
+            {
+                "name": "lenka",
+                "id": "lenka"
+            },
+            {
+                "name": "jezirko",
+                "id": "jezirko"
+            },
+            {
+                "name": "rodice",
+                "id": "rodice"
+            },
+            {
+                "name": "Pracovna",
+                "id": "pracovna"
+            },
+            {
+                "name": "zahrada",
+                "id": "zahrada"
+            }
+        ]
+    }
+}
