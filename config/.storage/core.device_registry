@@ -436,7 +436,7 @@
                 ],
                 "manufacturer": "Shelly",
                 "model": "Shelly Plug S",
-                "name": "shelly-vmware",
+                "name": "shelly-pracovna-vmware",
                 "sw_version": "20210323-105718/v1.10.1-gf276b51",
                 "entry_type": null,
                 "id": "cf6547833aa49893c020b62b07614369",

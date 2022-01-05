@@ -2207,7 +2207,7 @@
                 "supported_features": 0,
                 "device_class": "problem",
                 "unit_of_measurement": null,
-                "original_name": "shelly-vmware Overpowering",
+                "original_name": "shelly-pracovna-vmware Overpowering",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -2225,7 +2225,7 @@
                 "supported_features": 0,
                 "device_class": "problem",
                 "unit_of_measurement": null,
-                "original_name": "shelly-vmware Overheating",
+                "original_name": "shelly-pracovna-vmware Overheating",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -2243,7 +2243,7 @@
                 "supported_features": 0,
                 "device_class": "connectivity",
                 "unit_of_measurement": null,
-                "original_name": "shelly-vmware Cloud",
+                "original_name": "shelly-pracovna-vmware Cloud",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -2261,7 +2261,7 @@
                 "supported_features": 0,
                 "device_class": "update",
                 "unit_of_measurement": null,
-                "original_name": "shelly-vmware Firmware Update",
+                "original_name": "shelly-pracovna-vmware Firmware Update",
                 "original_icon": "mdi:update",
                 "entity_category": "diagnostic"
             },
@@ -2281,7 +2281,7 @@
                 "supported_features": 0,
                 "device_class": "power",
                 "unit_of_measurement": "W",
-                "original_name": "shelly-vmware Power",
+                "original_name": "shelly-pracovna-vmware Power",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -2301,7 +2301,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shelly-vmware Energy",
+                "original_name": "shelly-pracovna-vmware Energy",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -2321,7 +2321,7 @@
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
-                "original_name": "shelly-vmware Device Temperature",
+                "original_name": "shelly-pracovna-vmware Device Temperature",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -2341,7 +2341,7 @@
                 "supported_features": 0,
                 "device_class": "signal_strength",
                 "unit_of_measurement": "dBm",
-                "original_name": "shelly-vmware RSSI",
+                "original_name": "shelly-pracovna-vmware RSSI",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -2359,7 +2359,7 @@
                 "supported_features": 0,
                 "device_class": "timestamp",
                 "unit_of_measurement": null,
-                "original_name": "shelly-vmware Uptime",
+                "original_name": "shelly-pracovna-vmware Uptime",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -2377,7 +2377,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "shelly-vmware",
+                "original_name": "shelly-pracovna-vmware",
                 "original_icon": null,
                 "entity_category": null
             },
