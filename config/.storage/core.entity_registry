@@ -3992,7 +3992,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "Misanek",
+                "original_name": "00:22:61:66:EC:C4",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -6897,7 +6897,7 @@
                 "supported_features": 0,
                 "device_class": "problem",
                 "unit_of_measurement": null,
-                "original_name": "shellyem3-8CAAB561EFF8 Overpowering",
+                "original_name": "shelly-mereni-spotreby-domu Overpowering",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -6915,7 +6915,7 @@
                 "supported_features": 0,
                 "device_class": "connectivity",
                 "unit_of_measurement": null,
-                "original_name": "shellyem3-8CAAB561EFF8 Cloud",
+                "original_name": "shelly-mereni-spotreby-domu Cloud",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -6933,7 +6933,7 @@
                 "supported_features": 0,
                 "device_class": "update",
                 "unit_of_measurement": null,
-                "original_name": "shellyem3-8CAAB561EFF8 Firmware Update",
+                "original_name": "shelly-mereni-spotreby-domu Firmware Update",
                 "original_icon": "mdi:update",
                 "entity_category": "diagnostic"
             },
@@ -6953,7 +6953,7 @@
                 "supported_features": 0,
                 "device_class": "power",
                 "unit_of_measurement": "W",
-                "original_name": "shellyem3-8CAAB561EFF8 channel A Power",
+                "original_name": "shelly-mereni-spotreby-domu channel A Power",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -6973,7 +6973,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shellyem3-8CAAB561EFF8 channel A Energy",
+                "original_name": "shelly-mereni-spotreby-domu channel A Energy",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -6993,7 +6993,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shellyem3-8CAAB561EFF8 channel A Energy Returned",
+                "original_name": "shelly-mereni-spotreby-domu channel A Energy Returned",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7013,7 +7013,7 @@
                 "supported_features": 0,
                 "device_class": "voltage",
                 "unit_of_measurement": "V",
-                "original_name": "shellyem3-8CAAB561EFF8 channel A Voltage",
+                "original_name": "shelly-mereni-spotreby-domu channel A Voltage",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7033,7 +7033,7 @@
                 "supported_features": 0,
                 "device_class": "current",
                 "unit_of_measurement": "A",
-                "original_name": "shellyem3-8CAAB561EFF8 channel A Current",
+                "original_name": "shelly-mereni-spotreby-domu channel A Current",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7053,7 +7053,7 @@
                 "supported_features": 0,
                 "device_class": "power_factor",
                 "unit_of_measurement": "%",
-                "original_name": "shellyem3-8CAAB561EFF8 channel A Power Factor",
+                "original_name": "shelly-mereni-spotreby-domu channel A Power Factor",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7073,7 +7073,7 @@
                 "supported_features": 0,
                 "device_class": "power",
                 "unit_of_measurement": "W",
-                "original_name": "shellyem3-8CAAB561EFF8 channel B Power",
+                "original_name": "shelly-mereni-spotreby-domu channel B Power",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7093,7 +7093,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shellyem3-8CAAB561EFF8 channel B Energy",
+                "original_name": "shelly-mereni-spotreby-domu channel B Energy",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7113,7 +7113,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shellyem3-8CAAB561EFF8 channel B Energy Returned",
+                "original_name": "shelly-mereni-spotreby-domu channel B Energy Returned",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7133,7 +7133,7 @@
                 "supported_features": 0,
                 "device_class": "voltage",
                 "unit_of_measurement": "V",
-                "original_name": "shellyem3-8CAAB561EFF8 channel B Voltage",
+                "original_name": "shelly-mereni-spotreby-domu channel B Voltage",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7153,7 +7153,7 @@
                 "supported_features": 0,
                 "device_class": "current",
                 "unit_of_measurement": "A",
-                "original_name": "shellyem3-8CAAB561EFF8 channel B Current",
+                "original_name": "shelly-mereni-spotreby-domu channel B Current",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7173,7 +7173,7 @@
                 "supported_features": 0,
                 "device_class": "power_factor",
                 "unit_of_measurement": "%",
-                "original_name": "shellyem3-8CAAB561EFF8 channel B Power Factor",
+                "original_name": "shelly-mereni-spotreby-domu channel B Power Factor",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7193,7 +7193,7 @@
                 "supported_features": 0,
                 "device_class": "power",
                 "unit_of_measurement": "W",
-                "original_name": "shellyem3-8CAAB561EFF8 channel C Power",
+                "original_name": "shelly-mereni-spotreby-domu channel C Power",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7213,7 +7213,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shellyem3-8CAAB561EFF8 channel C Energy",
+                "original_name": "shelly-mereni-spotreby-domu channel C Energy",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7233,7 +7233,7 @@
                 "supported_features": 0,
                 "device_class": "energy",
                 "unit_of_measurement": "kWh",
-                "original_name": "shellyem3-8CAAB561EFF8 channel C Energy Returned",
+                "original_name": "shelly-mereni-spotreby-domu channel C Energy Returned",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7253,7 +7253,7 @@
                 "supported_features": 0,
                 "device_class": "voltage",
                 "unit_of_measurement": "V",
-                "original_name": "shellyem3-8CAAB561EFF8 channel C Voltage",
+                "original_name": "shelly-mereni-spotreby-domu channel C Voltage",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7273,7 +7273,7 @@
                 "supported_features": 0,
                 "device_class": "current",
                 "unit_of_measurement": "A",
-                "original_name": "shellyem3-8CAAB561EFF8 channel C Current",
+                "original_name": "shelly-mereni-spotreby-domu channel C Current",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7293,7 +7293,7 @@
                 "supported_features": 0,
                 "device_class": "power_factor",
                 "unit_of_measurement": "%",
-                "original_name": "shellyem3-8CAAB561EFF8 channel C Power Factor",
+                "original_name": "shelly-mereni-spotreby-domu channel C Power Factor",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7313,7 +7313,7 @@
                 "supported_features": 0,
                 "device_class": "signal_strength",
                 "unit_of_measurement": "dBm",
-                "original_name": "shellyem3-8CAAB561EFF8 RSSI",
+                "original_name": "shelly-mereni-spotreby-domu RSSI",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -7331,7 +7331,7 @@
                 "supported_features": 0,
                 "device_class": "timestamp",
                 "unit_of_measurement": null,
-                "original_name": "shellyem3-8CAAB561EFF8 Uptime",
+                "original_name": "shelly-mereni-spotreby-domu Uptime",
                 "original_icon": null,
                 "entity_category": "diagnostic"
             },
@@ -7349,7 +7349,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "shellyem3-8CAAB561EFF8",
+                "original_name": "shelly-mereni-spotreby-domu",
                 "original_icon": null,
                 "entity_category": null
             },
