@@ -197,3 +197,48 @@
 2022-01-02 15:43:51 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 170 (getValue) received: b'0001dd'
 2022-01-02 15:43:51 DEBUG (MainThread) [bellows.zigbee.application] Free buffers status EzspStatus.SUCCESS, value: 221
 2022-01-02 15:43:51 DEBUG (MainThread) [bellows.zigbee.application] ezsp_counters: [MAC_RX_BROADCAST = 25266, MAC_TX_BROADCAST = 30073, MAC_RX_UNICAST = 12423, MAC_TX_UNICAST_SUCCESS = 7462, MAC_TX_UNICAST_RETRY = 16285, MAC_TX_UNICAST_FAILED = 3757, APS_DATA_RX_BROADCAST = 3613, APS_DATA_TX_BROADCAST = 3613, APS_DATA_RX_UNICAST = 11136, APS_DATA_TX_UNICAST_SUCCESS = 340, APS_DATA_TX_UNICAST_RETRY = 1230, APS_DATA_TX_UNICAST_FAILED = 562, ROUTE_DISCOVERY_INITIATED = 520, NEIGHBOR_ADDED = 3, NEIGHBOR_REMOVED = 0, NEIGHBOR_STALE = 2497, JOIN_INDICATION = 1, CHILD_REMOVED = 1, ASH_OVERFLOW_ERROR = 0, ASH_FRAMING_ERROR = 0, ASH_OVERRUN_ERROR = 0, NWK_FRAME_COUNTER_FAILURE = 0, APS_FRAME_COUNTER_FAILURE = 0, UTILITY = 0, APS_LINK_KEY_NOT_AUTHORIZED = 0, NWK_DECRYPTION_FAILURE = 0, APS_DECRYPTION_FAILURE = 0, ALLOCATE_PACKET_BUFFER_FAILURE = 0, RELAYED_UNICAST = 0, PHY_TO_MAC_QUEUE_LIMIT_REACHED = 0, PACKET_VALIDATE_LIBRARY_DROPPED_COUNT = 0, TYPE_NWK_RETRY_OVERFLOW = 0, PHY_CCA_FAIL_COUNT = 479, BROADCAST_TABLE_FULL = 0, PTA_LO_PRI_REQUESTED = 0, PTA_HI_PRI_REQUESTED = 0, PTA_LO_PRI_DENIED = 0, PTA_HI_PRI_DENIED = 0, PTA_LO_PRI_TX_ABORTED = 0, PTA_HI_PRI_TX_ABORTED = 0, ADDRESS_CONFLICT_SENT = 0, EZSP_FREE_BUFFERS = 221]
+2022-01-07 08:28:25 DEBUG (MainThread) [bellows.ezsp.protocol] Send command sendBroadcast: (<BroadcastAddress.ALL_ROUTERS_AND_COORDINATOR: 65532>, EmberApsFrame(profileId=0, clusterId=54, sourceEndpoint=0, destinationEndpoint=0, options=<EmberApsOption.APS_OPTION_NONE: 0>, groupId=0, sequence=120), 0, 121, b'x<\x00')
+2022-01-07 08:28:25 DEBUG (MainThread) [bellows.ezsp.protocol] Send command addTransientLinkKey: (ff:ff:ff:ff:ff:ff:ff:ff, [90, 105, 103, 66, 101, 101, 65, 108, 108, 105, 97, 110, 99, 101, 48, 57])
+2022-01-07 08:28:25 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'359821a9622ae94d59947c25aa5592499c4e5fab94cd1fb7fd4db87e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'5498a1a9622a159506af7e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'8610be7e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'469921a9fb2aea4da66bb5da55aac820fb0c42ceaca20be29ca800eccc47d4ad7e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'6498b1a9112a10b259a24a25aa5592499c69d8abedce9874febe5f896f727e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'87009f7e'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 54 (sendBroadcast) received: b'0027'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 69 (incomingMessageHandler) received: b'050000360000000000000027ff000000ffff03783c00'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.zigbee.application] Received incomingMessageHandler frame with [<EmberIncomingMessageType.INCOMING_BROADCAST_LOOPBACK: 5>, EmberApsFrame(profileId=0, clusterId=54, sourceEndpoint=0, destinationEndpoint=0, options=<EmberApsOption.APS_OPTION_NONE: 0>, groupId=0, sequence=39), 255, 0, 0x0000, 255, 255, b'x<\x00']
+2022-01-07 08:28:26 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Mgmt_Permit_Joining_req: [60, <Bool.false: 0>]
+2022-01-07 08:28:26 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x0000](EZSP): started initialization
+2022-01-07 08:28:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:ZDO](EZSP): 'async_initialize' stage succeeded
+2022-01-07 08:28:26 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x0000](EZSP): power source: Mains
+2022-01-07 08:28:26 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x0000](EZSP): completed initialization
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'7599a1a9fb2a15ab607e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'8070787e'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 175 (addTransientLinkKey) received: b'00'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Send command setPolicy: (<EzspPolicyId.TRUST_CENTER_POLICY: 0>, <EzspDecisionBitmask.ALLOW_UNSECURED_REJOINS|ALLOW_JOINS: 3>)
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'509e21a9012a15b1598eeb7e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'069ea1a9012a151b517e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'8160597e'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 85 (setPolicy) received: b'00'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'169eb1a96b2a134ea6944a13aa5592499c4e278c94a867e3cd7e'
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'82503a7e'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 63 (messageSentHandler) received: b'06fcff0000360000000000000027796600'
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.zigbee.application] Received messageSentHandler frame with [<EmberOutgoingMessageType.OUTGOING_BROADCAST: 6>, 65532, EmberApsFrame(profileId=0, clusterId=54, sourceEndpoint=0, destinationEndpoint=0, options=<EmberApsOption.APS_OPTION_NONE: 0>, groupId=0, sequence=39), 121, <EmberStatus.DELIVERY_FAILED: 102>, b'']
+2022-01-07 08:28:26 DEBUG (MainThread) [bellows.ezsp.protocol] Send command permitJoining: (60,)
+2022-01-07 08:28:26 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'629f21a9762a29a4ba7e'
+2022-01-07 08:28:27 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'279fa1a9762a15d5fe7e'
+2022-01-07 08:28:27 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'83401b7e'
+2022-01-07 08:28:27 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 34 (permitJoining) received: b'00'
+2022-01-07 08:28:34 DEBUG (MainThread) [bellows.ezsp.protocol] Send command readCounters: ()
+2022-01-07 08:28:34 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'739c21a9a52a2d997e'
+2022-01-07 08:28:34 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'309ca1a9a52a2ab216945d25a5559c499c4e2aabe0ce708bfdc66389fc7e3fa7ebcdde6f85ffc7dbd5d2698c4623a9ec763ba5ea758241984c2613b1e070381c0e07bbe5ca658b459a4d9e4f9ff7c3d9d46a35a25190482456847e'
+2022-01-07 08:28:34 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'8430fc7e'
+2022-01-07 08:28:34 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 241 (readCounters) received: b'3f004f0017000f000e0000000d000d0017000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000'
+2022-01-07 08:28:34 DEBUG (MainThread) [bellows.ezsp.protocol] Send command getValue: (<EzspValueId.VALUE_FREE_BUFFERS: 3>,)
+2022-01-07 08:28:34 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'049d21a9fe2a1668827e'
+2022-01-07 08:28:34 DEBUG (bellows.thread_0) [bellows.uart] Data frame: b'419da1a9fe2a15b39311717e'
+2022-01-07 08:28:34 DEBUG (bellows.thread_0) [bellows.uart] Sending: b'8520dd7e'
+2022-01-07 08:28:34 DEBUG (MainThread) [bellows.ezsp.protocol] Application frame 170 (getValue) received: b'0001ca'
+2022-01-07 08:28:34 DEBUG (MainThread) [bellows.zigbee.application] Free buffers status EzspStatus.SUCCESS, value: 202
+2022-01-07 08:28:34 DEBUG (MainThread) [bellows.zigbee.application] ezsp_counters: [MAC_RX_BROADCAST = 53511, MAC_TX_BROADCAST = 62730, MAC_RX_UNICAST = 23960, MAC_TX_UNICAST_SUCCESS = 16480, MAC_TX_UNICAST_RETRY = 27210, MAC_TX_UNICAST_FAILED = 5312, APS_DATA_RX_BROADCAST = 7704, APS_DATA_TX_BROADCAST = 7704, APS_DATA_RX_UNICAST = 20755, APS_DATA_TX_UNICAST_SUCCESS = 718, APS_DATA_TX_UNICAST_RETRY = 2579, APS_DATA_TX_UNICAST_FAILED = 1169, ROUTE_DISCOVERY_INITIATED = 1072, NEIGHBOR_ADDED = 3, NEIGHBOR_REMOVED = 0, NEIGHBOR_STALE = 4455, JOIN_INDICATION = 1, CHILD_REMOVED = 2, ASH_OVERFLOW_ERROR = 0, ASH_FRAMING_ERROR = 0, ASH_OVERRUN_ERROR = 0, NWK_FRAME_COUNTER_FAILURE = 0, APS_FRAME_COUNTER_FAILURE = 0, UTILITY = 0, APS_LINK_KEY_NOT_AUTHORIZED = 0, NWK_DECRYPTION_FAILURE = 0, APS_DECRYPTION_FAILURE = 0, ALLOCATE_PACKET_BUFFER_FAILURE = 0, RELAYED_UNICAST = 0, PHY_TO_MAC_QUEUE_LIMIT_REACHED = 0, PACKET_VALIDATE_LIBRARY_DROPPED_COUNT = 0, TYPE_NWK_RETRY_OVERFLOW = 0, PHY_CCA_FAIL_COUNT = 1281, BROADCAST_TABLE_FULL = 0, PTA_LO_PRI_REQUESTED = 0, PTA_HI_PRI_REQUESTED = 0, PTA_LO_PRI_DENIED = 0, PTA_HI_PRI_DENIED = 0, PTA_LO_PRI_TX_ABORTED = 0, PTA_HI_PRI_TX_ABORTED = 0, ADDRESS_CONFLICT_SENT = 0, EZSP_FREE_BUFFERS = 202]
