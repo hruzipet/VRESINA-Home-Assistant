@@ -7539,6 +7539,35 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c6:d3:35:43:90:b6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "C6:D3:35:43:90:B6"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "C6:D3:35:43:90:B6",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8dc3128ac0b65286f0fc87775e5c4f44",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": []

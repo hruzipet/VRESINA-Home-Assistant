@@ -303,7 +303,7 @@
                 "title": "Ignored",
                 "data": {
                     "AccessoryIP": "192.168.2.132",
-                    "AccessoryPort": 46515
+                    "AccessoryPort": 42413
                 },
                 "options": {},
                 "pref_disable_new_entities": false,

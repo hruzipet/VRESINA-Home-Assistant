@@ -10812,6 +10812,42 @@
                 "original_name": "Nmap Tracker E8:68:E7:C1:C5:B5",
                 "original_icon": "mdi:lan-connect",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.c6_d3_35_43_90_b6",
+                "config_entry_id": "25ceb9b816068a5847548d66334a90e9",
+                "device_id": "8dc3128ac0b65286f0fc87775e5c4f44",
+                "area_id": null,
+                "unique_id": "C6:D3:35:43:90:B6",
+                "platform": "mikrotik",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "C6:D3:35:43:90:B6",
+                "original_icon": null,
+                "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.nmap_tracker_c6_d3_35_43_90_b6",
+                "config_entry_id": "631f08645b05ae6f572188e89f82f80a",
+                "device_id": "8dc3128ac0b65286f0fc87775e5c4f44",
+                "area_id": null,
+                "unique_id": "c6:d3:35:43:90:b6",
+                "platform": "nmap_tracker",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Nmap Tracker C6:D3:35:43:90:B6",
+                "original_icon": "mdi:lan-connect",
+                "entity_category": null
             }
         ]
     }
