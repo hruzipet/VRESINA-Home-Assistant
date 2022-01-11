@@ -7568,6 +7568,80 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c1:ab:ae:53:67:9c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "C1:AB:AE:53:67:9C"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "C1:AB:AE:53:67:9C",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "73ce9923956a44e797fe5b2e7c163c87",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:87:e4:78"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "VMware 87:E4:78",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b7ebb1b5d445327310759712882b94b9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:87:b3:7b"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "VMware 87:B3:7B",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5723b40b8855b1c81955206ed61d5797",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": []
