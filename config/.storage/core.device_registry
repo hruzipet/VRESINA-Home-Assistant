@@ -7642,6 +7642,35 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:b1:4b:7c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:B1:4B:7C"
+                    ]
+                ],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "rhel8",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "665c425dbd0344c6b8b258fd7510553f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": []
