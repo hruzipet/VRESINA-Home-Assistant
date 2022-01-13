@@ -6,47 +6,47 @@
             {
                 "name": "Silicon Labs EZSP",
                 "ieee": "60:a4:23:ff:fe:08:f8:01",
-                "last_seen": 1641939379.762017
+                "last_seen": 1642026388.6005156
             },
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:6a:2d:57",
-                "last_seen": 1641138225.9413037
+                "last_seen": 1642019190.501868
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "60:a4:23:ff:fe:07:cb:ec",
-                "last_seen": 1641945424.924384
+                "last_seen": 1642031795.1027722
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "5c:02:72:ff:fe:2b:82:29",
-                "last_seen": 1641945014.9871745
+                "last_seen": 1642031829.2238393
             },
             {
                 "name": "_TZ1800_ejwkn2h2 TY0203",
                 "ieee": "ec:1b:bd:ff:fe:94:73:59",
-                "last_seen": 1641937559.268969
+                "last_seen": 1642024761.6818922
             },
             {
                 "name": "_TZ3000_riwp3k79 TS0505A",
                 "ieee": "58:8e:81:ff:fe:fb:cf:5f",
-                "last_seen": 1641929399.3491247
+                "last_seen": 1642007190.6771863
             },
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:67:50:b8",
-                "last_seen": 1641945474.5734224
+                "last_seen": 1642031746.590097
             },
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:67:48:a0",
-                "last_seen": 1641945080.968949
+                "last_seen": 1642031506.2396107
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "60:a4:23:ff:fe:07:cc:fe",
-                "last_seen": 1641932161.0945125
+                "last_seen": 1642031320.3065293
             }
         ]
     }

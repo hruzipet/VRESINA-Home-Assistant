@@ -303,7 +303,7 @@
                 "title": "Ignored",
                 "data": {
                     "AccessoryIP": "192.168.2.132",
-                    "AccessoryPort": 43857
+                    "AccessoryPort": 37604
                 },
                 "options": {},
                 "pref_disable_new_entities": false,
@@ -463,7 +463,7 @@
                     },
                     "os_name": "iOS",
                     "app_name": "Home Assistant",
-                    "os_version": "15.1",
+                    "os_version": "15.2.1",
                     "app_id": "io.robbie.HomeAssistant",
                     "manufacturer": "Apple",
                     "app_version": "2021.12.1 (2021.327)",

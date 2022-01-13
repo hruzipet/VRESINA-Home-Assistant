@@ -24,7 +24,7 @@
 - id: '1569327068335'
   alias: TOPENI - 1 i 2 patro - pridej topeni - den
   trigger:
-  - at: 06:30:00
+  - at: 05:30
     platform: time
   condition: []
   action:
