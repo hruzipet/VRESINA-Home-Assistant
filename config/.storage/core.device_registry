@@ -1645,7 +1645,8 @@
             },
             {
                 "config_entries": [
-                    "25ceb9b816068a5847548d66334a90e9"
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
                 ],
                 "connections": [
                     [
@@ -1659,7 +1660,7 @@
                         "64:76:BA:AB:77:14"
                     ]
                 ],
-                "manufacturer": null,
+                "manufacturer": "Apple",
                 "model": null,
                 "name": "Martins-Air",
                 "sw_version": null,
