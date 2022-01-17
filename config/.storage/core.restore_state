@@ -9,22 +9,22 @@
                 "attributes": {
                     "editable": false,
                     "id": "5c8403d250bc410ea2eadc071de123de",
-                    "latitude": 49.8407241,
-                    "longitude": 18.0824537,
-                    "gps_accuracy": 13,
+                    "latitude": 49.8407226,
+                    "longitude": 18.0824415,
+                    "gps_accuracy": 14,
                     "source": "device_tracker.google_maps_100262547672918909918",
                     "user_id": "2d6b523208dc4b14a8304c668fdf615c",
                     "friendly_name": "petr"
                 },
-                "last_changed": "2022-01-15T14:09:24.483380+00:00",
-                "last_updated": "2022-01-15T23:03:25.380600+00:00",
+                "last_changed": "2022-01-16T20:30:28.345172+00:00",
+                "last_updated": "2022-01-16T22:42:28.288427+00:00",
                 "context": {
-                    "id": "f3eea6d02bd42c130ef8593b428b4a16",
+                    "id": "d71630354ace1449803fe0309e4bfd28",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -43,7 +43,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -77,7 +77,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -101,7 +101,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -124,7 +124,7 @@
                     "user_id": "2d6b523208dc4b14a8304c668fdf615c"
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -148,7 +148,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -167,7 +167,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -187,28 +187,28 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.nastav_teplotu_topeni",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T21:00:00.052577+00:00",
+                    "last_triggered": "2022-01-16T21:00:01.037777+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1568971804825",
                     "friendly_name": "Nastav teplotu topeni"
                 },
                 "last_changed": "2022-01-12T06:47:45.931372+00:00",
-                "last_updated": "2022-01-15T21:00:00.091472+00:00",
+                "last_updated": "2022-01-16T21:00:01.072705+00:00",
                 "context": {
-                    "id": "a6b9eefb5b4309d3a074b9d284dfe783",
-                    "parent_id": "a3f7e0566bf8e6373f3e1f75fbbc13bc",
+                    "id": "667e007d98d975ec3796770a6fa23e0d",
+                    "parent_id": "bf332b5074b996ba492888efbb1fe01d",
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -229,49 +229,49 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.topeni_1_i_2_patro_pridej_topeni_den",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T04:30:00.003112+00:00",
+                    "last_triggered": "2022-01-16T04:30:01.035285+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1569327068335",
                     "friendly_name": "TOPENI - 1 i 2 patro - pridej topeni - den"
                 },
                 "last_changed": "2022-01-12T06:47:45.931702+00:00",
-                "last_updated": "2022-01-15T04:30:00.074186+00:00",
+                "last_updated": "2022-01-16T04:30:01.068914+00:00",
                 "context": {
-                    "id": "74bf6a375bde6dc504244b231d0068a0",
+                    "id": "24c7ab36d393869b0ded667dfad55f60",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.topeni_1_i_2_patro_uber_na_topeni_noc",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T21:00:00.002054+00:00",
+                    "last_triggered": "2022-01-16T21:00:01.034167+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1569327114427",
                     "friendly_name": "TOPENI - 1 i 2 patro - uber na topeni - noc"
                 },
                 "last_changed": "2022-01-12T06:47:45.931849+00:00",
-                "last_updated": "2022-01-15T21:00:00.077540+00:00",
+                "last_updated": "2022-01-16T21:00:01.060801+00:00",
                 "context": {
-                    "id": "a3f7e0566bf8e6373f3e1f75fbbc13bc",
+                    "id": "bf332b5074b996ba492888efbb1fe01d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -292,7 +292,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -313,7 +313,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -334,7 +334,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -355,70 +355,70 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.nastav_teplotu_venku_pro_sds",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T23:59:00.001264+00:00",
+                    "last_triggered": "2022-01-16T23:59:00.001697+00:00",
                     "mode": "single",
                     "current": 1,
                     "id": "1603208326357",
                     "friendly_name": "Nastav teplotu venku pro SDS"
                 },
                 "last_changed": "2022-01-12T06:47:45.932346+00:00",
-                "last_updated": "2022-01-15T23:59:00.001339+00:00",
+                "last_updated": "2022-01-16T23:59:00.001777+00:00",
                 "context": {
-                    "id": "1baf4a33f5ee2b75dfbf786ef65bdb13",
+                    "id": "0cc0a1855f51b5b4bf6035ea850981cc",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.zeslab_plamen",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T06:50:48.444809+00:00",
+                    "last_triggered": "2022-01-16T06:00:41.576651+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1603211732801",
                     "friendly_name": "Zeslab plamen"
                 },
                 "last_changed": "2022-01-12T06:47:45.932453+00:00",
-                "last_updated": "2022-01-15T06:50:48.499063+00:00",
+                "last_updated": "2022-01-16T06:00:41.630195+00:00",
                 "context": {
-                    "id": "9fcb18dd25177b83e3a1320cc0f9b96f",
-                    "parent_id": "93d8d630145d35b1e232a8c9a3789686",
+                    "id": "35ddb478ae24a8cee7f98d34b16f348a",
+                    "parent_id": "383e14bbcb712ef7c73644e1daebcd77",
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.vyber_ktere_cidlo_ridi_topeni",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T23:00:00.002877+00:00",
+                    "last_triggered": "2022-01-16T23:00:00.004024+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1603265630950",
                     "friendly_name": "Vyber ktere cidlo ridi topeni"
                 },
                 "last_changed": "2022-01-12T06:47:45.932562+00:00",
-                "last_updated": "2022-01-15T23:00:10.007308+00:00",
+                "last_updated": "2022-01-16T23:00:10.010725+00:00",
                 "context": {
-                    "id": "74b40f07901165040479cd03e0bf35ea",
+                    "id": "db37b6aa7d1851eb2217815ca56c11ca",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -439,133 +439,133 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.info_o_zapnuti_topeni_jezirko",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-14T02:03:17.046444+00:00",
+                    "last_triggered": "2022-01-16T16:11:01.452796+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1606564852678",
                     "friendly_name": "Info o zapnuti topeni jezirko"
                 },
                 "last_changed": "2022-01-12T06:47:45.932775+00:00",
-                "last_updated": "2022-01-14T02:03:17.050963+00:00",
+                "last_updated": "2022-01-16T16:11:01.457483+00:00",
                 "context": {
-                    "id": "488820030994d4d54af5dea7753a5be5",
-                    "parent_id": "7dac65036df138f48725bb21690ba565",
+                    "id": "9f09eae891b4e32b68fac3b4d0f9133d",
+                    "parent_id": "b47d37d16db75a1407d0fa9eea103aa7",
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.notifikace_ranni_info",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T08:00:00.002552+00:00",
+                    "last_triggered": "2022-01-16T08:00:01.034252+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1608924640297",
                     "friendly_name": "Notifikace-ranni info"
                 },
                 "last_changed": "2022-01-12T06:47:45.932905+00:00",
-                "last_updated": "2022-01-15T08:00:00.098706+00:00",
+                "last_updated": "2022-01-16T08:00:01.041315+00:00",
                 "context": {
-                    "id": "81986268e33879444ee15b69c846752d",
+                    "id": "468c89ba867706a311f6a9edeaebe28b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.notifikace_vecerni_info",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T18:00:00.003315+00:00",
+                    "last_triggered": "2022-01-16T18:00:01.033966+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1609004663582",
                     "friendly_name": "Notifikace-vecerni info"
                 },
                 "last_changed": "2022-01-12T06:47:45.933018+00:00",
-                "last_updated": "2022-01-15T18:00:03.240987+00:00",
+                "last_updated": "2022-01-16T18:00:04.689746+00:00",
                 "context": {
-                    "id": "44ad08cababa32047749eaf9f92ca18e",
+                    "id": "eb89f74736e4cd59d8ea9d621762e5d3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.cast_to_hub",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T20:55:00.001993+00:00",
+                    "last_triggered": "2022-01-16T20:55:00.002455+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1609407763416",
                     "friendly_name": "Cast to HUB"
                 },
                 "last_changed": "2022-01-12T06:47:45.933121+00:00",
-                "last_updated": "2022-01-15T20:55:01.063033+00:00",
+                "last_updated": "2022-01-16T20:55:01.101873+00:00",
                 "context": {
-                    "id": "236f73ce3c32b3a5dab97a76c28f16b5",
+                    "id": "ab577e274fbe7592bd8263099de746bf",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.database_purge",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T23:00:00.002037+00:00",
+                    "last_triggered": "2022-01-16T23:00:00.003260+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1609745837024",
                     "friendly_name": "Database - purge"
                 },
                 "last_changed": "2022-01-12T06:47:45.933235+00:00",
-                "last_updated": "2022-01-15T23:00:00.074150+00:00",
+                "last_updated": "2022-01-16T23:00:00.070952+00:00",
                 "context": {
-                    "id": "ffaa817ab31546a94343b22c198731d1",
+                    "id": "fe2e39ec617e706cee06f2d80991c0e3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.pohyb_garaz_2",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T11:08:37.015969+00:00",
+                    "last_triggered": "2022-01-16T11:43:22.237846+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1609947722116",
                     "friendly_name": "Pohyb GARAZ - otevreno"
                 },
                 "last_changed": "2022-01-12T06:47:45.933344+00:00",
-                "last_updated": "2022-01-15T11:08:37.028525+00:00",
+                "last_updated": "2022-01-16T11:43:22.254151+00:00",
                 "context": {
-                    "id": "2f0272d94ae46bca1bf00bfc923490fc",
-                    "parent_id": "db37500f5dc1fd9964baacefe99fc3cb",
+                    "id": "6b00810f59755dc456624818047e9117",
+                    "parent_id": "4c2b382eac9fa820a7f74414e3621534",
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -586,28 +586,28 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.pohyb_garaz_zavreno",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T11:10:19.063866+00:00",
+                    "last_triggered": "2022-01-16T11:45:36.603491+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1611568767861",
                     "friendly_name": "Pohyb GARAZ - zavreno"
                 },
                 "last_changed": "2022-01-12T06:47:45.933556+00:00",
-                "last_updated": "2022-01-15T11:10:31.140993+00:00",
+                "last_updated": "2022-01-16T11:45:48.713563+00:00",
                 "context": {
-                    "id": "0df8e0a8931716e6ba34235101113366",
+                    "id": "a65696c40091e08d5c141d35cc194c40",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -628,7 +628,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -649,7 +649,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -670,7 +670,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -691,7 +691,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -712,7 +712,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -733,91 +733,91 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.akvarko_zapnout",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T15:00:00.002602+00:00",
+                    "last_triggered": "2022-01-16T15:00:01.035675+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1638812918615",
                     "friendly_name": "akvarko zapnout"
                 },
                 "last_changed": "2022-01-12T06:47:45.934274+00:00",
-                "last_updated": "2022-01-15T15:00:00.297191+00:00",
+                "last_updated": "2022-01-16T15:00:01.041142+00:00",
                 "context": {
-                    "id": "6f8638facc24f39ea0cb1c8b2f9a876e",
+                    "id": "d75ff0b45c3b9b0a43e39614d993b349",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.akvarko_vypnout",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T22:55:00.002373+00:00",
+                    "last_triggered": "2022-01-16T22:55:01.035545+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1638812974658",
                     "friendly_name": "akvarko vypnout"
                 },
                 "last_changed": "2022-01-12T06:47:45.934374+00:00",
-                "last_updated": "2022-01-15T22:55:00.197334+00:00",
+                "last_updated": "2022-01-16T22:55:05.880243+00:00",
                 "context": {
-                    "id": "7c9d3cbe6a35852d074ab947b84a60f6",
+                    "id": "29159c4b161898001b559ae6c0c4e02a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.pohyb_garaz_otevreno_lenka",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T11:08:37.016210+00:00",
+                    "last_triggered": "2022-01-16T11:43:22.238205+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1639325937437",
                     "friendly_name": "Pohyb GARAZ - otevreno LENKA"
                 },
                 "last_changed": "2022-01-12T06:47:45.934482+00:00",
-                "last_updated": "2022-01-15T11:08:37.026933+00:00",
+                "last_updated": "2022-01-16T11:43:22.249765+00:00",
                 "context": {
-                    "id": "c4019fdb49e47951dd761120947cc023",
-                    "parent_id": "db37500f5dc1fd9964baacefe99fc3cb",
+                    "id": "75f8535bba521d63ffb2591db7911747",
+                    "parent_id": "4c2b382eac9fa820a7f74414e3621534",
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.pohyb_garaz_zavreno_lenka",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-01-15T11:10:19.064221+00:00",
+                    "last_triggered": "2022-01-16T11:45:36.603854+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1639325998389",
                     "friendly_name": "Pohyb GARAZ - zavreno LENKA"
                 },
                 "last_changed": "2022-01-12T06:47:45.936182+00:00",
-                "last_updated": "2022-01-15T11:10:19.077526+00:00",
+                "last_updated": "2022-01-16T11:45:36.618080+00:00",
                 "context": {
-                    "id": "0444b880cfbd6bf7d1cb81c91afd2ef9",
-                    "parent_id": "02d495b4361a7be4aa54c00c919de9c5",
+                    "id": "b73eada9ad484034b7482f2172354d8e",
+                    "parent_id": "c84f82c9a93789b45cf70d6257ededcb",
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -839,7 +839,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -856,147 +856,147 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "binary_sensor.monitor_google_internet",
                 "state": "on",
                 "attributes": {
-                    "round_trip_time_avg": 20.666,
-                    "round_trip_time_max": 31.521,
+                    "round_trip_time_avg": 15.475,
+                    "round_trip_time_max": 17.706,
                     "round_trip_time_mdev": "",
-                    "round_trip_time_min": 14.517,
+                    "round_trip_time_min": 13.807,
                     "friendly_name": "Monitor google Internet",
                     "device_class": "connectivity"
                 },
                 "last_changed": "2021-12-29T08:28:43.097987+00:00",
-                "last_updated": "2022-01-15T23:59:01.183198+00:00",
+                "last_updated": "2022-01-16T23:59:05.355317+00:00",
                 "context": {
-                    "id": "635e93e70b0234a11c429dd7d5b3d826",
+                    "id": "506ed69757208fd17e33c89d7dd599dd",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "binary_sensor.spojeni_lhota_l2l",
                 "state": "on",
                 "attributes": {
-                    "round_trip_time_avg": 18.208,
-                    "round_trip_time_max": 24.38,
+                    "round_trip_time_avg": 15.794,
+                    "round_trip_time_max": 19.115,
                     "round_trip_time_mdev": "",
-                    "round_trip_time_min": 13.452,
+                    "round_trip_time_min": 11.941,
                     "friendly_name": "spojen\u00ed Lhota L2L",
                     "device_class": "connectivity"
                 },
                 "last_changed": "2022-01-13T09:43:49.117319+00:00",
-                "last_updated": "2022-01-15T23:59:01.171402+00:00",
+                "last_updated": "2022-01-16T23:59:05.356995+00:00",
                 "context": {
-                    "id": "9abc91ab6ba7c3a599c8f6140d283cad",
+                    "id": "af9ab28dbc24f9a3be2eb1ca17f0aa99",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "binary_sensor.dolca",
                 "state": "on",
                 "attributes": {
-                    "round_trip_time_avg": 15.631,
-                    "round_trip_time_max": 26.137,
+                    "round_trip_time_avg": 13.749,
+                    "round_trip_time_max": 18.47,
                     "round_trip_time_mdev": "",
-                    "round_trip_time_min": 8.508,
+                    "round_trip_time_min": 9.074,
                     "friendly_name": "dolca",
                     "device_class": "connectivity"
                 },
                 "last_changed": "2021-12-29T08:28:43.098162+00:00",
-                "last_updated": "2022-01-15T23:59:01.407046+00:00",
+                "last_updated": "2022-01-16T23:59:05.048397+00:00",
                 "context": {
-                    "id": "6158ca2761546b8c960a57ad0b0a577d",
+                    "id": "194af723550ce819669678696bdbb5a3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_ping",
-                "state": "45",
+                "state": "20",
                 "attributes": {
                     "state_class": "measurement",
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
-                    "server_name": "Brzeszcze",
-                    "server_country": "Poland",
-                    "server_id": "2107",
+                    "server_name": "Prague",
+                    "server_country": "Czech Republic",
+                    "server_id": "20411",
                     "unit_of_measurement": "ms",
                     "friendly_name": "SpeedTest Ping",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2022-01-15T23:42:39.509988+00:00",
-                "last_updated": "2022-01-15T23:42:39.509988+00:00",
+                "last_changed": "2022-01-16T23:29:54.555549+00:00",
+                "last_updated": "2022-01-16T23:29:54.555549+00:00",
                 "context": {
-                    "id": "ba51fa521765ca7f40c34e1571d7271b",
+                    "id": "9b6f9a5e5d17d1450926e6b0b7f8510d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_download",
-                "state": "19.38",
+                "state": "26.26",
                 "attributes": {
                     "state_class": "measurement",
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
-                    "server_name": "Brzeszcze",
-                    "server_country": "Poland",
-                    "server_id": "2107",
-                    "bytes_received": 24483312,
+                    "server_name": "Prague",
+                    "server_country": "Czech Republic",
+                    "server_id": "20411",
+                    "bytes_received": 32951792,
                     "unit_of_measurement": "Mbit/s",
                     "friendly_name": "SpeedTest Download",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2022-01-15T23:42:39.510097+00:00",
-                "last_updated": "2022-01-15T23:42:39.510097+00:00",
+                "last_changed": "2022-01-16T23:29:54.555660+00:00",
+                "last_updated": "2022-01-16T23:29:54.555660+00:00",
                 "context": {
-                    "id": "65a55b0d5e15b2d829d4e73b586bc72b",
+                    "id": "6c1ad1a26a3763f236e537e06706e5b4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_upload",
-                "state": "19.34",
+                "state": "23.89",
                 "attributes": {
                     "state_class": "measurement",
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
-                    "server_name": "Brzeszcze",
-                    "server_country": "Poland",
-                    "server_id": "2107",
-                    "bytes_sent": 24420352,
+                    "server_name": "Prague",
+                    "server_country": "Czech Republic",
+                    "server_id": "20411",
+                    "bytes_sent": 29941760,
                     "unit_of_measurement": "Mbit/s",
                     "friendly_name": "SpeedTest Upload",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2022-01-15T23:42:39.510156+00:00",
-                "last_updated": "2022-01-15T23:42:39.510156+00:00",
+                "last_changed": "2022-01-16T23:29:54.555714+00:00",
+                "last_updated": "2022-01-16T23:29:54.555714+00:00",
                 "context": {
-                    "id": "1fce30649fc25aea2f566e1af6169156",
+                    "id": "72546242ae78cf892bb893815c558d70",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1014,7 +1014,7 @@
                         "none",
                         "away"
                     ],
-                    "current_temperature": 21.1,
+                    "current_temperature": 21.3,
                     "temperature": 20.5,
                     "hvac_action": "idle",
                     "preset_mode": "away",
@@ -1022,14 +1022,14 @@
                     "supported_features": 17
                 },
                 "last_changed": "2021-12-29T08:28:46.103711+00:00",
-                "last_updated": "2022-01-15T23:49:37.325790+00:00",
+                "last_updated": "2022-01-16T23:48:12.126536+00:00",
                 "context": {
-                    "id": "38442fd2148df10fad190651ebca802d",
+                    "id": "e9ef3a7ead289b2cb1b2a92b24264c04",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1043,21 +1043,21 @@
                     "min_temp": 1.0,
                     "max_temp": 10.0,
                     "target_temp_step": 0.1,
-                    "current_temperature": 1.3,
+                    "current_temperature": 1.4,
                     "temperature": 1.5,
                     "hvac_action": "idle",
                     "friendly_name": "Topeni jezirko",
                     "supported_features": 1
                 },
                 "last_changed": "2022-01-05T14:06:44.588354+00:00",
-                "last_updated": "2022-01-15T23:46:21.787530+00:00",
+                "last_updated": "2022-01-16T21:08:02.683364+00:00",
                 "context": {
-                    "id": "2545690c3d15c79f4c8cbbac15f7b32d",
+                    "id": "9c69097343bd1722d7cf77a084340bd5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1077,7 +1077,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1095,7 +1095,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1113,7 +1113,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1131,7 +1131,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1151,7 +1151,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1170,64 +1170,63 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_battery_level",
-                "state": "35",
+                "state": "62",
                 "attributes": {
                     "unit_of_measurement": "%",
                     "friendly_name": "Lenka - iPhone X Battery Level",
-                    "icon": "mdi:battery-30",
+                    "icon": "mdi:battery-60",
                     "device_class": "battery"
                 },
-                "last_changed": "2022-01-15T10:52:35.526095+00:00",
-                "last_updated": "2022-01-15T10:52:35.526095+00:00",
+                "last_changed": "2022-01-16T21:00:02.696557+00:00",
+                "last_updated": "2022-01-16T21:00:02.696557+00:00",
                 "context": {
-                    "id": "9684b587b670449d480ca8bc4d8361f1",
+                    "id": "0aca80c32a2bc2f929bb1291bef38943",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_bssid",
-                "state": "Not Connected",
+                "state": "bc:9f:e4:4b:9c:22",
                 "attributes": {
                     "friendly_name": "Lenka - iPhone X BSSID",
-                    "icon": "mdi:wifi-off"
+                    "icon": "mdi:wifi-star"
                 },
-                "last_changed": "2022-01-15T08:51:21.431776+00:00",
-                "last_updated": "2022-01-15T08:51:21.431776+00:00",
+                "last_changed": "2022-01-16T21:00:02.696887+00:00",
+                "last_updated": "2022-01-16T21:00:02.696887+00:00",
                 "context": {
-                    "id": "0dd424c7b86469d2a9f8dc29c60d43fa",
+                    "id": "6d6067c1d8283cd18f72ec753a4ad19f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_connection_type",
-                "state": "Cellular",
+                "state": "Wi-Fi",
                 "attributes": {
-                    "Cellular Technology": "4G",
                     "friendly_name": "Lenka - iPhone X Connection Type",
-                    "icon": "mdi:signal"
+                    "icon": "mdi:wifi"
                 },
-                "last_changed": "2022-01-15T08:51:21.431893+00:00",
-                "last_updated": "2022-01-15T08:51:21.431893+00:00",
+                "last_changed": "2022-01-16T21:00:02.696956+00:00",
+                "last_updated": "2022-01-16T21:00:02.696956+00:00",
                 "context": {
-                    "id": "f7ac1cc5b3e7f8d31e9b7e79d13ec7b1",
+                    "id": "afce4b42eeb4cda820daaaa13f94e37a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1252,7 +1251,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1266,8 +1265,8 @@
                     "ISO Country Code": "CZ",
                     "Locality": "V\u0159esina",
                     "Location": [
-                        49.828277587890625,
-                        18.11464417962368
+                        49.828216552734375,
+                        18.114657202166452
                     ],
                     "Name": "Topolov\u00e1 503",
                     "Ocean": "N/A",
@@ -1283,33 +1282,33 @@
                     "friendly_name": "Lenka - iPhone X Geocoded Location",
                     "icon": "mdi:map"
                 },
-                "last_changed": "2022-01-15T11:08:28.980814+00:00",
-                "last_updated": "2022-01-15T11:08:28.980814+00:00",
+                "last_changed": "2022-01-16T11:42:48.777204+00:00",
+                "last_updated": "2022-01-16T11:42:48.777204+00:00",
                 "context": {
-                    "id": "673c694ed9fc6f489c7d3579daccb540",
+                    "id": "37441bdd0c6467b8268cc6843718918d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_last_update_trigger",
-                "state": "Geographic Region Entered",
+                "state": "Siri",
                 "attributes": {
                     "friendly_name": "Lenka - iPhone X Last Update Trigger",
                     "icon": "mdi:cellphone-wireless"
                 },
-                "last_changed": "2022-01-15T11:08:28.981014+00:00",
-                "last_updated": "2022-01-15T11:08:28.981014+00:00",
+                "last_changed": "2022-01-16T21:00:02.697175+00:00",
+                "last_updated": "2022-01-16T21:00:02.697175+00:00",
                 "context": {
-                    "id": "509665dca69a02def9f755c27d63e8bf",
+                    "id": "b5b26db2a18f5ce77c6a9b66eca00aab",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1318,99 +1317,99 @@
                 "attributes": {
                     "Low Power Mode": false,
                     "friendly_name": "Lenka - iPhone X Battery State",
-                    "icon": "mdi:battery-30"
+                    "icon": "mdi:battery-60"
                 },
                 "last_changed": "2022-01-12T20:16:25.120758+00:00",
-                "last_updated": "2022-01-15T10:46:59.589053+00:00",
+                "last_updated": "2022-01-16T21:00:02.696676+00:00",
                 "context": {
-                    "id": "dfb4a599111722b3c452045198dfa0fd",
+                    "id": "338a4d80e3f0956bfe99ccb7480e16c0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_storage",
-                "state": "72.73",
+                "state": "72.38",
                 "attributes": {
-                    "Available": "173,71 GB",
-                    "Available (Important)": "201,98 GB",
-                    "Available (Opportunistic)": "186,12 GB",
+                    "Available": "172,80 GB",
+                    "Available (Important)": "201,12 GB",
+                    "Available (Opportunistic)": "185,21 GB",
                     "Total": "255,89 GB",
                     "unit_of_measurement": "% available",
                     "friendly_name": "Lenka - iPhone X Storage",
                     "icon": "mdi:database"
                 },
-                "last_changed": "2022-01-15T10:46:59.589172+00:00",
-                "last_updated": "2022-01-15T10:52:35.526255+00:00",
+                "last_changed": "2022-01-16T21:00:02.696757+00:00",
+                "last_updated": "2022-01-16T21:00:02.696757+00:00",
                 "context": {
-                    "id": "6d22fe231ef9137242db95e3cf1a1e7f",
+                    "id": "524103cdc29cf169601b1f7fc4a45a55",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_ssid",
-                "state": "Not Connected",
+                "state": "lm1-2",
                 "attributes": {
                     "friendly_name": "Lenka - iPhone X SSID",
-                    "icon": "mdi:wifi-off"
+                    "icon": "mdi:wifi"
                 },
-                "last_changed": "2022-01-15T08:51:21.431689+00:00",
-                "last_updated": "2022-01-15T08:51:21.431689+00:00",
+                "last_changed": "2022-01-16T21:00:02.696829+00:00",
+                "last_updated": "2022-01-16T21:00:02.696829+00:00",
                 "context": {
-                    "id": "c52810d2e3f18d88a184073c61c9e5e9",
+                    "id": "d109998fec5c01234da0dd8bd960d450",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_activity",
-                "state": "Automotive",
+                "state": "Stationary",
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Automotive"
+                        "Stationary"
                     ],
                     "friendly_name": "Lenka - iPhone X Activity",
-                    "icon": "mdi:car"
+                    "icon": "mdi:human-male"
                 },
-                "last_changed": "2022-01-14T05:26:24.795067+00:00",
-                "last_updated": "2022-01-15T10:46:59.588244+00:00",
+                "last_changed": "2022-01-16T21:00:02.696077+00:00",
+                "last_updated": "2022-01-16T21:00:02.696077+00:00",
                 "context": {
-                    "id": "a7c2592ac0ec24601593f644764e6420",
+                    "id": "0f0c89485cf8354c31050771f2b5b035",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_steps",
-                "state": "2209",
+                "state": "2626",
                 "attributes": {
                     "unit_of_measurement": "steps",
                     "friendly_name": "Lenka - iPhone X Steps",
                     "icon": "mdi:walk"
                 },
-                "last_changed": "2022-01-15T11:08:28.980102+00:00",
-                "last_updated": "2022-01-15T11:08:28.980102+00:00",
+                "last_changed": "2022-01-16T21:00:02.696440+00:00",
+                "last_updated": "2022-01-16T21:00:02.696440+00:00",
                 "context": {
-                    "id": "a5e1940b6bfb458d87e5413d6e6a290e",
+                    "id": "09c528742bcaace22fa548acc21c595e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1429,82 +1428,82 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_distance",
-                "state": "1408",
+                "state": "1755",
                 "attributes": {
                     "unit_of_measurement": "m",
                     "friendly_name": "Lenka - iPhone X Distance",
                     "icon": "mdi:hiking"
                 },
-                "last_changed": "2022-01-15T11:08:28.979830+00:00",
-                "last_updated": "2022-01-15T11:08:28.979830+00:00",
+                "last_changed": "2022-01-16T21:00:02.696212+00:00",
+                "last_updated": "2022-01-16T21:00:02.696212+00:00",
                 "context": {
-                    "id": "48066d6369ef18d4b67d1f486de88120",
+                    "id": "8f0dd3e7330da1c0f80123434f0e0603",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_floors_ascended",
-                "state": "0",
+                "state": "2",
                 "attributes": {
                     "unit_of_measurement": "floors",
                     "friendly_name": "Lenka - iPhone X Floors Ascended",
                     "icon": "mdi:stairs-up"
                 },
-                "last_changed": "2022-01-14T04:00:02.160797+00:00",
-                "last_updated": "2022-01-14T04:00:02.160797+00:00",
+                "last_changed": "2022-01-16T21:00:02.696296+00:00",
+                "last_updated": "2022-01-16T21:00:02.696296+00:00",
                 "context": {
-                    "id": "f07b82a3c36edda51b4447b1488ec4ed",
+                    "id": "d22de76d47f71bb7588fb87a599233c9",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.lenka_iphone_x_floors_descended",
-                "state": "1",
+                "state": "2",
                 "attributes": {
                     "unit_of_measurement": "floors",
                     "friendly_name": "Lenka - iPhone X Floors Descended",
                     "icon": "mdi:stairs-down"
                 },
-                "last_changed": "2022-01-15T08:51:21.431184+00:00",
-                "last_updated": "2022-01-15T08:51:21.431184+00:00",
+                "last_changed": "2022-01-16T21:00:02.696373+00:00",
+                "last_updated": "2022-01-16T21:00:02.696373+00:00",
                 "context": {
-                    "id": "76d99b65f9aee69c13c8dddadd1ea618",
+                    "id": "c92ad7ee32b7a152968b9c6cc55e4299",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "binary_sensor.lenka_iphone_x_focus",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "friendly_name": "Lenka - iPhone X Focus",
                     "icon": "mdi:moon-waning-crescent"
                 },
-                "last_changed": "2022-01-14T04:00:02.161505+00:00",
-                "last_updated": "2022-01-14T04:00:02.161505+00:00",
+                "last_changed": "2022-01-16T21:00:02.697119+00:00",
+                "last_updated": "2022-01-16T21:00:02.697119+00:00",
                 "context": {
-                    "id": "f50a9f13551a0d7319f73a7181a62fde",
+                    "id": "e48b139471feddcfd74afc07870ebf3f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1529,7 +1528,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1537,22 +1536,23 @@
                 "state": "home",
                 "attributes": {
                     "source_type": "gps",
-                    "battery_level": 35,
-                    "latitude": 49.828277587890625,
-                    "longitude": 18.11464417962368,
-                    "gps_accuracy": 25,
-                    "altitude": 0.0,
+                    "battery_level": 100,
+                    "latitude": 49.828216552734375,
+                    "longitude": 18.114657202166452,
+                    "gps_accuracy": 35,
+                    "altitude": 278.46588134765625,
+                    "vertical_accuracy": 28,
                     "friendly_name": "Lenka - iPhone X"
                 },
-                "last_changed": "2022-01-15T11:08:28.792653+00:00",
-                "last_updated": "2022-01-15T11:08:28.792653+00:00",
+                "last_changed": "2022-01-16T11:42:48.540937+00:00",
+                "last_updated": "2022-01-16T11:42:48.540937+00:00",
                 "context": {
-                    "id": "31ce4fc159358849214770d5a888a4e2",
+                    "id": "1f17e78b10767c039d19aa63d6144327",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1569,7 +1569,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1589,7 +1589,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1609,7 +1609,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1629,7 +1629,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1646,7 +1646,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1656,15 +1656,15 @@
                     "friendly_name": "Vrata GARAZE",
                     "device_class": "opening"
                 },
-                "last_changed": "2022-01-15T11:10:19.062851+00:00",
-                "last_updated": "2022-01-15T11:10:19.062851+00:00",
+                "last_changed": "2022-01-16T11:45:36.602577+00:00",
+                "last_updated": "2022-01-16T11:45:36.602577+00:00",
                 "context": {
-                    "id": "02d495b4361a7be4aa54c00c919de9c5",
+                    "id": "c84f82c9a93789b45cf70d6257ededcb",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1685,7 +1685,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1705,7 +1705,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1723,7 +1723,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1743,7 +1743,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1761,7 +1761,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1781,7 +1781,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1797,15 +1797,15 @@
                     "friendly_name": "led_RGB level, light_color, on_off",
                     "supported_features": 59
                 },
-                "last_changed": "2022-01-15T23:50:59.899524+00:00",
-                "last_updated": "2022-01-15T23:50:59.899524+00:00",
+                "last_changed": "2022-01-16T18:43:40.806067+00:00",
+                "last_updated": "2022-01-16T18:43:40.806067+00:00",
                 "context": {
-                    "id": "93c4a4ccec51c6fbb6dbb34240fa7d84",
+                    "id": "1c70d64c45e9083e4ae42e46f8d4b1af",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1823,7 +1823,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1843,7 +1843,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1855,20 +1855,20 @@
                     "friendly_name": "Pracovna vlhkost",
                     "device_class": "humidity"
                 },
-                "last_changed": "2022-01-15T23:57:10.399150+00:00",
-                "last_updated": "2022-01-15T23:57:10.399150+00:00",
+                "last_changed": "2022-01-16T23:56:13.854067+00:00",
+                "last_updated": "2022-01-16T23:56:13.854067+00:00",
                 "context": {
-                    "id": "949f420165b6d5c9f9598d6c60b84406",
+                    "id": "01f48201c47d497cb281a7dff9259d8d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.sonoff_pracovna_power",
-                "state": "59",
+                "state": "58",
                 "attributes": {
                     "state_class": "measurement",
                     "battery_voltage": 2.9,
@@ -1876,60 +1876,60 @@
                     "friendly_name": "Pracovna stav baterie",
                     "device_class": "battery"
                 },
-                "last_changed": "2022-01-15T15:06:12.059196+00:00",
-                "last_updated": "2022-01-15T15:06:12.059196+00:00",
+                "last_changed": "2022-01-16T20:08:51.828962+00:00",
+                "last_updated": "2022-01-16T20:08:51.828962+00:00",
                 "context": {
-                    "id": "4773e614e0103f30b6f2938968dca5e5",
+                    "id": "ae155ae15728e944bba74b1f2a66382b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.sonoff_pracovna_temperature",
-                "state": "20.0",
+                "state": "20.4",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
                     "friendly_name": "Pracovna teplota",
                     "device_class": "temperature"
                 },
-                "last_changed": "2022-01-15T23:57:09.737565+00:00",
-                "last_updated": "2022-01-15T23:57:09.737565+00:00",
+                "last_changed": "2022-01-16T23:25:37.557028+00:00",
+                "last_updated": "2022-01-16T23:25:37.557028+00:00",
                 "context": {
-                    "id": "298356b22fbb4ec7964d660b401a097b",
+                    "id": "efbf5ba95d4b7ecabac6716f68b74126",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.sonoff_venkovni_humidity",
-                "state": "73.4",
+                "state": "74.2",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "%",
                     "friendly_name": "Venkovni vlhkost",
                     "device_class": "humidity"
                 },
-                "last_changed": "2022-01-15T23:35:48.095115+00:00",
-                "last_updated": "2022-01-15T23:35:48.095115+00:00",
+                "last_changed": "2022-01-16T23:31:16.236985+00:00",
+                "last_updated": "2022-01-16T23:31:16.236985+00:00",
                 "context": {
-                    "id": "c8d4e29aa9020ff3e10239393d413b20",
+                    "id": "f3618f35240837f9d90045d8e6a80bdc",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.sonoff_venkovni_power",
-                "state": "72",
+                "state": "73",
                 "attributes": {
                     "state_class": "measurement",
                     "battery_voltage": 2.9,
@@ -1937,35 +1937,35 @@
                     "friendly_name": "Venkovni stav baterie",
                     "device_class": "battery"
                 },
-                "last_changed": "2022-01-15T03:28:50.109218+00:00",
-                "last_updated": "2022-01-15T03:28:50.109218+00:00",
+                "last_changed": "2022-01-16T21:32:26.398696+00:00",
+                "last_updated": "2022-01-16T21:32:26.398696+00:00",
                 "context": {
-                    "id": "d59785e6df9f7bba83409f806695621b",
+                    "id": "e984cb88333e70325d2a23b9a6e51e3f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.sonoff_venkovni_temperature",
-                "state": "23.7",
+                "state": "23.3",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
                     "friendly_name": "Venkovni teplota",
                     "device_class": "temperature"
                 },
-                "last_changed": "2022-01-15T23:32:29.358695+00:00",
-                "last_updated": "2022-01-15T23:32:29.358695+00:00",
+                "last_changed": "2022-01-16T23:47:53.456399+00:00",
+                "last_updated": "2022-01-16T23:47:53.456399+00:00",
                 "context": {
-                    "id": "a3c0667724df96ae0ed18e6300b55029",
+                    "id": "ac888663b9dea2583fd83855a911d3c6",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -1989,7 +1989,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -2012,24 +2012,24 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
                 "entity_id": "switch.akvarium_on_off",
-                "state": "off",
+                "state": "unavailable",
                 "attributes": {
                     "friendly_name": "akvarium on_off"
                 },
-                "last_changed": "2022-01-15T22:55:00.195668+00:00",
-                "last_updated": "2022-01-15T22:55:00.195668+00:00",
+                "last_changed": "2022-01-16T23:40:17.640984+00:00",
+                "last_updated": "2022-01-16T23:40:17.640984+00:00",
                 "context": {
-                    "id": "7c9d3cbe6a35852d074ab947b84a60f6",
+                    "id": "6b62f4118487c4e89279b1929a2d570c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -2049,7 +2049,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -2069,7 +2069,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -2089,7 +2089,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         },
         {
             "state": {
@@ -2109,7 +2109,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2022-01-15T23:59:04.235194+00:00"
+            "last_seen": "2022-01-16T23:59:05.363775+00:00"
         }
     ]
 }
