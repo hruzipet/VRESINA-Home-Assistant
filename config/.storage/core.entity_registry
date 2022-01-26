@@ -10956,6 +10956,24 @@
                 "original_name": "Apple AB:77:14",
                 "original_icon": "mdi:lan-connect",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.vmware_87_e4_f6",
+                "config_entry_id": "631f08645b05ae6f572188e89f82f80a",
+                "device_id": "ecc53186fd1a774e05b2919640dbecb0",
+                "area_id": null,
+                "unique_id": "00:50:56:87:e4:f6",
+                "platform": "nmap_tracker",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "VMware 87:E4:F6",
+                "original_icon": "mdi:lan-connect",
+                "entity_category": null
             }
         ]
     }

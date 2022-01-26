@@ -302,8 +302,8 @@
                 "domain": "homekit_controller",
                 "title": "Ignored",
                 "data": {
-                    "AccessoryIP": "192.168.2.157",
-                    "AccessoryPort": 37176
+                    "AccessoryIP": "192.168.2.146",
+                    "AccessoryPort": 43181
                 },
                 "options": {},
                 "pref_disable_new_entities": false,

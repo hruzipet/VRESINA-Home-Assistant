@@ -7672,6 +7672,29 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:87:e4:f6"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "VMware 87:E4:F6",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ecc53186fd1a774e05b2919640dbecb0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": []
