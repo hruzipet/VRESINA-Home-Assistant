@@ -7695,6 +7695,116 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:b1:0a:8c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:B1:0A:8C"
+                    ]
+                ],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "00:50:56:B1:0A:8C",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "57e338a579123201c66e2d46a5753d09",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:b1:1c:7a"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "VMware B1:1C:7A",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2fd3df67afc1d1695d9b437272cf0a0a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:b1:28:b3"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:B1:28:B3"
+                    ]
+                ],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "VMware B1:28:B3",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4f1f8fb344616b7e8b19e0c8f27a5310",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:b1:53:38"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:B1:53:38"
+                    ]
+                ],
+                "manufacturer": "VMware",
+                "model": null,
+                "name": "00:50:56:B1:53:38",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "cb09452a975862afcb08cca2ac0500f6",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": []
