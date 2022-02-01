@@ -7805,6 +7805,90 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:ba:5b:df"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:BA:5B:DF"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "rhel8",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c3c76462856dd547432aec522a4bf0ff",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:ba:8b:4a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:BA:8B:4A"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "rhel8",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "38bc62cd4a04293027ffbec2cdb02d44",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "25ceb9b816068a5847548d66334a90e9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:50:56:ba:59:a7"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "mikrotik",
+                        "00:50:56:BA:59:A7"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "powertest8-1",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ec8103e90f34eac83214298567a42617",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": []
