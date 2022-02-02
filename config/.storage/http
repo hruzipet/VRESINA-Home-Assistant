@@ -5,11 +5,11 @@
         "ssl_certificate": "/config/vresina.hruzik.net/fullchain11.pem",
         "ssl_key": "/config/vresina.hruzik.net/privkey11.pem",
         "server_port": 8123,
-        "ip_ban_enabled": true,
-        "login_attempts_threshold": -1,
+        "ssl_profile": "modern",
         "cors_allowed_origins": [
             "https://cast.home-assistant.io"
         ],
-        "ssl_profile": "modern"
+        "login_attempts_threshold": -1,
+        "ip_ban_enabled": true
     }
 }

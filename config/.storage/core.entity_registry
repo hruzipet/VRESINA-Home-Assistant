@@ -1725,7 +1725,7 @@
                         "1 Music Channel",
                         "U TV",
                         "Stingray iConcerts",
-                        "Stingray CMUSIC",
+                        "Stingray CMusic",
                         "Stingray Classica",
                         "CNN",
                         "Sky News",
@@ -3848,7 +3848,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "LenkaAppleWatch",
+                "original_name": "AA:F5:DD:BE:DA:A1",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -4676,7 +4676,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "LenkaAppleWatch",
+                "original_name": "66:93:DC:7B:06:07",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -6686,7 +6686,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "MisaiPhneSE2020",
+                "original_name": "E2:32:E9:AF:76:EC",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -6704,7 +6704,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "MisaiPhneSE2020",
+                "original_name": "26:35:1F:35:10:AB",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -7749,7 +7749,7 @@
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "minint-6m5ahh0",
+                "original_name": "minint-fvbm0m6",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -8326,7 +8326,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Apple 28:12:52",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -8380,7 +8380,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Nmap Tracker B2:BE:76:B6:A2:CA",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -8614,7 +8614,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Espressif 83:67:AB",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -8632,7 +8632,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Aruba, a Hewlett Packard Enterprise Company CC:B9:C2",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -8740,7 +8740,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Kamo Technology Limited 00:EA:6C",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -8866,7 +8866,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Google B7:05:3D",
-                "original_icon": "mdi:lan-disconnect",
+                "original_icon": "mdi:lan-connect",
                 "entity_category": null
             },
             {
@@ -8884,7 +8884,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "D-Link International C7:EE:00",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -8938,7 +8938,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Espressif E3:73:E3",
-                "original_icon": "mdi:lan-disconnect",
+                "original_icon": "mdi:lan-connect",
                 "entity_category": null
             },
             {
@@ -9478,7 +9478,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Nmap Tracker 96:0C:05:93:59:D2",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -9640,7 +9640,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Panasonic AVC Networks Company D5:A9:7D",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -10108,7 +10108,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "VMware B1:CD:C3",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -10769,7 +10769,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10787,7 +10787,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10805,12 +10805,12 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Nmap Tracker E8:68:E7:C1:C5:B5",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -10823,7 +10823,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10841,12 +10841,12 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Nmap Tracker C6:D3:35:43:90:B6",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -10859,7 +10859,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10877,7 +10877,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10895,7 +10895,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10913,11 +10913,11 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "rhel8",
+                "original_name": "powertest8",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -10931,7 +10931,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10949,12 +10949,12 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Apple AB:77:14",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -10967,7 +10967,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -10985,7 +10985,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -11003,12 +11003,12 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "VMware B1:0A:8C",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -11021,7 +11021,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -11039,12 +11039,12 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "VMware B1:28:B3",
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "entity_category": null
             },
             {
@@ -11057,7 +11057,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -11075,7 +11075,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -11093,7 +11093,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -11111,11 +11111,11 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
-                "original_name": "rhel8",
+                "original_name": "powertest8-1",
                 "original_icon": null,
                 "entity_category": null
             },
@@ -11129,7 +11129,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
@@ -11147,7 +11147,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,

@@ -392,12 +392,12 @@
                 ],
                 "identifiers": [
                     [
-                        "shelly",
-                        "98F4ABB85D35"
-                    ],
-                    [
                         "mikrotik",
                         "98:F4:AB:B8:5D:35"
+                    ],
+                    [
+                        "shelly",
+                        "98F4ABB85D35"
                     ]
                 ],
                 "manufacturer": "Shelly",
@@ -415,8 +415,8 @@
             {
                 "config_entries": [
                     "25ceb9b816068a5847548d66334a90e9",
-                    "631f08645b05ae6f572188e89f82f80a",
-                    "5599b0c060a0ad681ab0fdf2c9038744"
+                    "5599b0c060a0ad681ab0fdf2c9038744",
+                    "631f08645b05ae6f572188e89f82f80a"
                 ],
                 "connections": [
                     [
@@ -426,12 +426,12 @@
                 ],
                 "identifiers": [
                     [
-                        "mikrotik",
-                        "98:F4:AB:B8:69:90"
-                    ],
-                    [
                         "shelly",
                         "98F4ABB86990"
+                    ],
+                    [
+                        "mikrotik",
+                        "98:F4:AB:B8:69:90"
                     ]
                 ],
                 "manufacturer": "Shelly",
@@ -560,8 +560,8 @@
             },
             {
                 "config_entries": [
-                    "2841bdadad34efe8a5f5334817ff3849",
                     "25ceb9b816068a5847548d66334a90e9",
+                    "2841bdadad34efe8a5f5334817ff3849",
                     "631f08645b05ae6f572188e89f82f80a"
                 ],
                 "connections": [
