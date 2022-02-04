@@ -4162,7 +4162,8 @@
             },
             {
                 "config_entries": [
-                    "25ceb9b816068a5847548d66334a90e9"
+                    "25ceb9b816068a5847548d66334a90e9",
+                    "631f08645b05ae6f572188e89f82f80a"
                 ],
                 "connections": [
                     [
@@ -4176,7 +4177,7 @@
                         "74:38:B7:5D:0D:78"
                     ]
                 ],
-                "manufacturer": null,
+                "manufacturer": "Canon",
                 "model": null,
                 "name": "SELPHY_DHCP_INSTANCE_0",
                 "sw_version": null,

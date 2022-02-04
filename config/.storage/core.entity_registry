@@ -11154,6 +11154,24 @@
                 "original_name": "powertest8-1",
                 "original_icon": null,
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.canon_5d_0d_78",
+                "config_entry_id": "631f08645b05ae6f572188e89f82f80a",
+                "device_id": "87a30b9f9969cbfba192d70e3beb18a5",
+                "area_id": null,
+                "unique_id": "74:38:b7:5d:0d:78",
+                "platform": "nmap_tracker",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Canon 5D:0D:78",
+                "original_icon": "mdi:lan-connect",
+                "entity_category": null
             }
         ]
     }
