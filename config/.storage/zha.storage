@@ -6,7 +6,7 @@
             {
                 "name": "Silicon Labs EZSP",
                 "ieee": "60:a4:23:ff:fe:08:f8:01",
-                "last_seen": 1643928574.9021146
+                "last_seen": 1644017765.141197
             },
             {
                 "name": "eWeLink TH01",
@@ -16,12 +16,12 @@
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "60:a4:23:ff:fe:07:cb:ec",
-                "last_seen": 1643886454.7087476
+                "last_seen": 1643935316.5091097
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "5c:02:72:ff:fe:2b:82:29",
-                "last_seen": 1643923737.5150454
+                "last_seen": 1644019152.4354212
             },
             {
                 "name": "_TZ1800_ejwkn2h2 TY0203",
@@ -31,7 +31,7 @@
             {
                 "name": "_TZ3000_riwp3k79 TS0505A",
                 "ieee": "58:8e:81:ff:fe:fb:cf:5f",
-                "last_seen": 1643910183.9491966
+                "last_seen": 1644011478.4316964
             },
             {
                 "name": "eWeLink TH01",
@@ -41,12 +41,12 @@
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:67:48:a0",
-                "last_seen": 1643931980.6142435
+                "last_seen": 1644018521.3341908
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "60:a4:23:ff:fe:07:cc:fe",
-                "last_seen": 1643918594.2439566
+                "last_seen": 1644017771.8584688
             }
         ]
     }
