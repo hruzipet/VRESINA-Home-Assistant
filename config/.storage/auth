@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "auth",
     "data": {
         "users": [
@@ -11,7 +12,8 @@
                 "is_owner": false,
                 "is_active": true,
                 "name": "Home Assistant Cloud",
-                "system_generated": true
+                "system_generated": true,
+                "local_only": false
             },
             {
                 "id": "2d6b523208dc4b14a8304c668fdf615c",
@@ -21,7 +23,8 @@
                 "is_owner": true,
                 "is_active": true,
                 "name": "petr",
-                "system_generated": false
+                "system_generated": false,
+                "local_only": false
             },
             {
                 "id": "406908750f044950ac6a1c6e08685332",
@@ -31,7 +34,8 @@
                 "is_owner": false,
                 "is_active": true,
                 "name": "martin",
-                "system_generated": false
+                "system_generated": false,
+                "local_only": false
             },
             {
                 "id": "a5107db2e5254954b04b66910780522d",
@@ -41,7 +45,8 @@
                 "is_owner": false,
                 "is_active": true,
                 "name": "vera",
-                "system_generated": false
+                "system_generated": false,
+                "local_only": false
             },
             {
                 "id": "e8dba94c96c64e4d8e1ec42cb81a508f",
@@ -51,7 +56,8 @@
                 "is_owner": false,
                 "is_active": true,
                 "name": "mira",
-                "system_generated": false
+                "system_generated": false,
+                "local_only": false
             },
             {
                 "id": "6867e4890d5041b0a4065cd63eb71290",
@@ -61,7 +67,8 @@
                 "is_owner": false,
                 "is_active": true,
                 "name": "lenka",
-                "system_generated": false
+                "system_generated": false,
+                "local_only": false
             },
             {
                 "id": "391777c6632540468acaf3779b3c9911",
@@ -71,7 +78,19 @@
                 "is_owner": false,
                 "is_active": true,
                 "name": "Home Assistant Cast",
-                "system_generated": true
+                "system_generated": true,
+                "local_only": false
+            },
+            {
+                "id": "35be06fa12a04adf9e9ce53b8a8e1a12",
+                "group_ids": [
+                    "system-read-only"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Home Assistant Content",
+                "system_generated": true,
+                "local_only": false
             }
         ],
         "groups": [
@@ -7392,8 +7411,8 @@
                 "access_token_expiration": 1800.0,
                 "token": "7c215e26bf3f1870aacf861d9029b1975f576f75d246e3a75a59bdbf1e19fa94b7ba412bb54ca3db6feb55cd5d869ff2c5b167794587a02bcc9b798ffb3e0b55",
                 "jwt_key": "a1e7b82b3e85159fd4b0b7d72df0943b925163d6dc9929ad56964c5ff34a4b73057b41cbf424fbb7da07ee31bb410de83549acad01a25909b1235753b98f5f0d",
-                "last_used_at": "2022-01-31T09:22:03.737954+00:00",
-                "last_used_ip": "193.179.215.98",
+                "last_used_at": "2022-02-05T19:58:16.924599+00:00",
+                "last_used_ip": "192.168.10.150",
                 "credential_id": "7c00423bd67e4c7c8f45516a9a9ff9ea",
                 "version": "2021.11.5"
             },
@@ -9670,6 +9689,54 @@
                 "version": "2021.11.5"
             },
             {
+                "id": "fd33d283b3394555b8ed402912e0f0cf",
+                "user_id": "2d6b523208dc4b14a8304c668fdf615c",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T07:00:08.936162+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "f9b6bf8900d885c43dfa08be04f4e152a37ad071c7a8ba201f6105d9854d610523f6035143d8f53298959859f16ce0975b3d5d972469e18f8f335ecea01c04d5",
+                "jwt_key": "6ae11b30fd77ea5db142fa8a0e9bce3c12f74c3b687cf6beb45ef37caaf358ed9b587c276fb700f94e4eb5d8372649b1950c8e61050ee1eed72dfcdb53e990e1",
+                "last_used_at": "2022-02-05T07:00:08.936396+00:00",
+                "last_used_ip": "192.168.2.189",
+                "credential_id": "65c1ff6f43ec420892458658a5d3b250",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "8ad46da2e9e749dcb5f5c5cdb7bcdbc3",
+                "user_id": "2d6b523208dc4b14a8304c668fdf615c",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T08:00:09.324077+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "db18a8291603fe6b7e01a60da864702026e46d62a9de539292d42e73d185da4595d406c89ccee6b7db45d82d232ff39cea9d5a6d68ae2f3d74495176a3b9ce7d",
+                "jwt_key": "31615bb80b723b357acb6bb5b6ebb82a72f7c8779ad4897ea78482f007b5bf6d71ab0b8e994c5d4168cf24c3afcc8e4516275ab5c09516eb3cd68f60f8eb7bc7",
+                "last_used_at": "2022-02-05T08:00:09.324658+00:00",
+                "last_used_ip": "192.168.2.189",
+                "credential_id": "65c1ff6f43ec420892458658a5d3b250",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "74d1e661a2274326ba47f1ef7eb14e89",
+                "user_id": "2d6b523208dc4b14a8304c668fdf615c",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T18:05:05.317704+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "20cba1102cecd5201206896563f0a4507133646008f6523c64b18edc3b60f38ebe88ee214a303a34b538b4381ce12451d6cf8b717d603b229ad2bbb645fcf3e6",
+                "jwt_key": "08462b9d8412e00d3cc7294c5d29c4d0c7af6e9a54f67f96b03816747f21b30f33a49d0d6a6a03b012750d61f63f6933f3da6644001bcbaee0b652b1b5eff486",
+                "last_used_at": "2022-02-05T18:05:05.317949+00:00",
+                "last_used_ip": "192.168.2.189",
+                "credential_id": "65c1ff6f43ec420892458658a5d3b250",
+                "version": "2021.11.5"
+            },
+            {
                 "id": "5f80eaab2d084c6989b27a2da935c8ce",
                 "user_id": "406908750f044950ac6a1c6e08685332",
                 "client_id": "https://vresina.hruzik.net:8123/",
@@ -10256,8 +10323,8 @@
                 "access_token_expiration": 1800.0,
                 "token": "25a1bd2cd68f165a30dfd942e25fc56dffce46c2a7b2fe2b92d6ef2d652704a507214cabd26b5c38740325d59ac4f2a9d16b96c4a64b1462170502bf4a198f33",
                 "jwt_key": "c7608866a71c262a4404aaa55df26cc3ad958578bf6481326fe4aa63d90ee3e5862072cfca76f9b7818bbe49ffc811ed289fc1f2cb9b4581ee60d85064ab2276",
-                "last_used_at": "2021-06-12T19:08:05.141296+00:00",
-                "last_used_ip": "192.168.2.137",
+                "last_used_at": "2022-02-05T17:42:16.315485+00:00",
+                "last_used_ip": "192.168.2.188",
                 "credential_id": "2531ae0ed0204049aa3f9938af8845af",
                 "version": "2021.4.4"
             },
@@ -11318,6 +11385,70 @@
                 "version": "2021.11.5"
             },
             {
+                "id": "8ae73ac03a444cb5a7a8023cb4616eca",
+                "user_id": "406908750f044950ac6a1c6e08685332",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T17:21:02.407105+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "0f6c95db8a503c8042f190b9de16f9278c1147aabdcd4debffb779b62733a762b9f4e4faf715f3edbd9a783677a1e1a17327373908893a20a76b511f4f76ef0b",
+                "jwt_key": "b2889ea1512ac0abb270e90bd90a541e389917dd23f0b21c29e76228feced75ccfe56052c0f11d2b5cdbb51b4cbfa97741ba4adf8f21e6678410b14e6ec13853",
+                "last_used_at": "2022-02-05T17:21:02.407359+00:00",
+                "last_used_ip": "192.168.2.138",
+                "credential_id": "2531ae0ed0204049aa3f9938af8845af",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "6cb7ece663d54dfaaa29cbb7d6179a23",
+                "user_id": "406908750f044950ac6a1c6e08685332",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T17:30:04.535676+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "1724d406e7b5648c2b816941e86b31f503392c43bcccae044336d8071709f30f87aeb2c0694375217e28e6a601b528ac308ac2d840274a718dd6b9dd20f7f6e7",
+                "jwt_key": "a034f01b0d60c0eb008024fdab916cf104ab0aa4c555ac499b91071a0045c25536ea07581b85c4a1a657cf94c28cfee113f8a97d62a8b34a076cec742a08f01a",
+                "last_used_at": "2022-02-05T17:30:04.535893+00:00",
+                "last_used_ip": "192.168.2.138",
+                "credential_id": "2531ae0ed0204049aa3f9938af8845af",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "8bad758b42924af7a28ad9f4310bbcd7",
+                "user_id": "406908750f044950ac6a1c6e08685332",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T17:30:18.550325+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "3f5e0b77845907f09b9de8def23456de1f15d5915e018ed594781ab675f5182761b093129614cc2e61f74cf65d7c1ab7a92d689faa0a97ec467d2286e4a44eb2",
+                "jwt_key": "e7b6cb4cefea81892ceec69685bbf1dd6473335a1dbad0801d93ae8dc9f074561fb8daa4552722a347bdde083dae2ff62ce5e5aec94d16f43e2f296dd60e60b9",
+                "last_used_at": "2022-02-05T18:37:03.943623+00:00",
+                "last_used_ip": "192.168.2.138",
+                "credential_id": "2531ae0ed0204049aa3f9938af8845af",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "3158f3bfb7444a85b4138442153c2e46",
+                "user_id": "406908750f044950ac6a1c6e08685332",
+                "client_id": "https://vresina.hruzik.net:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-05T17:46:50.642185+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "87e8a2ea8d55306ec8e82a6f24c4f2539e52479ce6c3f14b69ff20dcfa7fb1047c4988ec9a089491b34dd15a80f12554ae44253b5643f4d46a6a05f06decf941",
+                "jwt_key": "460f5eb7745405fb1dcbddc6387a1b08b5a308ba98cad076f949babdc6c6cb7ddaca5b1602f057ed8e54aaccb3f9007617a9e27c1d18a8aba151ffffd023b3a8",
+                "last_used_at": "2022-02-05T17:46:50.642455+00:00",
+                "last_used_ip": "192.168.2.188",
+                "credential_id": "2531ae0ed0204049aa3f9938af8845af",
+                "version": "2021.11.5"
+            },
+            {
                 "id": "1b5272c845344343a52d284fec765ec1",
                 "user_id": "a5107db2e5254954b04b66910780522d",
                 "client_id": "https://192.168.2.206:8123/",
@@ -11680,7 +11811,7 @@
                 "access_token_expiration": 1800.0,
                 "token": "bb511d063740cee6aa5501d170d14c8ec6ee1f33487e79e9510283b4c9fdfa02acf3d301631668ef14843f9385bd9bbe96f838336a6821205c49408757443d3b",
                 "jwt_key": "fd98772b9d547afe4fe28e1ec30a782915a9001b035b703aa2f1707e441aa912606e3475ac97c4c33ebefba46a8b26d42c3acd338c7ea17e4a57bbbaf1134f24",
-                "last_used_at": "2022-02-03T23:33:56.413877+00:00",
+                "last_used_at": "2022-02-05T22:05:05.591734+00:00",
                 "last_used_ip": "192.168.2.176",
                 "credential_id": "82ed388e189c47a7a6e0bf016527f7d8",
                 "version": "2021.4.4"
@@ -12016,8 +12147,8 @@
                 "access_token_expiration": 1800.0,
                 "token": "12b94416e2f7705c55ef381be58d90cfbf95ca82d3353126258027b1f548b45fe7bdd8de26d8571c9b50038c16fa6d0ea8048724d857f70a76b0de0b28ad1c2d",
                 "jwt_key": "ff78992be96d6ca863b5387455ad93750839f3cac245b0f6fea96fe2a8bafed62d65b684135e51c81fdaa14d50ddb8f46917dec7315997a57416af2f1b905dc1",
-                "last_used_at": "2022-02-04T13:27:26.479488+00:00",
-                "last_used_ip": "78.80.104.230",
+                "last_used_at": "2022-02-05T17:19:56.779372+00:00",
+                "last_used_ip": "192.168.2.124",
                 "credential_id": "562d925c9c8d4d5bb950b3d170a47bc4",
                 "version": "2021.8.8"
             },
@@ -12116,6 +12247,22 @@
                 "last_used_ip": null,
                 "credential_id": null,
                 "version": null
+            },
+            {
+                "id": "afea1253e5314d17a827750c0036e81a",
+                "user_id": "35be06fa12a04adf9e9ce53b8a8e1a12",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2022-02-05T18:24:37.369170+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "a5b16e2006f71c8c6edfdf789938f9356a0638b43b0c6c12debd18c9d8d7b25ef5855a2a55b2a67a8084e1d53f7db755807f5c321f38eb72aeab0c55cea1414c",
+                "jwt_key": "72a9f913051fdd6c4676ec485961072a82ac4d37161cfb34b1c62cfeb7cb575006b949cae5af501dffa297dbed9991d2f8ad6f31a78be7a8ca7988fd3ace381d",
+                "last_used_at": null,
+                "last_used_ip": null,
+                "credential_id": null,
+                "version": "2022.2.2"
             }
         ]
     }

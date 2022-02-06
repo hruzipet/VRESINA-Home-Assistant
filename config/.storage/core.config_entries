@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "core.config_entries",
     "data": {
         "entries": [
@@ -219,7 +220,9 @@
                 "version": 1,
                 "domain": "apple_tv",
                 "title": "Ignored",
-                "data": {},
+                "data": {
+                    "address": "192.168.2.114"
+                },
                 "options": {},
                 "pref_disable_new_entities": false,
                 "pref_disable_polling": false,
@@ -303,7 +306,7 @@
                 "title": "Ignored",
                 "data": {
                     "AccessoryIP": "192.168.2.147",
-                    "AccessoryPort": 39736
+                    "AccessoryPort": 41824
                 },
                 "options": {},
                 "pref_disable_new_entities": false,
@@ -496,6 +499,24 @@
                 "pref_disable_polling": false,
                 "source": "import",
                 "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5f6f5fe4bd8785a3770a5a192b15f2f2",
+                "version": 1,
+                "domain": "shelly",
+                "title": "shelly-martin-control",
+                "data": {
+                    "host": "192.168.2.166",
+                    "sleep_period": 0,
+                    "model": "SHPLG-S",
+                    "gen": 1
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "E868E7C1C5B5",
                 "disabled_by": null
             }
         ]
