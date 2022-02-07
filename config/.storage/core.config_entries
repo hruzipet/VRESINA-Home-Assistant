@@ -84,7 +84,7 @@
                 "pref_disable_polling": false,
                 "source": "user",
                 "unique_id": "Czechia",
-                "disabled_by": null
+                "disabled_by": "user"
             },
             {
                 "entry_id": "fb88d4f4d0794a0fbc6bb9a57eb60f1e",
@@ -242,7 +242,15 @@
                     },
                     "radio_type": "ezsp"
                 },
-                "options": {},
+                "options": {
+                    "custom_configuration": {
+                        "zha_options": {
+                            "consider_unavailable_mains": 7200,
+                            "consider_unavailable_battery": 2160,
+                            "enable_identify_on_join": true
+                        }
+                    }
+                },
                 "pref_disable_new_entities": false,
                 "pref_disable_polling": false,
                 "source": "user",
@@ -305,8 +313,8 @@
                 "domain": "homekit_controller",
                 "title": "Ignored",
                 "data": {
-                    "AccessoryIP": "192.168.2.147",
-                    "AccessoryPort": 41824
+                    "AccessoryIP": "192.168.2.157",
+                    "AccessoryPort": 34960
                 },
                 "options": {},
                 "pref_disable_new_entities": false,

@@ -14,7 +14,7 @@ homeassistant:
         - 192.168.10.0/24
       trusted_users:
         192.168.2.189: 391777c6632540468acaf3779b3c9911
-        192.168.2.189: 2d6b523208dc4b14a8304c668fdf615c
+#        192.168.2.189: 2d6b523208dc4b14a8304c668fdf615c
       allow_bypass_login: true
     - type: homeassistant
 
@@ -204,11 +204,15 @@ stream:
 ffmpeg:
 
 logger: 
-  default: critical 
+  default: info
   logs: 
   #    custom_components.indego: debug
-    pyIndego: debug
+    homeassistant.core: debug
+    homeassistant.components.zha: debug
+  #    pyIndego: debug
 
 mobile_app:
 
-energy:        
+energy: 
+
+system_health:

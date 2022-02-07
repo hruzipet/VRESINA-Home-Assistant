@@ -1,9 +1,9 @@
     - platform: command_line
       switches:
         switch_topeni:
-          command_on: "/usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys148=111"
-          command_off: "/usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys148=0"
-          command_state: "/usr/bin/curl -X GET http://192.168.2.2:8181/usys.xml 2>&1 | grep -Po '(?<=<sys148>).*(?=</sys148>)'"
+          command_on: '/usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys148=111'
+          command_off: '/usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys148=0'
+          command_state: /usr/bin/curl -X GET http://192.168.2.2:8181/usys.xml 2>&1 | grep -Po "(?<=<sys148>).*(?=</sys148>)"
           value_template: '{{ value == "111" }}'
 
 

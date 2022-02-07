@@ -7,12 +7,12 @@
             {
                 "extended_dict": {
                     "last_step": "action/0",
-                    "run_id": "f412884173025491edb3ffcd6ad8166c",
+                    "run_id": "52ca3fb85a8a1ed888999c35fef35bc9",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2022-02-05T18:24:56.529709+00:00",
-                        "finish": "2022-02-05T18:25:06.538748+00:00"
+                        "start": "2022-02-06T18:14:20.266594+00:00",
+                        "finish": "2022-02-06T18:14:29.058777+00:00"
                     },
                     "domain": "automation",
                     "item_id": "1610224803642",
@@ -21,22 +21,22 @@
                         "trigger/0": [
                             {
                                 "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:24:56.529795+00:00",
+                                "timestamp": "2022-02-06T18:14:20.266654+00:00",
                                 "changed_variables": {
                                     "this": {
                                         "entity_id": "automation.a_on_start",
                                         "state": "on",
                                         "attributes": {
-                                            "last_triggered": "2022-02-01T02:17:18.632276+00:00",
+                                            "last_triggered": "2022-02-06T18:11:42.188253+00:00",
                                             "mode": "single",
                                             "current": 0,
                                             "id": "1610224803642",
                                             "friendly_name": "A - ON START"
                                         },
-                                        "last_changed": "2022-02-05T18:24:40.542464+00:00",
-                                        "last_updated": "2022-02-05T18:24:40.542464+00:00",
+                                        "last_changed": "2022-02-06T18:13:54.862857+00:00",
+                                        "last_updated": "2022-02-06T18:13:54.862857+00:00",
                                         "context": {
-                                            "id": "2cfd871204b8461e20517c9fcfb70107",
+                                            "id": "c3190cd69119b0666f4c49d5b06886eb",
                                             "parent_id": null,
                                             "user_id": null
                                         }
@@ -54,10 +54,10 @@
                         "action/0": [
                             {
                                 "path": "action/0",
-                                "timestamp": "2022-02-05T18:24:56.532877+00:00",
+                                "timestamp": "2022-02-06T18:14:20.269913+00:00",
                                 "changed_variables": {
                                     "context": {
-                                        "id": "8719f92845073b35b3aa48acf17baa06",
+                                        "id": "0518ef56fafc82b6bd26af7bfb799ba3",
                                         "parent_id": null,
                                         "user_id": null
                                     }
@@ -96,19 +96,19 @@
                     },
                     "blueprint_inputs": null,
                     "context": {
-                        "id": "8719f92845073b35b3aa48acf17baa06",
+                        "id": "0518ef56fafc82b6bd26af7bfb799ba3",
                         "parent_id": null,
                         "user_id": null
                     }
                 },
                 "short_dict": {
                     "last_step": "action/0",
-                    "run_id": "f412884173025491edb3ffcd6ad8166c",
+                    "run_id": "52ca3fb85a8a1ed888999c35fef35bc9",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2022-02-05T18:24:56.529709+00:00",
-                        "finish": "2022-02-05T18:25:06.538748+00:00"
+                        "start": "2022-02-06T18:14:20.266594+00:00",
+                        "finish": "2022-02-06T18:14:29.058777+00:00"
                     },
                     "domain": "automation",
                     "item_id": "1610224803642",
@@ -116,573 +116,16 @@
                 }
             }
         ],
-        "automation.1603208326357": [
-            {
-                "extended_dict": {
-                    "last_step": "action/0",
-                    "run_id": "88d8d90076c46a4d35fc985d60bdbb22",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:26:00.001244+00:00",
-                        "finish": "2022-02-05T18:26:10.007873+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern",
-                    "trace": {
-                        "trigger/0": [
-                            {
-                                "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:26:00.001307+00:00",
-                                "changed_variables": {
-                                    "this": {
-                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
-                                        "state": "on",
-                                        "attributes": {
-                                            "last_triggered": "2022-02-05T18:25:00.002938+00:00",
-                                            "mode": "single",
-                                            "current": 0,
-                                            "id": "1603208326357",
-                                            "friendly_name": "Nastav teplotu venku pro SDS"
-                                        },
-                                        "last_changed": "2022-02-05T18:24:40.541509+00:00",
-                                        "last_updated": "2022-02-05T18:25:10.011518+00:00",
-                                        "context": {
-                                            "id": "a924b308d459c3a30c8830508bce3b0c",
-                                            "parent_id": null,
-                                            "user_id": null
-                                        }
-                                    },
-                                    "trigger": {
-                                        "id": "0",
-                                        "idx": "0",
-                                        "platform": "time_pattern",
-                                        "now": "2022-02-05T19:26:00.000841+01:00",
-                                        "description": "time pattern"
-                                    }
-                                }
-                            }
-                        ],
-                        "action/0": [
-                            {
-                                "path": "action/0",
-                                "timestamp": "2022-02-05T18:26:00.001881+00:00",
-                                "changed_variables": {
-                                    "context": {
-                                        "id": "e822e4df7b3f4774fa755e04b67e546b",
-                                        "parent_id": null,
-                                        "user_id": null
-                                    }
-                                },
-                                "result": {
-                                    "params": {
-                                        "domain": "shell_command",
-                                        "service": "nastav_teplotu_venku_pro_sds",
-                                        "service_data": {},
-                                        "target": {}
-                                    },
-                                    "running_script": false,
-                                    "limit": 10
-                                }
-                            }
-                        ]
-                    },
-                    "config": {
-                        "id": "1603208326357",
-                        "alias": "Nastav teplotu venku pro SDS",
-                        "description": "",
-                        "trigger": [
-                            {
-                                "platform": "time_pattern",
-                                "minutes": "/1"
-                            }
-                        ],
-                        "condition": [],
-                        "action": [
-                            {
-                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
-                                "data": {}
-                            }
-                        ],
-                        "mode": "single"
-                    },
-                    "blueprint_inputs": null,
-                    "context": {
-                        "id": "e822e4df7b3f4774fa755e04b67e546b",
-                        "parent_id": null,
-                        "user_id": null
-                    }
-                },
-                "short_dict": {
-                    "last_step": "action/0",
-                    "run_id": "88d8d90076c46a4d35fc985d60bdbb22",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:26:00.001244+00:00",
-                        "finish": "2022-02-05T18:26:10.007873+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern"
-                }
-            },
-            {
-                "extended_dict": {
-                    "last_step": "action/0",
-                    "run_id": "3980e67373629919d416b83151948ae2",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:27:00.003757+00:00",
-                        "finish": "2022-02-05T18:27:10.009951+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern",
-                    "trace": {
-                        "trigger/0": [
-                            {
-                                "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:27:00.003893+00:00",
-                                "changed_variables": {
-                                    "this": {
-                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
-                                        "state": "on",
-                                        "attributes": {
-                                            "last_triggered": "2022-02-05T18:26:00.001442+00:00",
-                                            "mode": "single",
-                                            "current": 0,
-                                            "id": "1603208326357",
-                                            "friendly_name": "Nastav teplotu venku pro SDS"
-                                        },
-                                        "last_changed": "2022-02-05T18:24:40.541509+00:00",
-                                        "last_updated": "2022-02-05T18:26:10.006357+00:00",
-                                        "context": {
-                                            "id": "ce7ec05ed6a7e9b50c2549d181f8724c",
-                                            "parent_id": null,
-                                            "user_id": null
-                                        }
-                                    },
-                                    "trigger": {
-                                        "id": "0",
-                                        "idx": "0",
-                                        "platform": "time_pattern",
-                                        "now": "2022-02-05T19:27:00.003155+01:00",
-                                        "description": "time pattern"
-                                    }
-                                }
-                            }
-                        ],
-                        "action/0": [
-                            {
-                                "path": "action/0",
-                                "timestamp": "2022-02-05T18:27:00.005181+00:00",
-                                "changed_variables": {
-                                    "context": {
-                                        "id": "9023f3d2d7e22ac6a2260b149bf3603d",
-                                        "parent_id": null,
-                                        "user_id": null
-                                    }
-                                },
-                                "result": {
-                                    "params": {
-                                        "domain": "shell_command",
-                                        "service": "nastav_teplotu_venku_pro_sds",
-                                        "service_data": {},
-                                        "target": {}
-                                    },
-                                    "running_script": false,
-                                    "limit": 10
-                                }
-                            }
-                        ]
-                    },
-                    "config": {
-                        "id": "1603208326357",
-                        "alias": "Nastav teplotu venku pro SDS",
-                        "description": "",
-                        "trigger": [
-                            {
-                                "platform": "time_pattern",
-                                "minutes": "/1"
-                            }
-                        ],
-                        "condition": [],
-                        "action": [
-                            {
-                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
-                                "data": {}
-                            }
-                        ],
-                        "mode": "single"
-                    },
-                    "blueprint_inputs": null,
-                    "context": {
-                        "id": "9023f3d2d7e22ac6a2260b149bf3603d",
-                        "parent_id": null,
-                        "user_id": null
-                    }
-                },
-                "short_dict": {
-                    "last_step": "action/0",
-                    "run_id": "3980e67373629919d416b83151948ae2",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:27:00.003757+00:00",
-                        "finish": "2022-02-05T18:27:10.009951+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern"
-                }
-            },
-            {
-                "extended_dict": {
-                    "last_step": "action/0",
-                    "run_id": "6379cfed89ba95086baf6f091b99065f",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:28:00.001141+00:00",
-                        "finish": "2022-02-05T18:28:10.010458+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern",
-                    "trace": {
-                        "trigger/0": [
-                            {
-                                "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:28:00.001232+00:00",
-                                "changed_variables": {
-                                    "this": {
-                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
-                                        "state": "on",
-                                        "attributes": {
-                                            "last_triggered": "2022-02-05T18:27:00.004142+00:00",
-                                            "mode": "single",
-                                            "current": 0,
-                                            "id": "1603208326357",
-                                            "friendly_name": "Nastav teplotu venku pro SDS"
-                                        },
-                                        "last_changed": "2022-02-05T18:24:40.541509+00:00",
-                                        "last_updated": "2022-02-05T18:27:10.008310+00:00",
-                                        "context": {
-                                            "id": "a3c5091c2bc350440985a8d3320ba91d",
-                                            "parent_id": null,
-                                            "user_id": null
-                                        }
-                                    },
-                                    "trigger": {
-                                        "id": "0",
-                                        "idx": "0",
-                                        "platform": "time_pattern",
-                                        "now": "2022-02-05T19:28:00.000714+01:00",
-                                        "description": "time pattern"
-                                    }
-                                }
-                            }
-                        ],
-                        "action/0": [
-                            {
-                                "path": "action/0",
-                                "timestamp": "2022-02-05T18:28:00.007211+00:00",
-                                "changed_variables": {
-                                    "context": {
-                                        "id": "31033ee093c428112f1490267eb4428e",
-                                        "parent_id": null,
-                                        "user_id": null
-                                    }
-                                },
-                                "result": {
-                                    "params": {
-                                        "domain": "shell_command",
-                                        "service": "nastav_teplotu_venku_pro_sds",
-                                        "service_data": {},
-                                        "target": {}
-                                    },
-                                    "running_script": false,
-                                    "limit": 10
-                                }
-                            }
-                        ]
-                    },
-                    "config": {
-                        "id": "1603208326357",
-                        "alias": "Nastav teplotu venku pro SDS",
-                        "description": "",
-                        "trigger": [
-                            {
-                                "platform": "time_pattern",
-                                "minutes": "/1"
-                            }
-                        ],
-                        "condition": [],
-                        "action": [
-                            {
-                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
-                                "data": {}
-                            }
-                        ],
-                        "mode": "single"
-                    },
-                    "blueprint_inputs": null,
-                    "context": {
-                        "id": "31033ee093c428112f1490267eb4428e",
-                        "parent_id": null,
-                        "user_id": null
-                    }
-                },
-                "short_dict": {
-                    "last_step": "action/0",
-                    "run_id": "6379cfed89ba95086baf6f091b99065f",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:28:00.001141+00:00",
-                        "finish": "2022-02-05T18:28:10.010458+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern"
-                }
-            },
-            {
-                "extended_dict": {
-                    "last_step": "action/0",
-                    "run_id": "4be76af8bc413d0fc72258aad557eda4",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:29:00.002631+00:00",
-                        "finish": "2022-02-05T18:29:10.007636+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern",
-                    "trace": {
-                        "trigger/0": [
-                            {
-                                "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:29:00.002728+00:00",
-                                "changed_variables": {
-                                    "this": {
-                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
-                                        "state": "on",
-                                        "attributes": {
-                                            "last_triggered": "2022-02-05T18:28:00.001410+00:00",
-                                            "mode": "single",
-                                            "current": 0,
-                                            "id": "1603208326357",
-                                            "friendly_name": "Nastav teplotu venku pro SDS"
-                                        },
-                                        "last_changed": "2022-02-05T18:24:40.541509+00:00",
-                                        "last_updated": "2022-02-05T18:28:10.008624+00:00",
-                                        "context": {
-                                            "id": "88c5bf2fef0dcfccd2a5587966a687f8",
-                                            "parent_id": null,
-                                            "user_id": null
-                                        }
-                                    },
-                                    "trigger": {
-                                        "id": "0",
-                                        "idx": "0",
-                                        "platform": "time_pattern",
-                                        "now": "2022-02-05T19:29:00.000942+01:00",
-                                        "description": "time pattern"
-                                    }
-                                }
-                            }
-                        ],
-                        "action/0": [
-                            {
-                                "path": "action/0",
-                                "timestamp": "2022-02-05T18:29:00.003650+00:00",
-                                "changed_variables": {
-                                    "context": {
-                                        "id": "f3385adae3f8fd001bd2f95cfd2a946b",
-                                        "parent_id": null,
-                                        "user_id": null
-                                    }
-                                },
-                                "result": {
-                                    "params": {
-                                        "domain": "shell_command",
-                                        "service": "nastav_teplotu_venku_pro_sds",
-                                        "service_data": {},
-                                        "target": {}
-                                    },
-                                    "running_script": false,
-                                    "limit": 10
-                                }
-                            }
-                        ]
-                    },
-                    "config": {
-                        "id": "1603208326357",
-                        "alias": "Nastav teplotu venku pro SDS",
-                        "description": "",
-                        "trigger": [
-                            {
-                                "platform": "time_pattern",
-                                "minutes": "/1"
-                            }
-                        ],
-                        "condition": [],
-                        "action": [
-                            {
-                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
-                                "data": {}
-                            }
-                        ],
-                        "mode": "single"
-                    },
-                    "blueprint_inputs": null,
-                    "context": {
-                        "id": "f3385adae3f8fd001bd2f95cfd2a946b",
-                        "parent_id": null,
-                        "user_id": null
-                    }
-                },
-                "short_dict": {
-                    "last_step": "action/0",
-                    "run_id": "4be76af8bc413d0fc72258aad557eda4",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:29:00.002631+00:00",
-                        "finish": "2022-02-05T18:29:10.007636+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern"
-                }
-            },
-            {
-                "extended_dict": {
-                    "last_step": "action/0",
-                    "run_id": "cd24fe59c398bb1bda75396f09f34f4d",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:30:00.001221+00:00",
-                        "finish": "2022-02-05T18:30:10.011511+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern",
-                    "trace": {
-                        "trigger/0": [
-                            {
-                                "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:30:00.001282+00:00",
-                                "changed_variables": {
-                                    "this": {
-                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
-                                        "state": "on",
-                                        "attributes": {
-                                            "last_triggered": "2022-02-05T18:29:00.002901+00:00",
-                                            "mode": "single",
-                                            "current": 0,
-                                            "id": "1603208326357",
-                                            "friendly_name": "Nastav teplotu venku pro SDS"
-                                        },
-                                        "last_changed": "2022-02-05T18:24:40.541509+00:00",
-                                        "last_updated": "2022-02-05T18:29:10.006192+00:00",
-                                        "context": {
-                                            "id": "e6e013b6e65ef543b37021cbd0eba54c",
-                                            "parent_id": null,
-                                            "user_id": null
-                                        }
-                                    },
-                                    "trigger": {
-                                        "id": "0",
-                                        "idx": "0",
-                                        "platform": "time_pattern",
-                                        "now": "2022-02-05T19:30:00.000505+01:00",
-                                        "description": "time pattern"
-                                    }
-                                }
-                            }
-                        ],
-                        "action/0": [
-                            {
-                                "path": "action/0",
-                                "timestamp": "2022-02-05T18:30:00.008802+00:00",
-                                "changed_variables": {
-                                    "context": {
-                                        "id": "bc01357a3cb1a4c9d81231138acb216a",
-                                        "parent_id": null,
-                                        "user_id": null
-                                    }
-                                },
-                                "result": {
-                                    "params": {
-                                        "domain": "shell_command",
-                                        "service": "nastav_teplotu_venku_pro_sds",
-                                        "service_data": {},
-                                        "target": {}
-                                    },
-                                    "running_script": false,
-                                    "limit": 10
-                                }
-                            }
-                        ]
-                    },
-                    "config": {
-                        "id": "1603208326357",
-                        "alias": "Nastav teplotu venku pro SDS",
-                        "description": "",
-                        "trigger": [
-                            {
-                                "platform": "time_pattern",
-                                "minutes": "/1"
-                            }
-                        ],
-                        "condition": [],
-                        "action": [
-                            {
-                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
-                                "data": {}
-                            }
-                        ],
-                        "mode": "single"
-                    },
-                    "blueprint_inputs": null,
-                    "context": {
-                        "id": "bc01357a3cb1a4c9d81231138acb216a",
-                        "parent_id": null,
-                        "user_id": null
-                    }
-                },
-                "short_dict": {
-                    "last_step": "action/0",
-                    "run_id": "cd24fe59c398bb1bda75396f09f34f4d",
-                    "state": "stopped",
-                    "script_execution": "finished",
-                    "timestamp": {
-                        "start": "2022-02-05T18:30:00.001221+00:00",
-                        "finish": "2022-02-05T18:30:10.011511+00:00"
-                    },
-                    "domain": "automation",
-                    "item_id": "1603208326357",
-                    "trigger": "time pattern"
-                }
-            }
-        ],
         "automation.1609407763416": [
             {
                 "extended_dict": {
                     "last_step": "action/0",
-                    "run_id": "fc5a73dab5a045b5f038e432689c14d8",
+                    "run_id": "71c1000b01fe947ec534dd4c8c53b0d8",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2022-02-05T18:25:00.003065+00:00",
-                        "finish": "2022-02-05T18:25:00.115349+00:00"
+                        "start": "2022-02-06T18:25:00.003034+00:00",
+                        "finish": "2022-02-06T18:25:01.314712+00:00"
                     },
                     "domain": "automation",
                     "item_id": "1609407763416",
@@ -691,22 +134,22 @@
                         "trigger/0": [
                             {
                                 "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:25:00.003087+00:00",
+                                "timestamp": "2022-02-06T18:25:00.003142+00:00",
                                 "changed_variables": {
                                     "this": {
                                         "entity_id": "automation.cast_to_hub",
                                         "state": "on",
                                         "attributes": {
-                                            "last_triggered": "2022-02-05T18:15:00.001816+00:00",
+                                            "last_triggered": "2022-02-06T18:20:00.002857+00:00",
                                             "mode": "single",
                                             "current": 0,
                                             "id": "1609407763416",
                                             "friendly_name": "Cast to HUB"
                                         },
-                                        "last_changed": "2022-02-05T18:24:40.542157+00:00",
-                                        "last_updated": "2022-02-05T18:24:40.542157+00:00",
+                                        "last_changed": "2022-02-06T18:13:54.862080+00:00",
+                                        "last_updated": "2022-02-06T18:20:01.409571+00:00",
                                         "context": {
-                                            "id": "3d87f8238b361f0315323736b06f679c",
+                                            "id": "f5096fbe6ea71b9d432404146b95f137",
                                             "parent_id": null,
                                             "user_id": null
                                         }
@@ -715,7 +158,7 @@
                                         "id": "0",
                                         "idx": "0",
                                         "platform": "time_pattern",
-                                        "now": "2022-02-05T19:25:00.002627+01:00",
+                                        "now": "2022-02-06T19:25:00.001216+01:00",
                                         "description": "time pattern"
                                     }
                                 }
@@ -724,7 +167,7 @@
                         "condition/0": [
                             {
                                 "path": "condition/0",
-                                "timestamp": "2022-02-05T18:25:00.003112+00:00",
+                                "timestamp": "2022-02-06T18:25:00.003227+00:00",
                                 "result": {
                                     "after": {
                                         "__type": "<class 'datetime.time'>",
@@ -732,7 +175,7 @@
                                     },
                                     "now_time": {
                                         "__type": "<class 'datetime.time'>",
-                                        "isoformat": "19:25:00.003124"
+                                        "isoformat": "19:25:00.003256"
                                     },
                                     "before": {
                                         "__type": "<class 'datetime.time'>",
@@ -745,10 +188,10 @@
                         "action/0": [
                             {
                                 "path": "action/0",
-                                "timestamp": "2022-02-05T18:25:00.003906+00:00",
+                                "timestamp": "2022-02-06T18:25:00.008383+00:00",
                                 "changed_variables": {
                                     "context": {
-                                        "id": "feef4d9cbbf5470ab14b7d7b6c215cd6",
+                                        "id": "b838da9608efb8c020291be4e3a2a137",
                                         "parent_id": null,
                                         "user_id": null
                                     }
@@ -793,19 +236,19 @@
                     },
                     "blueprint_inputs": null,
                     "context": {
-                        "id": "feef4d9cbbf5470ab14b7d7b6c215cd6",
+                        "id": "b838da9608efb8c020291be4e3a2a137",
                         "parent_id": null,
                         "user_id": null
                     }
                 },
                 "short_dict": {
                     "last_step": "action/0",
-                    "run_id": "fc5a73dab5a045b5f038e432689c14d8",
+                    "run_id": "71c1000b01fe947ec534dd4c8c53b0d8",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2022-02-05T18:25:00.003065+00:00",
-                        "finish": "2022-02-05T18:25:00.115349+00:00"
+                        "start": "2022-02-06T18:25:00.003034+00:00",
+                        "finish": "2022-02-06T18:25:01.314712+00:00"
                     },
                     "domain": "automation",
                     "item_id": "1609407763416",
@@ -815,12 +258,12 @@
             {
                 "extended_dict": {
                     "last_step": "action/0",
-                    "run_id": "fdb8f7cbc953373dcdc1f67aea182478",
+                    "run_id": "2460c1e6163b0ff4fa1b4b07a3b1bad1",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2022-02-05T18:30:00.000780+00:00",
-                        "finish": "2022-02-05T18:30:01.650848+00:00"
+                        "start": "2022-02-06T18:30:00.004526+00:00",
+                        "finish": "2022-02-06T18:30:01.539551+00:00"
                     },
                     "domain": "automation",
                     "item_id": "1609407763416",
@@ -829,22 +272,22 @@
                         "trigger/0": [
                             {
                                 "path": "trigger/0",
-                                "timestamp": "2022-02-05T18:30:00.000852+00:00",
+                                "timestamp": "2022-02-06T18:30:00.004554+00:00",
                                 "changed_variables": {
                                     "this": {
                                         "entity_id": "automation.cast_to_hub",
                                         "state": "on",
                                         "attributes": {
-                                            "last_triggered": "2022-02-05T18:25:00.003205+00:00",
+                                            "last_triggered": "2022-02-06T18:25:00.003629+00:00",
                                             "mode": "single",
                                             "current": 0,
                                             "id": "1609407763416",
                                             "friendly_name": "Cast to HUB"
                                         },
-                                        "last_changed": "2022-02-05T18:24:40.542157+00:00",
-                                        "last_updated": "2022-02-05T18:25:00.113978+00:00",
+                                        "last_changed": "2022-02-06T18:13:54.862080+00:00",
+                                        "last_updated": "2022-02-06T18:25:01.313843+00:00",
                                         "context": {
-                                            "id": "feef4d9cbbf5470ab14b7d7b6c215cd6",
+                                            "id": "b838da9608efb8c020291be4e3a2a137",
                                             "parent_id": null,
                                             "user_id": null
                                         }
@@ -853,7 +296,7 @@
                                         "id": "0",
                                         "idx": "0",
                                         "platform": "time_pattern",
-                                        "now": "2022-02-05T19:30:00.000288+01:00",
+                                        "now": "2022-02-06T19:30:00.003599+01:00",
                                         "description": "time pattern"
                                     }
                                 }
@@ -862,7 +305,7 @@
                         "condition/0": [
                             {
                                 "path": "condition/0",
-                                "timestamp": "2022-02-05T18:30:00.000908+00:00",
+                                "timestamp": "2022-02-06T18:30:00.004604+00:00",
                                 "result": {
                                     "after": {
                                         "__type": "<class 'datetime.time'>",
@@ -870,7 +313,7 @@
                                     },
                                     "now_time": {
                                         "__type": "<class 'datetime.time'>",
-                                        "isoformat": "19:30:00.000926"
+                                        "isoformat": "19:30:00.004627"
                                     },
                                     "before": {
                                         "__type": "<class 'datetime.time'>",
@@ -883,10 +326,10 @@
                         "action/0": [
                             {
                                 "path": "action/0",
-                                "timestamp": "2022-02-05T18:30:00.008349+00:00",
+                                "timestamp": "2022-02-06T18:30:00.005534+00:00",
                                 "changed_variables": {
                                     "context": {
-                                        "id": "79955eb1cab7e948ef5f2b60972c1f75",
+                                        "id": "63e9baf993cb977ecfabbf489c7cc549",
                                         "parent_id": null,
                                         "user_id": null
                                     }
@@ -931,22 +374,993 @@
                     },
                     "blueprint_inputs": null,
                     "context": {
-                        "id": "79955eb1cab7e948ef5f2b60972c1f75",
+                        "id": "63e9baf993cb977ecfabbf489c7cc549",
                         "parent_id": null,
                         "user_id": null
                     }
                 },
                 "short_dict": {
                     "last_step": "action/0",
-                    "run_id": "fdb8f7cbc953373dcdc1f67aea182478",
+                    "run_id": "2460c1e6163b0ff4fa1b4b07a3b1bad1",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2022-02-05T18:30:00.000780+00:00",
-                        "finish": "2022-02-05T18:30:01.650848+00:00"
+                        "start": "2022-02-06T18:30:00.004526+00:00",
+                        "finish": "2022-02-06T18:30:01.539551+00:00"
                     },
                     "domain": "automation",
                     "item_id": "1609407763416",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "c769c40522b631fef899415c779198b8",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:35:00.002696+00:00",
+                        "finish": "2022-02-06T18:35:01.338647+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1609407763416",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:35:00.002759+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.cast_to_hub",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:30:00.004786+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1609407763416",
+                                            "friendly_name": "Cast to HUB"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.862080+00:00",
+                                        "last_updated": "2022-02-06T18:30:01.538510+00:00",
+                                        "context": {
+                                            "id": "63e9baf993cb977ecfabbf489c7cc549",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:35:00.000321+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "condition/0": [
+                            {
+                                "path": "condition/0",
+                                "timestamp": "2022-02-06T18:35:00.002809+00:00",
+                                "result": {
+                                    "after": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "08:00:00"
+                                    },
+                                    "now_time": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "19:35:00.002830"
+                                    },
+                                    "before": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "22:00:00"
+                                    },
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:35:00.005161+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "c0f49819a36650bebd4d92905f3cc218",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "cast_topeni",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1609407763416",
+                        "alias": "Cast to HUB",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/5"
+                            }
+                        ],
+                        "condition": [
+                            {
+                                "condition": "time",
+                                "after": "8:00",
+                                "before": "22:00"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "service": "shell_command.cast_topeni",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "c0f49819a36650bebd4d92905f3cc218",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "c769c40522b631fef899415c779198b8",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:35:00.002696+00:00",
+                        "finish": "2022-02-06T18:35:01.338647+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1609407763416",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "ad006c98c992df5d55087a42866c1c59",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:40:00.002820+00:00",
+                        "finish": "2022-02-06T18:40:01.414707+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1609407763416",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:40:00.002906+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.cast_to_hub",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:35:00.003112+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1609407763416",
+                                            "friendly_name": "Cast to HUB"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.862080+00:00",
+                                        "last_updated": "2022-02-06T18:35:01.337555+00:00",
+                                        "context": {
+                                            "id": "c0f49819a36650bebd4d92905f3cc218",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:40:00.001427+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "condition/0": [
+                            {
+                                "path": "condition/0",
+                                "timestamp": "2022-02-06T18:40:00.002953+00:00",
+                                "result": {
+                                    "after": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "08:00:00"
+                                    },
+                                    "now_time": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "19:40:00.002972"
+                                    },
+                                    "before": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "22:00:00"
+                                    },
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:40:00.005336+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "fe9e9938a29125e7b3df2188be2c915b",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "cast_topeni",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1609407763416",
+                        "alias": "Cast to HUB",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/5"
+                            }
+                        ],
+                        "condition": [
+                            {
+                                "condition": "time",
+                                "after": "8:00",
+                                "before": "22:00"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "service": "shell_command.cast_topeni",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "fe9e9938a29125e7b3df2188be2c915b",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "ad006c98c992df5d55087a42866c1c59",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:40:00.002820+00:00",
+                        "finish": "2022-02-06T18:40:01.414707+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1609407763416",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "6c6d986b773ecf7d09180fa11ffa7ee3",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:45:00.001148+00:00",
+                        "finish": "2022-02-06T18:45:01.898193+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1609407763416",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:45:00.001289+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.cast_to_hub",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:40:00.003260+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1609407763416",
+                                            "friendly_name": "Cast to HUB"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.862080+00:00",
+                                        "last_updated": "2022-02-06T18:40:01.414054+00:00",
+                                        "context": {
+                                            "id": "fe9e9938a29125e7b3df2188be2c915b",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:45:00.000512+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "condition/0": [
+                            {
+                                "path": "condition/0",
+                                "timestamp": "2022-02-06T18:45:00.001348+00:00",
+                                "result": {
+                                    "after": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "08:00:00"
+                                    },
+                                    "now_time": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "19:45:00.001366"
+                                    },
+                                    "before": {
+                                        "__type": "<class 'datetime.time'>",
+                                        "isoformat": "22:00:00"
+                                    },
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:45:00.006751+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "bd354f465e98619c4fbe5fa1fce8468d",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "cast_topeni",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1609407763416",
+                        "alias": "Cast to HUB",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/5"
+                            }
+                        ],
+                        "condition": [
+                            {
+                                "condition": "time",
+                                "after": "8:00",
+                                "before": "22:00"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "service": "shell_command.cast_topeni",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "bd354f465e98619c4fbe5fa1fce8468d",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "6c6d986b773ecf7d09180fa11ffa7ee3",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:45:00.001148+00:00",
+                        "finish": "2022-02-06T18:45:01.898193+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1609407763416",
+                    "trigger": "time pattern"
+                }
+            }
+        ],
+        "automation.1603208326357": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "c07d9a77b5de9aafd21ce495cccebf7b",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:42:00.001334+00:00",
+                        "finish": "2022-02-06T18:42:10.007564+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:42:00.001458+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:41:00.002079+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1603208326357",
+                                            "friendly_name": "Nastav teplotu venku pro SDS"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.860429+00:00",
+                                        "last_updated": "2022-02-06T18:41:10.008343+00:00",
+                                        "context": {
+                                            "id": "2f9a18ae399e7fc541a37e166f8bb30f",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:42:00.000887+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:42:00.003583+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "696a1399af9fbd29d4ca3bdb6701bca4",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "nastav_teplotu_venku_pro_sds",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1603208326357",
+                        "alias": "Nastav teplotu venku pro SDS",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/1"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "696a1399af9fbd29d4ca3bdb6701bca4",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "c07d9a77b5de9aafd21ce495cccebf7b",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:42:00.001334+00:00",
+                        "finish": "2022-02-06T18:42:10.007564+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "5d780a51fd4eb3a003575d764260491a",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:43:00.001649+00:00",
+                        "finish": "2022-02-06T18:43:10.005990+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:43:00.001747+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:42:00.001772+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1603208326357",
+                                            "friendly_name": "Nastav teplotu venku pro SDS"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.860429+00:00",
+                                        "last_updated": "2022-02-06T18:42:10.006736+00:00",
+                                        "context": {
+                                            "id": "4c9e8956f423541984077d6ef0baf539",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:43:00.001228+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:43:00.002741+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "c0665384d065b34317685be07161b5c0",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "nastav_teplotu_venku_pro_sds",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1603208326357",
+                        "alias": "Nastav teplotu venku pro SDS",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/1"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "c0665384d065b34317685be07161b5c0",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "5d780a51fd4eb3a003575d764260491a",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:43:00.001649+00:00",
+                        "finish": "2022-02-06T18:43:10.005990+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "91d7281b7580049555d7250b6fa5dd86",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:44:00.001372+00:00",
+                        "finish": "2022-02-06T18:44:10.007381+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:44:00.001509+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:43:00.001990+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1603208326357",
+                                            "friendly_name": "Nastav teplotu venku pro SDS"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.860429+00:00",
+                                        "last_updated": "2022-02-06T18:43:10.004337+00:00",
+                                        "context": {
+                                            "id": "c1c9392362a70a82a7e93dac4ef480b0",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:44:00.000811+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:44:00.003947+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "28d686d49a20f64fb6167bff5d2e6453",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "nastav_teplotu_venku_pro_sds",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1603208326357",
+                        "alias": "Nastav teplotu venku pro SDS",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/1"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "28d686d49a20f64fb6167bff5d2e6453",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "91d7281b7580049555d7250b6fa5dd86",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:44:00.001372+00:00",
+                        "finish": "2022-02-06T18:44:10.007381+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "a8336d01b90e9748e9975d2a5f82f904",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:45:00.002143+00:00",
+                        "finish": "2022-02-06T18:45:10.012248+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:45:00.002229+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:44:00.001858+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1603208326357",
+                                            "friendly_name": "Nastav teplotu venku pro SDS"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.860429+00:00",
+                                        "last_updated": "2022-02-06T18:44:10.006783+00:00",
+                                        "context": {
+                                            "id": "6f5bc72142d9fea8f6aa527f28dfa304",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:45:00.000902+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:45:00.007237+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "56b4398d086959fdb0a19aed2ad8c784",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "nastav_teplotu_venku_pro_sds",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1603208326357",
+                        "alias": "Nastav teplotu venku pro SDS",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/1"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "56b4398d086959fdb0a19aed2ad8c784",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "a8336d01b90e9748e9975d2a5f82f904",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:45:00.002143+00:00",
+                        "finish": "2022-02-06T18:45:10.012248+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern"
+                }
+            },
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "d8cdca3186c6bf2b92e4bd8cdb9ce711",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:46:00.003004+00:00",
+                        "finish": "2022-02-06T18:46:10.008492+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
+                    "trigger": "time pattern",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-02-06T18:46:00.003237+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-02-06T18:45:00.002389+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1603208326357",
+                                            "friendly_name": "Nastav teplotu venku pro SDS"
+                                        },
+                                        "last_changed": "2022-02-06T18:13:54.860429+00:00",
+                                        "last_updated": "2022-02-06T18:45:10.011404+00:00",
+                                        "context": {
+                                            "id": "fea60d291a9ede01c5a5a9b55fcc2da5",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time_pattern",
+                                        "now": "2022-02-06T19:46:00.002352+01:00",
+                                        "description": "time pattern"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-02-06T18:46:00.004390+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "4354a0e6dc88ccafce57da6dd2173951",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "shell_command",
+                                        "service": "nastav_teplotu_venku_pro_sds",
+                                        "service_data": {},
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1603208326357",
+                        "alias": "Nastav teplotu venku pro SDS",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time_pattern",
+                                "minutes": "/1"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "shell_command.nastav_teplotu_venku_pro_sds",
+                                "data": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "4354a0e6dc88ccafce57da6dd2173951",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "d8cdca3186c6bf2b92e4bd8cdb9ce711",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-02-06T18:46:00.003004+00:00",
+                        "finish": "2022-02-06T18:46:10.008492+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1603208326357",
                     "trigger": "time pattern"
                 }
             }

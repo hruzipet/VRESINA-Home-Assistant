@@ -1,12 +1,13 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "zha.storage",
     "data": {
         "devices": [
             {
                 "name": "Silicon Labs EZSP",
                 "ieee": "60:a4:23:ff:fe:08:f8:01",
-                "last_seen": 1644103216.9655304
+                "last_seen": 1644187662.8909512
             },
             {
                 "name": "eWeLink TH01",
@@ -16,12 +17,12 @@
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "60:a4:23:ff:fe:07:cb:ec",
-                "last_seen": 1644022439.0431337
+                "last_seen": 1644109560.2717118
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",
                 "ieee": "5c:02:72:ff:fe:2b:82:29",
-                "last_seen": 1644105329.3459964
+                "last_seen": 1644191816.388746
             },
             {
                 "name": "_TZ1800_ejwkn2h2 TY0203",
@@ -31,7 +32,7 @@
             {
                 "name": "_TZ3000_riwp3k79 TS0505A",
                 "ieee": "58:8e:81:ff:fe:fb:cf:5f",
-                "last_seen": 1644103871.889554
+                "last_seen": 1644178862.2980268
             },
             {
                 "name": "eWeLink TH01",
@@ -41,7 +42,7 @@
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:67:48:a0",
-                "last_seen": 1644105158.259437
+                "last_seen": 1644191485.4047022
             },
             {
                 "name": "_TZ3000_wamqdr3f TS011F",

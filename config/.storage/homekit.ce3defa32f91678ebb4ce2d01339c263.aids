@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "homekit.ce3defa32f91678ebb4ce2d01339c263.aids",
     "data": {
         "allocations": {
@@ -33,7 +34,8 @@
             "zha.light.58:8e:81:ff:fe:d8:93:93-1": 4062786020,
             "zha.light.58:8e:81:ff:fe:fb:16:6a-1": 2712201028,
             "zha.switch.60:a4:23:ff:fe:07:cc:fe-11": 515053796,
-            "cast.media_player.c5fa7b42-55fe-77e2-3f58-cacce6645154": 250848900
+            "cast.media_player.c5fa7b42-55fe-77e2-3f58-cacce6645154": 250848900,
+            "shelly.switch.E868E7C1C5B5-relay_0": 3647871737
         }
     }
 }
