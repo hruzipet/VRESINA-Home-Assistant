@@ -6,8 +6,7 @@
   condition: []
   action:
   - data:
-      ? ''
-      : ''
+      '': ''
     service: shell_command.nastav
   - data:
       message: 'Cilova teplota topeni zmenena na: {{ state_attr(''climate.topeni_1_patro'',
@@ -233,12 +232,11 @@
       repack: true
   mode: single
 - id: '1609947722116'
-  alias: Pohyb GARAZ - otevreno
+  alias: Pohyb GARAZ - otevreno rodice
   description: ''
   trigger:
   - platform: state
-    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
-    from: 'off'
+    entity_id: binary_sensor.vrata_garaze_ias_zone
     to: 'on'
   condition: []
   action:
@@ -271,12 +269,11 @@
     data: {}
   mode: single
 - id: '1611568767861'
-  alias: Pohyb GARAZ - zavreno
+  alias: Pohyb GARAZ - zavreno rodice
   description: ''
   trigger:
   - platform: state
-    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
-    from: 'on'
+    entity_id: binary_sensor.vrata_garaze_ias_zone
     to: 'off'
   condition: []
   action:
@@ -439,20 +436,18 @@
   description: ''
   trigger:
   - platform: state
-    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
-    from: 'off'
+    entity_id: binary_sensor.vrata_garaze_ias_zone
     to: 'on'
   condition: []
   action:
   - service: media_player.volume_set
     data:
-      volume_level: 0.5
+      volume_level: 0.36
     target:
-      entity_id:
-      - media_player.nesthub7100
+      entity_id: media_player.obyvaci_pokoj
   - service: tts.google_translate_say
     data:
-      entity_id: media_player.nesthub7100
+      entity_id: media_player.obyvaci_pokoj
       message: Garážová vrata byla právě otevřena.
   mode: single
 - id: '1639325998389'
@@ -460,8 +455,7 @@
   description: ''
   trigger:
   - platform: state
-    entity_id: binary_sensor.tz1800_ejwkn2h2_ty0203_ias_zone
-    from: 'on'
+    entity_id: binary_sensor.vrata_garaze_ias_zone
     to: 'off'
   condition: []
   action:
@@ -469,12 +463,59 @@
     data:
       volume_level: 0.5
     target:
-      entity_id: media_player.nesthub7100
+      entity_id: media_player.obyvaci_pokoj
   - service: tts.google_translate_say
     data:
-      entity_id: media_player.nesthub7100
       message: Garážová vrata byla právě zavřena.
+      entity_id: media_player.obyvaci_pokoj
   - service: notify.persistent_notification
     data:
       message: Garážová vrata byla právě zavřena.
+  mode: single
+- id: '1648537506355'
+  alias: SVETLO garaz On
+  description: svetlo pri otevreni vrat
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.vrata_garaze_ias_zone
+    to: 'on'
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 710e33a551a18d2ac123d0afbfe80888
+    entity_id: switch.tz3000_wamqdr3f_ts011f_on_off
+    domain: switch
+  mode: single
+- id: '1648537560382'
+  alias: SVETLO garaz Off
+  description: vypni svetlo pri zavreni vrat
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.vrata_garaze_ias_zone
+    to: 'off'
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 50
+    from: 'on'
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 710e33a551a18d2ac123d0afbfe80888
+    entity_id: switch.tz3000_wamqdr3f_ts011f_on_off
+    domain: switch
+  mode: single
+- id: '1661151143164'
+  alias: Cast to HUB - Rodice
+  description: ''
+  trigger:
+  - platform: time_pattern
+    minutes: /20
+  condition:
+  - condition: time
+    before: '23:00:00'
+    after: 05:00:00
+  action:
+  - service: shell_command.cast_ha
+    data: {}
   mode: single

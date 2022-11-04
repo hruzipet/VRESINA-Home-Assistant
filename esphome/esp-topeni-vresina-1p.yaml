@@ -1,0 +1,64 @@
+esphome:
+  name: esp-topeni-vresina-1p
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "+Sq3fVv1BDGk0KMZFONi+1miW60ZHCE4s5pwBpDtCXs="
+
+ota:
+  password: "a3637ca2b4b52feef752cf6c91b7a8c9"
+
+wifi:
+
+  networks:
+    - ssid: !secret wifi_ssid
+      password: !secret wifi_password
+    - ssid: !secret wifi_ssid_2
+      password: !secret wifi_password2
+
+  
+#  use_address: esp-topeni-vresina-1p.hruzik.net
+  use_address: 192.168.2.172
+#  use_address: 192.168.10.249
+#mac: 5C:CF:7F:83:67:AB  
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Esp-Topeni-Vresina-1P"
+    password: "bG4rIQClSGVy"
+
+
+
+web_server:
+  port: 80
+  
+improv_serial:
+captive_portal:
+
+  # Example configuration entry
+dallas:
+  - pin: GPIO2
+    update_interval: 10s
+    
+sensor:
+  - platform: dallas
+    address: 0xd100000729b52c28
+    name: "Dallas_1_patro_temp"
+
+    
+  - platform: dht
+    pin: GPIO0
+    model: DHT22
+    temperature:
+      name: "DHT22_1_patro_temp"
+    humidity:
+      name: "DHT22_1_patro_humidity"
+    update_interval: 10s   
+    

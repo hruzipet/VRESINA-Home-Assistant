@@ -2384,3 +2384,52 @@ e0_aa_96_df_69_40:
   icon:
   picture:
   track: true
+
+de_44_53_9c_df_53:
+  name: de_44_53_9c_df_53
+  mac: DE:44:53:9C:DF:53
+  icon:
+  picture:
+  track: true
+
+da_5a_fd_c5_30_83:
+  name: da_5a_fd_c5_30_83
+  mac: DA:5A:FD:C5:30:83
+  icon:
+  picture:
+  track: true
+
+e2_4f_1a_79_1f_70:
+  name: e2_4f_1a_79_1f_70
+  mac: E2:4F:1A:79:1F:70
+  icon:
+  picture:
+  track: true
+
+a0_78_17_63_32_e0:
+  name: a0_78_17_63_32_e0
+  mac: A0:78:17:63:32:E0
+  icon:
+  picture:
+  track: true
+
+5e_87_85_4d_62_cd:
+  name: 5e_87_85_4d_62_cd
+  mac: 5E:87:85:4D:62:CD
+  icon:
+  picture:
+  track: true
+
+fa_e7_a7_28_10_68:
+  name: fa_e7_a7_28_10_68
+  mac: FA:E7:A7:28:10:68
+  icon:
+  picture:
+  track: true
+
+google_maps_116800548464694492358:
+  name: google_maps_116800548464694492358
+  mac:
+  icon:
+  picture: https://lh3.googleusercontent.com/a/ALm5wu0UcrJMuhXz2etg_3qIGDd6Dp9b4w7VkGcJmWVl=mo
+  track: true

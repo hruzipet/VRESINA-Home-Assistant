@@ -1,0 +1,8 @@
+esphome/Improv@1.2.1
+esphome/ESPAsyncWebServer-esphome@2.1.0
+DNSServer
+esphome/noise-c@0.1.4
+bblanchon/ArduinoJson@6.18.5
+ESP8266mDNS
+ottowinter/ESPAsyncTCP-esphome@1.2.3
+ESP8266WiFi

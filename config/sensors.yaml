@@ -3,7 +3,7 @@
 
 #DB size
    - platform: sql
-     db_url: mysql://pepe:pepanek1976@172.17.0.2:3306/homeassistant?charset=utf8
+     db_url: mysql://pepe:pepanek1976@172.17.0.3:3306/homeassistant?charset=utf8
      queries:
        - name: DB size
          query: 'SELECT table_schema "database", Round(Sum(data_length + index_length) / 1024 / 1024, 1) "value" FROM information_schema.tables WHERE table_schema="homeassistant" GROUP BY table_schema;'
@@ -65,13 +65,15 @@
      state_topic: "/ESP_jezirko-Vresina_57/teplota-jezirko/Temperature"
      device_class: temperature
      unit_of_measurement: "°C"
-    
+     unique_id: "ESP_Jezirko"    
 
    - platform: mqtt
      name: Teplota Venku Vresina
      state_topic: "/ESP_jezirko-Vresina_57/teplota-venku/Temperature"
      device_class: temperature
      unit_of_measurement: "°C"
+     unique_id: "Teplota_Venku_Vresina"
+
      
    - platform: mqtt
      name: Cidlo jezirko Wifi signal
@@ -123,6 +125,7 @@
      value_template: '{{ (value | int) / 100 }}'
      unit_of_measurement: "°C"
      name: Teplota patro
+#     unique_id: "Teplota_Patro"
 
    - platform: scrape
      resource: http://192.168.2.2:8181/usys.xml
@@ -130,6 +133,7 @@
      value_template: '{{ (value | int) / 100 }}'
      unit_of_measurement: "°C"
      name: Teplota prizemi
+#     unique_id: "Teplota_Prizemi"
 
    - platform: scrape
      resource: http://192.168.2.2:8181/usys.xml
@@ -447,10 +451,39 @@
        cidlorizeni:
          friendly_name: "cidlo rizeni"
          value_template: >-
-           {% if   states('input_select.vyber_cidlo') | int  < 2  %}
-           {{states('sensor.teplota_prizemi')}}
-           {% elif states('input_select.vyber_cidlo') | int > 1 %}
-           {{states('sensor.teplota_patro')}}
+           {% if   states('input_select.vyber_cidlo') == '1'  %}
+           {{states('sensor.esp32temp')}}
+           {% elif states('input_select.vyber_cidlo') == '2'  %}
+           {{states('sensor.dallas_2_patro_temp')}}
+
+           {% elif states('input_select.vyber_cidlo') == '3'  %}
+                   {{states('sensor.dallas_1_patro_temp')}}
+
            {% else %}
-           {{states('sensor.teplota_patro')}}  
-           {% endif %} 
+                   {{states('sensor.esp32temp')}}
+           {% endif %}
+
+
+   - platform: template
+     sensors: 
+       energie_celkem:
+         unit_of_measurement: "W"
+         device_class: energy 
+         value_template: "
+         {% set phase1 = states('sensor.shellyem3_8caab561eff8_channel_a_power') | float %} 
+         {% set phase2 = states('sensor.shellyem3_8caab561eff8_channel_b_power') | float %} 
+         {% set phase3 = states('sensor.shellyem3_8caab561eff8_channel_c_power') | float %}
+         {{ float(phase1) + float(phase2) + float(phase3) |round(3) }}"
+
+
+   - platform: template
+     sensors:
+       energie_tarif:
+         friendly_name: "Aktualni cena energie"
+         unit_of_measurement: "CZK/kWh"
+         value_template: >
+          {%- if is_state('binary_sensor.nizky_tarif', 'on') -%}3.61
+          {%- elif  is_state('binary_sensor.workday_sensor', 'off') -%}3.61
+          {%- else -%}3.61
+          {%- endif -%}
+
