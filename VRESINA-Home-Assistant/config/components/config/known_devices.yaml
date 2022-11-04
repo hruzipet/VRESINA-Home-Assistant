@@ -1,0 +1,7 @@
+devicename:
+  name: Petulkuv notasek 
+  mac: EA:AA:55:E7:C6:94
+  picture: https://www.home-assistant.io/images/favicon-192x192.png
+  track: yes
+  hide_if_away: no
+

@@ -1,0 +1,36 @@
+#   - platform: nmap_tracker
+#     hosts: 192.168.2.0/24
+
+   - platform: ddwrt
+     host: 192.168.2.76
+     username: petr
+     password: pepanek
+
+   - platform: snmp
+     host: 192.168.2.100
+     community: public
+     baseoid: 1.3.6.1.2.1.17.4.3.1.1
+     interval_seconds: 60
+ #    home_interval: 5
+     consider_home: 60
+
+     #   - platform: mikrotik
+     #     host: 192.168.2.1
+     #     username: home-assistant
+     #     password: jezirko2019
+     #     ssl: true
+     #     arp_ping: true
+     #     interval_seconds: 10
+     #     track_devices: true
+     #     method: dhcp
+#     new_device_defaults:
+#     track_new_devices: True
+#     consider_home: 180
+
+
+   - platform: google_maps
+     username: vresina.ha@gmail.com
+#     password: pepanek7t70215
+#     max_gps_accuracy: 20
+#     scan_interval: 30
+

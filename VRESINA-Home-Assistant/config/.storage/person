@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "device_trackers": [
+          "device_tracker.google_maps_100262547672918909918",
+          "device_tracker.petrs_iphone"
+        ],
+        "id": "5c8403d250bc410ea2eadc071de123de",
+        "name": "petr",
+        "user_id": "2d6b523208dc4b14a8304c668fdf615c",
+        "picture": "/api/image/serve/efbaa95b6a35448517e27a8eb3940872/512x512"
+      },
+      {
+        "device_trackers": [],
+        "id": "b2a1da5f36284323bead8d4f20033dff",
+        "name": "martin",
+        "user_id": null
+      },
+      {
+        "name": "Mira",
+        "device_trackers": [
+          "device_tracker.google_maps_116800548464694492358"
+        ],
+        "user_id": null,
+        "picture": "/api/image/serve/cce5e9a81b9a327f57bda35348a6b6f5/512x512",
+        "id": "mirek"
+      }
+    ]
+  }
+}

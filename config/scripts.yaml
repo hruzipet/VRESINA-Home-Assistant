@@ -1,6 +1,0 @@
-'1569323464823':
-  alias: nastav_teplotu
-  sequence:
-  - data:
-      entity_id: switch.set_topeni
-    service: switch.turn_on

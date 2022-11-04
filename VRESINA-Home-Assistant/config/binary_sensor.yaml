@@ -1,0 +1,18 @@
+# Ping Google 
+   - platform: ping
+     name: Monitor google Internet
+     host: 8.8.8.8
+     scan_interval: 30
+
+# Ping Vresina 
+   - platform: ping
+     name: spojení Lhota L2L 
+     host: 192.168.10.1
+     scan_interval: 30
+
+     # Ping dolca
+   - platform: ping
+     name: dolca
+     host: 10.152.45.1
+     scan_interval: 10
+

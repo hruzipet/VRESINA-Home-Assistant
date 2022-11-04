@@ -1,0 +1,38 @@
+  - platform: generic_thermostat
+    name: Topeni 1 patro
+    heater: switch.switch_topeni
+    target_sensor:  sensor.cidlorizeni
+    min_temp: 10
+    max_temp: 24
+    ac_mode: false
+    hot_tolerance: 0
+    cold_tolerance: 0.15
+    min_cycle_duration:
+      minutes: 1
+    keep_alive:
+      minutes: 5
+    initial_hvac_mode: "heat"
+    away_temp: 20.5
+    precision: 0.1
+
+
+
+
+  - platform: generic_thermostat
+    name: Topeni jezirko
+    heater: switch.shellyplug_s_b85d35
+    target_sensor: sensor.teplota_jezirko_vresina
+    min_temp: 1
+    max_temp: 10
+    ac_mode: false
+    hot_tolerance: 0
+    cold_tolerance: 0.2
+    min_cycle_duration:
+      minutes: 1
+    keep_alive:
+      minutes: 5
+    initial_hvac_mode: "off"
+    away_temp: 0
+    precision: 0.1
+
+

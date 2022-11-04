@@ -1,0 +1,234 @@
+
+homeassistant:
+
+
+  auth_providers:
+#    - type: homeassistant
+#    - type: legacy_api_password
+#      api_password: Pepe23dPpSARAWX9f401ar4GPepe
+    - type: trusted_networks
+      trusted_networks:
+        - 127.0.0.1/32
+        - 172.17.0.0/16
+        - 192.168.2.0/24
+        - 192.168.10.0/24
+      trusted_users:
+        192.168.2.189: 391777c6632540468acaf3779b3c9911
+        192.168.2.189: e8dba94c96c64e4d8e1ec42cb81a508f
+#       allow_bypass_login: true
+    - type: homeassistant
+
+      # Note that bypass_login only works if one user is authorized
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+#default_config:
+
+# Customization file
+#  customize: !include customize.yaml
+
+
+  allowlist_external_dirs:
+    - /config/local
+    - /config/www
+
+
+  packages: !include_dir_named packages
+
+        
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Enables configuration UI
+config:
+
+api: 
+http:
+        #    base_url: vresina.hruzik.net:8123
+#    server_port: 8123
+    ssl_certificate: /config/vresina.hruzik.net/fullchain1.pem
+    ssl_key: /config/vresina.hruzik.net/privkey1.pem
+        
+#    cors_allowed_origins:
+#      - https://google.com
+#      - https://www.home-assistant.io
+#    use_x_forwarded_for: true
+#    trusted_proxies:
+#      - 172.30.33.0/24
+#    ip_ban_enabled: false
+#    login_attempts_threshold: 5
+
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+sensor: !include sensors.yaml
+binary_sensor: !include binary_sensor.yaml
+#device_tracker
+device_tracker: !include  device_tracker.yaml
+#zone
+climate: !include  climate.yaml
+#zone: !include  zone.yaml
+switch: !include switch.yaml
+shell_command: !include shell_command.yaml
+#indego: !include  indego.yaml
+
+
+# Enables the frontend
+frontend:
+
+  themes: !include_dir_merge_named themes/
+
+#MQTT Mosquitto broker
+
+  #recorder:
+  #  purge_interval: 1
+  #  purge_keep_days: 5
+
+#recorder:
+#  db_url: mysql://root:Pepanek1976!@192.168.2.205:3306/home-assistant?charset=utf8
+#  purge_interval: 1
+#  purge_keep_days: 3
+
+
+
+speedtestdotnet:
+  scan_interval:
+    minutes: 30
+  monitored_conditions:
+    - ping
+    - download
+    - upload
+
+shopping_list:
+
+#ios:
+
+discovery:
+
+# Text to speech
+media_player:
+
+  - platform: enigma2
+    host: 192.168.2.145
+    port: 80
+    name: FormulerF4
+    username: root
+    password: pepanek
+    use_channel_icon: true
+
+input_number:
+  nastaveni_hystereze:
+    name: Hystereze
+    initial: 1.5
+    min: 0
+    max: 9
+    step: 0.5
+
+
+
+telegram_bot:
+  - platform: polling
+    api_key: 701476763:AAGES3ShMbWXf9d7RIV5RYPZW2zCNlMs8po
+    allowed_chat_ids: 
+      - 886522875
+
+notify:
+  - name: Telegram_Petr
+    platform: telegram
+    chat_id: 886522875
+
+    #vacuum:
+    #  - platform: roomba
+    #    host: 192.168.2.160
+    #    name: Roomba_1P
+    #    username: 3166480C80128700
+    #    password: :1:1574007909:19ytFHdlUhX60tjQ
+ 
+    #  - platform: roomba
+    #    host: 192.168.2.110
+    #    name: Roomba_2P
+    #    username: 3193C20C22221900
+    #    password: :1:1574708306:aKfmz8JISFrOXRTs 
+
+
+
+
+    #mikrotik:
+    #    host: 192.168.2.1
+    #    username: home-assistant
+    #    password: jezirko2019
+#    ssl: true
+#    arp_ping: true
+
+    #    method: dhcp
+#     new_device_defaults:
+#     track_new_devices: True
+#     consider_home: 180
+
+# Text to speech
+tts:
+  platform: google_translate
+  language: cs
+  base_url: https://vresina.hruzik.net:8123
+
+
+  # Enables support for tracking state changes over time
+history:
+
+  include:
+    domains:
+      - sensor
+      - climate
+      - switch
+      - media_player
+      - light
+      - binary_sensor
+
+  exclude:
+    entities:
+     - sensor.date
+     - sensor.time
+
+
+camera:
+  - platform: generic
+    name: Kamera brana
+    #    still_image_url: http://194.218.96.92/jpg/image.jpg
+    stream_source: rtsp://tpadmin:Puki7.7Puki@192.168.2.179:554/stream2
+
+  - platform: ffmpeg
+    name: Tapo C200
+    input: rtsp://tpadmin:Puki7.7Puki@192.168.2.179:554/stream2
+    
+
+  - platform: ffmpeg
+    name: jezirko
+    input: rtsp://admin:Pepanek1976!@192.168.2.155:554/cam/realmonitor?channel=1&subtype=0
+
+  - platform: generic
+    name: Kamera jezirko
+    still_image_url: http://admin:Pepanek1976!@192.168.2.155/cgi-bin/snapshot.cgi?chn=1&u=admin&p=Pepanek1976!
+    stream_source: rtsp://admin:Pepanek1976!@192.168.2.155:554/cam/realmonitor?channel=1&subtype=1
+
+stream:
+
+ffmpeg:
+
+logger: 
+  default: error 
+  logs: 
+  #    custom_components.indego: debug
+    homeassistant.core: error
+    homeassistanr.components.zha: error
+  #    pyIndego: debug
+
+mobile_app:
+
+energy: 
+
+system_health:
+
+
+media_source:
+

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Living Room",
+        "id": "e13a1ba8b70e4505a1791cf8b51d1b57",
+        "picture": null
+      },
+      {
+        "name": "Kitchen",
+        "id": "7c14e3288dd44b9090b3271c03d1fc1c",
+        "picture": null
+      },
+      {
+        "name": "Bedroom",
+        "id": "d5b8dd5c4507407c889dfbb7c46c20ce",
+        "picture": null
+      },
+      {
+        "name": "Garaz",
+        "id": "garaz",
+        "picture": null
+      },
+      {
+        "name": "lenka",
+        "id": "lenka",
+        "picture": null
+      },
+      {
+        "name": "jezirko",
+        "id": "jezirko",
+        "picture": null
+      },
+      {
+        "name": "rodice",
+        "id": "rodice",
+        "picture": null
+      },
+      {
+        "name": "Pracovna",
+        "id": "pracovna",
+        "picture": null
+      },
+      {
+        "name": "zahrada",
+        "id": "zahrada",
+        "picture": null
+      },
+      {
+        "name": "vjezd",
+        "id": "vjezd",
+        "picture": null
+      }
+    ]
+  }
+}

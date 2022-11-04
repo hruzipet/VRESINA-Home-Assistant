@@ -1,0 +1,281 @@
+1667490001: mosquitto version 2.0.15 starting
+1667490001: Config loaded from /mosquitto/config/mosquitto.conf.
+1667490001: Opening websockets listen socket on port 9001.
+1667490001: Opening ipv4 listen socket on port 1883.
+1667490001: Opening ipv6 listen socket on port 1883.
+1667490001: mosquitto version 2.0.15 running
+1667490002: New connection from 172.20.0.1:35674 on port 1883.
+1667490002: New client connected from 172.20.0.1:35674 as 35LS6wiSp46HKPDux1epbx (p2, c1, k60, u'mqttvresina').
+1667490228: New connection from 172.20.0.1:35838 on port 1883.
+1667490228: Client mosq-XKVpm5YhgdB2PHtuJW disconnected, not authorised.
+1667490236: New connection from 172.20.0.1:35842 on port 1883.
+1667490236: New client connected from 172.20.0.1:35842 as mosq-nfUztQPqI7G4VYHbA8 (p2, c1, k60, u'mqttvresina').
+1667490410: New connection from 172.20.0.1:35934 on port 1883.
+1667490410: New client connected from 172.20.0.1:35934 as 4kjFJSkXB8nUy8J978qFuE (p2, c1, k60, u'mqttvresina').
+1667490410: Client 4kjFJSkXB8nUy8J978qFuE disconnected.
+1667490423: New connection from 172.20.0.1:35944 on port 1883.
+1667490423: New client connected from 172.20.0.1:35944 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667490436: Client mosq-nfUztQPqI7G4VYHbA8 disconnected.
+1667490484: mosquitto version 2.0.15 terminating
+1667490484: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667490484: mosquitto version 2.0.15 starting
+1667490484: Config loaded from /mosquitto/config/mosquitto.conf.
+1667490484: Opening websockets listen socket on port 9001.
+1667490484: Opening ipv4 listen socket on port 1883.
+1667490484: Opening ipv6 listen socket on port 1883.
+1667490484: mosquitto version 2.0.15 running
+1667490485: New connection from 172.20.0.1:35972 on port 1883.
+1667490485: New client connected from 172.20.0.1:35972 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667490577: New connection from 192.168.2.137:20600 on port 1883.
+1667490577: New client connected from 192.168.2.137:20600 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667490879: mosquitto version 2.0.15 terminating
+1667490879: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667490921: mosquitto version 2.0.15 starting
+1667490921: Config loaded from /mosquitto/config/mosquitto.conf.
+1667490921: Opening websockets listen socket on port 9001.
+1667490921: Opening ipv4 listen socket on port 1883.
+1667490921: Opening ipv6 listen socket on port 1883.
+1667490921: mosquitto version 2.0.15 running
+1667490922: New connection from 172.20.0.1:36454 on port 1883.
+1667490922: New client connected from 172.20.0.1:36454 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667490946: New connection from 192.168.2.137:14388 on port 1883.
+1667490946: New client connected from 192.168.2.137:14388 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667490951: mosquitto version 2.0.15 terminating
+1667490951: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667491011: mosquitto version 2.0.15 starting
+1667491011: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491011: Opening websockets listen socket on port 9001.
+1667491011: Opening ipv4 listen socket on port 1883.
+1667491011: Opening ipv6 listen socket on port 1883.
+1667491011: mosquitto version 2.0.15 running
+1667491012: New connection from 192.168.2.137:23759 on port 1883.
+1667491012: New client connected from 192.168.2.137:23759 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491014: New connection from 172.20.0.1:36542 on port 1883.
+1667491014: New client connected from 172.20.0.1:36542 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667491130: mosquitto version 2.0.15 terminating
+1667491130: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667491330: mosquitto version 2.0.15 starting
+1667491330: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491330: Opening websockets listen socket on port 9001.
+1667491330: Opening ipv4 listen socket on port 1883.
+1667491330: Opening ipv6 listen socket on port 1883.
+1667491330: mosquitto version 2.0.15 running
+1667491336: New connection from 192.168.2.137:16840 on port 1883.
+1667491336: New client connected from 192.168.2.137:16840 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491378: New connection from 172.20.0.1:36798 on port 1883.
+1667491378: New client connected from 172.20.0.1:36798 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667491439: mosquitto version 2.0.15 terminating
+1667491439: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667491440: mosquitto version 2.0.15 starting
+1667491440: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491440: Opening websockets listen socket on port 9001.
+1667491440: Opening ipv4 listen socket on port 1883.
+1667491440: Opening ipv6 listen socket on port 1883.
+1667491440: mosquitto version 2.0.15 running
+1667491440: New connection from 172.20.0.1:36832 on port 1883.
+1667491440: New client connected from 172.20.0.1:36832 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667491456: New connection from 192.168.2.137:30117 on port 1883.
+1667491456: New client connected from 192.168.2.137:30117 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491480: mosquitto version 2.0.15 terminating
+1667491480: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667491481: mosquitto version 2.0.15 starting
+1667491481: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491481: Opening websockets listen socket on port 9001.
+1667491481: Opening ipv4 listen socket on port 1883.
+1667491481: Opening ipv6 listen socket on port 1883.
+1667491481: mosquitto version 2.0.15 running
+1667491481: New connection from 172.20.0.1:36858 on port 1883.
+1667491481: New client connected from 172.20.0.1:36858 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667491486: New connection from 192.168.2.137:10637 on port 1883.
+1667491486: New client connected from 192.168.2.137:10637 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491511: mosquitto version 2.0.15 starting
+1667491511: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491511: Opening websockets listen socket on port 9001.
+1667491511: Opening ipv4 listen socket on port 1883.
+1667491511: Opening ipv6 listen socket on port 1883.
+1667491511: mosquitto version 2.0.15 running
+1667491516: New connection from 192.168.2.137:11552 on port 1883.
+1667491516: New client connected from 192.168.2.137:11552 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491523: New connection from 172.20.0.1:36872 on port 1883.
+1667491523: New client connected from 172.20.0.1:36872 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667491543: mosquitto version 2.0.15 terminating
+1667491543: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667491544: mosquitto version 2.0.15 starting
+1667491544: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491544: Opening websockets listen socket on port 9001.
+1667491544: Opening ipv4 listen socket on port 1883.
+1667491544: Opening ipv6 listen socket on port 1883.
+1667491544: mosquitto version 2.0.15 running
+1667491544: New connection from 172.20.0.1:36888 on port 1883.
+1667491544: New client connected from 172.20.0.1:36888 as 6rZqpw8XgM3EQcfysu7ZBu (p2, c1, k60, u'mqttvresina').
+1667491546: New connection from 192.168.2.137:27681 on port 1883.
+1667491546: New client connected from 192.168.2.137:27681 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491581: mosquitto version 2.0.15 terminating
+1667491581: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667491582: mosquitto version 2.0.15 starting
+1667491582: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491582: Error: Unable to open pwfile "password.txt".
+1667491582: Error opening password file "password.txt".
+1667491582: mosquitto version 2.0.15 starting
+1667491582: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491582: Error: Unable to open pwfile "password.txt".
+1667491582: Error opening password file "password.txt".
+1667491583: mosquitto version 2.0.15 starting
+1667491583: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491583: Error: Unable to open pwfile "password.txt".
+1667491583: Error opening password file "password.txt".
+1667491584: mosquitto version 2.0.15 starting
+1667491584: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491584: Error: Unable to open pwfile "password.txt".
+1667491584: Error opening password file "password.txt".
+1667491585: mosquitto version 2.0.15 starting
+1667491585: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491585: Error: Unable to open pwfile "password.txt".
+1667491585: Error opening password file "password.txt".
+1667491587: mosquitto version 2.0.15 starting
+1667491587: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491587: Error: Unable to open pwfile "password.txt".
+1667491587: Error opening password file "password.txt".
+1667491591: mosquitto version 2.0.15 starting
+1667491591: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491591: Error: Unable to open pwfile "password.txt".
+1667491591: Error opening password file "password.txt".
+1667491598: mosquitto version 2.0.15 starting
+1667491598: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491598: Error: Unable to open pwfile "password.txt".
+1667491598: Error opening password file "password.txt".
+1667491629: mosquitto version 2.0.15 starting
+1667491629: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491629: Error: Unable to open pwfile "password.txt".
+1667491629: Error opening password file "password.txt".
+1667491630: mosquitto version 2.0.15 starting
+1667491630: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491630: Error: Unable to open pwfile "password.txt".
+1667491630: Error opening password file "password.txt".
+1667491630: mosquitto version 2.0.15 starting
+1667491630: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491630: Error: Unable to open pwfile "password.txt".
+1667491630: Error opening password file "password.txt".
+1667491631: mosquitto version 2.0.15 starting
+1667491631: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491631: Error: Unable to open pwfile "password.txt".
+1667491631: Error opening password file "password.txt".
+1667491633: mosquitto version 2.0.15 starting
+1667491633: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491633: Error: Unable to open pwfile "password.txt".
+1667491633: Error opening password file "password.txt".
+1667491635: mosquitto version 2.0.15 starting
+1667491635: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491635: Error: Unable to open pwfile "password.txt".
+1667491635: Error opening password file "password.txt".
+1667491638: mosquitto version 2.0.15 starting
+1667491638: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491638: Error: Unable to open pwfile "password.txt".
+1667491638: Error opening password file "password.txt".
+1667491645: mosquitto version 2.0.15 starting
+1667491645: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491645: Error: Unable to open pwfile "password.txt".
+1667491645: Error opening password file "password.txt".
+1667491659: mosquitto version 2.0.15 starting
+1667491659: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491659: Error: Unable to open pwfile "password.txt".
+1667491659: Error opening password file "password.txt".
+1667491685: mosquitto version 2.0.15 starting
+1667491685: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491685: Error: Unable to open pwfile "password.txt".
+1667491685: Error opening password file "password.txt".
+1667491718: mosquitto version 2.0.15 starting
+1667491718: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491718: Error: Unable to open pwfile "password.txt".
+1667491718: Error opening password file "password.txt".
+1667491719: mosquitto version 2.0.15 starting
+1667491719: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491719: Error: Unable to open pwfile "password.txt".
+1667491719: Error opening password file "password.txt".
+1667491719: mosquitto version 2.0.15 starting
+1667491719: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491719: Error: Unable to open pwfile "password.txt".
+1667491719: Error opening password file "password.txt".
+1667491720: mosquitto version 2.0.15 starting
+1667491720: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491720: Error: Unable to open pwfile "password.txt".
+1667491720: Error opening password file "password.txt".
+1667491722: mosquitto version 2.0.15 starting
+1667491722: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491722: Error: Unable to open pwfile "password.txt".
+1667491722: Error opening password file "password.txt".
+1667491724: mosquitto version 2.0.15 starting
+1667491724: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491724: Error: Unable to open pwfile "password.txt".
+1667491724: Error opening password file "password.txt".
+1667491727: mosquitto version 2.0.15 starting
+1667491727: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491727: Error: Unable to open pwfile "password.txt".
+1667491727: Error opening password file "password.txt".
+1667491734: mosquitto version 2.0.15 starting
+1667491734: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491734: Error: Unable to open pwfile "password.txt".
+1667491734: Error opening password file "password.txt".
+1667491748: mosquitto version 2.0.15 starting
+1667491748: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491748: Error: Unable to open pwfile "password.txt".
+1667491748: Error opening password file "password.txt".
+1667491774: mosquitto version 2.0.15 starting
+1667491774: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491774: Error: Unable to open pwfile "/mosquitto/password.txt".
+1667491774: Error opening password file "/mosquitto/password.txt".
+1667491798: mosquitto version 2.0.15 starting
+1667491798: Config loaded from /mosquitto/config/mosquitto.conf.
+1667491798: Opening websockets listen socket on port 9001.
+1667491798: Opening ipv4 listen socket on port 1883.
+1667491798: Opening ipv6 listen socket on port 1883.
+1667491798: mosquitto version 2.0.15 running
+1667491798: New connection from 192.168.2.137:24475 on port 1883.
+1667491798: New client connected from 192.168.2.137:24475 as ESPClient57 (p2, c1, k15, u'mqttvresina').
+1667491804: New connection from 172.20.0.1:37020 on port 1883.
+1667491804: New client connected from 172.20.0.1:37020 as 25HcVN2ypu8jcjbRvcNt4E (p2, c1, k60, u'mqttvresina').
+1667491804: Client 25HcVN2ypu8jcjbRvcNt4E disconnected.
+1667491808: New connection from 172.20.0.1:37024 on port 1883.
+1667491808: New client connected from 172.20.0.1:37024 as 1TOBtfYKkJS1c7dbAyN12S (p2, c1, k60, u'mqttvresina').
+1667491940: New connection from 172.20.0.1:37144 on port 1883.
+1667491940: New client connected from 172.20.0.1:37144 as mosq-vmsFIH70wiNkoCuohW (p2, c1, k60, u'mqttvresina').
+1667491982: Client mosq-vmsFIH70wiNkoCuohW disconnected.
+1667492092: New connection from 172.20.0.1:37276 on port 1883.
+1667492092: New client connected from 172.20.0.1:37276 as mosq-V7y0kYyZHsigunzUQS (p2, c1, k60, u'mqttvresina').
+1667492703: Client mosq-V7y0kYyZHsigunzUQS closed its connection.
+1667493598: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667495399: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667497200: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667499001: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667500802: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667502603: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667504404: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667506205: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667508006: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667509807: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667511608: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667513409: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667515210: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667517011: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667518812: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667520613: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667522414: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667524215: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667526016: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667527817: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667529618: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667531419: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667533220: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667535021: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667536822: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667538623: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667540424: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667542225: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667543901: Client 1TOBtfYKkJS1c7dbAyN12S has exceeded timeout, disconnecting.
+1667543913: New connection from 172.20.0.1:48518 on port 1883.
+1667543913: New client connected from 172.20.0.1:48518 as 3XZ8OCmfix4YAjRCbg9YnU (p2, c1, k60, u'mqttvresina').
+1667544026: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667545827: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667547628: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667549429: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1667551230: Saving in-memory database to /mosquitto/data/mosquitto.db.

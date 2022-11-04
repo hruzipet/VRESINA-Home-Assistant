@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "cce5e9a81b9a327f57bda35348a6b6f5",
+        "filesize": 25618,
+        "content_type": "image/jpeg",
+        "name": "deda.png",
+        "uploaded_at": "2022-10-29T08:35:35.576427+00:00"
+      },
+      {
+        "id": "efbaa95b6a35448517e27a8eb3940872",
+        "filesize": 46446,
+        "content_type": "image/jpeg",
+        "name": "IMG_2188.jpg",
+        "uploaded_at": "2022-10-29T09:12:43.935388+00:00"
+      }
+    ]
+  }
+}

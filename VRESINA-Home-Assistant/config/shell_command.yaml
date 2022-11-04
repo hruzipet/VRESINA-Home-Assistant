@@ -1,0 +1,14 @@
+#shell_command:
+  nastav: /usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys140={{states('sensor.teplota_nastav') | int*1 }}
+  nastav_hysterezi: /usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys144={{ states('input_number.nastaveni_hystereze') | int *10 }}
+  plyn_plamen_minimum: /usr/bin/curl -X GET 'http://192.168.2.2:8181/cgi_login?passw=test' | /usr/bin/curl -X GET 'http://192.168.2.2:8181/sdscep?sys145=666' | /usr/bin/curl -X GET 'http://192.168.2.2:8181/cgi_logout'
+  nastav_teplotu_venku_pro_sds: /usr/bin/curl -X GET 'http://192.168.2.2:8181/cgi_login?passw=test' | /usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys143={{(states.sensor.teplota_venku_vresina.state | int*100) }} | /usr/bin/curl -X GET 'http://192.168.2.2:8181/cgi_logout'
+
+  nastav_cidlo_rizeni_topeni: /usr/bin/curl -X GET 'http://192.168.2.2:8181/cgi_login?passw=test' | /usr/bin/curl -X GET http://192.168.2.2:8181/sdscep?sys146={{(states.input_select.vyber_cidlo.state)}} | /usr/bin/curl -X GET 'http://192.168.2.2:8181/cgi_logout'
+
+  cast_ha: catt -d 192.168.2.189 volume 0 |catt -d 192.168.2.189  cast_site "https://vresina.hruzik.net:8123/lovelace/0"
+  cast_topeni: catt -d 192.168.2.189 volume 0 |catt -d 192.168.2.189  cast_site "https://vresina.hruzik.net:8123/lovelace/1"
+  cast_irobot: catt -d 192.168.2.189 volume 0 |catt -d 192.168.2.189  cast_site "https://vresina.hruzik.net:8123/lovelace/irobot"
+  cast_radio: catt -d 192.168.2.189 volume 0 |catt -d 192.168.2.189  cast_site "https://vresina.hruzik.net:8123/lovelace/radio"
+
+  install_catt: pip install catt

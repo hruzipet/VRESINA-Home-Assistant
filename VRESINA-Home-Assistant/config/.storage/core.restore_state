@@ -1,0 +1,3712 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.petr",
+        "state": "LHOTA",
+        "attributes": {
+          "editable": true,
+          "id": "5c8403d250bc410ea2eadc071de123de",
+          "latitude": 49.84070916805464,
+          "longitude": 18.08237199780636,
+          "gps_accuracy": 9.616011474614513,
+          "source": "device_tracker.petrs_iphone",
+          "user_id": "2d6b523208dc4b14a8304c668fdf615c",
+          "entity_picture": "/api/image/serve/efbaa95b6a35448517e27a8eb3940872/512x512",
+          "friendly_name": "petr"
+        },
+        "last_changed": "2022-11-04T06:55:10.084602+00:00",
+        "last_updated": "2022-11-04T08:42:02.654874+00:00",
+        "context": {
+          "id": "01GH0WVRGYKHXJRAMC3PKMRYXR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.martin",
+        "state": "unknown",
+        "attributes": {
+          "editable": true,
+          "id": "b2a1da5f36284323bead8d4f20033dff",
+          "friendly_name": "martin"
+        },
+        "last_changed": "2022-11-04T06:38:29.969805+00:00",
+        "last_updated": "2022-11-04T06:38:51.029877+00:00",
+        "context": {
+          "id": "01GH0NT64NNFW5W5JR8362080R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.mirek",
+        "state": "not_home",
+        "attributes": {
+          "editable": true,
+          "id": "mirek",
+          "latitude": 49.8187977,
+          "longitude": 18.1844863,
+          "gps_accuracy": 12,
+          "source": "device_tracker.google_maps_116800548464694492358",
+          "entity_picture": "/api/image/serve/cce5e9a81b9a327f57bda35348a6b6f5/512x512",
+          "friendly_name": "Mira"
+        },
+        "last_changed": "2022-11-04T08:41:43.907341+00:00",
+        "last_updated": "2022-11-04T08:53:43.852159+00:00",
+        "context": {
+          "id": "01GH0XH59C1K1499XWM5JK2PRS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_boolean.play_radio",
+        "state": "off",
+        "attributes": {
+          "editable": false,
+          "icon": "mdi:play",
+          "friendly_name": "Přehrávání"
+        },
+        "last_changed": "2022-11-04T06:38:33.563128+00:00",
+        "last_updated": "2022-11-04T06:38:33.563128+00:00",
+        "context": {
+          "id": "01GH0NSN2VF5FXTG2TDXMDZRRP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_number.nastaveni_hystereze",
+        "state": "1.5",
+        "attributes": {
+          "initial": 1.5,
+          "editable": false,
+          "min": 0.0,
+          "max": 9.0,
+          "step": 0.5,
+          "mode": "slider",
+          "friendly_name": "Hystereze"
+        },
+        "last_changed": "2022-11-04T06:38:33.564017+00:00",
+        "last_updated": "2022-11-04T06:38:33.564017+00:00",
+        "context": {
+          "id": "01GH0NSN2WKGTE07F13V2X0HCZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_number.volume_radio",
+        "state": "0.35",
+        "attributes": {
+          "initial": 0.35,
+          "editable": false,
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.05,
+          "mode": "slider",
+          "icon": "mdi:volume-high",
+          "friendly_name": "Volume"
+        },
+        "last_changed": "2022-11-04T06:38:33.564089+00:00",
+        "last_updated": "2022-11-04T06:38:33.564089+00:00",
+        "context": {
+          "id": "01GH0NSN2W94XZJRY6VF939CGY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_select.radio_station",
+        "state": "ČRo Radiožurnál",
+        "attributes": {
+          "options": [
+            "ČRo Radiožurnál",
+            "Country radio",
+            "Evropa 2",
+            "Impuls",
+            "ČRo Rádio Wave",
+            "Frekvence 1",
+            "Hitrádio Orion",
+            "Kiss Morava",
+            "Čas Rádio",
+            "Rádio Čas Rock",
+            "Rádio Blaník",
+            "Petrov - Folk and Country",
+            "Rádio Folk"
+          ],
+          "editable": false,
+          "icon": "mdi:radio",
+          "friendly_name": "Zvol stanici:"
+        },
+        "last_changed": "2022-11-04T06:38:33.567181+00:00",
+        "last_updated": "2022-11-04T06:38:33.567181+00:00",
+        "context": {
+          "id": "01GH0NSN2ZD3187F0JYZSC9JDG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_select.media_player",
+        "state": "Obyvak",
+        "attributes": {
+          "options": [
+            "Obyvak",
+            "Jidelna",
+            "Domaci skupina repro"
+          ],
+          "editable": false,
+          "icon": "mdi:speaker-wireless",
+          "friendly_name": "Reproduktor"
+        },
+        "last_changed": "2022-11-04T06:38:33.567272+00:00",
+        "last_updated": "2022-11-04T06:38:33.567272+00:00",
+        "context": {
+          "id": "01GH0NSN2ZG7JJ3AGTCBYQ9D82",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "script.1569323464823",
+        "state": "off",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "nastav_teplotu"
+        },
+        "last_changed": "2022-11-04T06:38:35.821009+00:00",
+        "last_updated": "2022-11-04T06:38:35.821009+00:00",
+        "context": {
+          "id": "01GH0NSQ9D4Q9AF2QP4ZE8YAZN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.topeni_jezirko",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Topeni jezirko"
+        },
+        "last_changed": "2022-11-04T06:38:35.824429+00:00",
+        "last_updated": "2022-11-04T06:38:35.824429+00:00",
+        "context": {
+          "id": "01GH0NSQ9G3P0465JAG8CZK426",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.nastav_teplotu_topeni",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T04:30:00.012509+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1568971804825",
+          "friendly_name": "Nastav teplotu topeni"
+        },
+        "last_changed": "2022-11-04T06:38:35.938822+00:00",
+        "last_updated": "2022-11-04T06:38:35.938822+00:00",
+        "context": {
+          "id": "01GH0NSQD2X0DDPRXNNYNW5ZKB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.nastav_hysterezi",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-02-06T12:57:18.512882+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1569326550373",
+          "friendly_name": "Nastav hysterezi"
+        },
+        "last_changed": "2022-11-04T06:38:35.939000+00:00",
+        "last_updated": "2022-11-04T06:38:35.939000+00:00",
+        "context": {
+          "id": "01GH0NSQD3SVGPHWRA8N63EZJT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.topeni_1_i_2_patro_pridej_topeni_den",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T04:30:00.001728+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1569327068335",
+          "friendly_name": "TOPENI - 1 i 2 patro - pridej topeni - den"
+        },
+        "last_changed": "2022-11-04T06:38:35.939106+00:00",
+        "last_updated": "2022-11-04T06:38:35.939106+00:00",
+        "context": {
+          "id": "01GH0NSQD3308B6A1GAEEXW9V1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.topeni_1_i_2_patro_uber_na_topeni_noc",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-03T21:00:00.002752+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1569327114427",
+          "friendly_name": "TOPENI - 1 i 2 patro - uber na topeni - noc"
+        },
+        "last_changed": "2022-11-04T06:38:35.939201+00:00",
+        "last_updated": "2022-11-04T06:38:35.939201+00:00",
+        "context": {
+          "id": "01GH0NSQD3TJ0Y5AX7F0V93SN7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.notifikace_misa_ve_skole",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2020-01-08T23:57:46.683599+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1571641470047",
+          "friendly_name": "Notifikace - Misa ve skole"
+        },
+        "last_changed": "2022-11-04T06:38:35.939347+00:00",
+        "last_updated": "2022-11-04T06:38:35.939347+00:00",
+        "context": {
+          "id": "01GH0NSQD365Z0G1NQD5YX8453",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.notifikace_misa_mimo_skolu",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2019-10-23T12:42:20.582722+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1571641895918",
+          "friendly_name": "Notifikace - Misa mimo skolu"
+        },
+        "last_changed": "2022-11-04T06:38:35.939438+00:00",
+        "last_updated": "2022-11-04T06:38:35.939438+00:00",
+        "context": {
+          "id": "01GH0NSQD3MZ9K68W2NXBDWSYS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.notifikace_misa_je_doma",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-12-19T16:45:33.758630+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1571655123927",
+          "friendly_name": "Notifikace - Misa je doma"
+        },
+        "last_changed": "2022-11-04T06:38:35.939560+00:00",
+        "last_updated": "2022-11-04T06:38:35.939560+00:00",
+        "context": {
+          "id": "01GH0NSQD3BBYVQ2BJ6BKNCVR8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.notifikace_misa_odesel_z_domu",
+        "state": "off",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1571655188044",
+          "friendly_name": "Notifikace - Misa odesel z domu"
+        },
+        "last_changed": "2022-11-04T06:38:35.939650+00:00",
+        "last_updated": "2022-11-04T06:38:35.939650+00:00",
+        "context": {
+          "id": "01GH0NSQD3DXXFCM5TB6RVRF1H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.nastav_teplotu_venku_pro_sds",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:53:00.002272+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1603208326357",
+          "friendly_name": "Nastav teplotu venku pro SDS"
+        },
+        "last_changed": "2022-11-04T06:38:35.939729+00:00",
+        "last_updated": "2022-11-04T08:53:00.124034+00:00",
+        "context": {
+          "id": "01GH0XFTF1BQEH9C413B5CGNE3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zeslab_plamen",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T07:27:21.088264+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1603211732801",
+          "friendly_name": "Zeslab plamen"
+        },
+        "last_changed": "2022-11-04T06:38:35.939814+00:00",
+        "last_updated": "2022-11-04T07:27:21.114944+00:00",
+        "context": {
+          "id": "01GH0RK000GPDFDCFV3ZD3QQCB",
+          "parent_id": "01GH0RJZZZFZ9B69A6AFNDY50Q",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.vyber_ktere_cidlo_ridi_topeni",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:00:00.003522+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1603265630950",
+          "friendly_name": "Vyber ktere cidlo ridi topeni"
+        },
+        "last_changed": "2022-11-04T06:38:35.939897+00:00",
+        "last_updated": "2022-11-04T08:00:00.292271+00:00",
+        "context": {
+          "id": "01GH0TES03FTPZN4Q0FMR3T6XY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.zmena_cidla_topeni_updatuj_sds",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-02-06T13:17:51.474252+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1603266667271",
+          "friendly_name": "Zmena cidla topeni - updatuj SDS"
+        },
+        "last_changed": "2022-11-04T06:38:35.940007+00:00",
+        "last_updated": "2022-11-04T06:38:35.940007+00:00",
+        "context": {
+          "id": "01GH0NSQD4GM4AYV2Q30G85G2M",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.info_o_zapnuti_topeni_jezirko",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-02-01T20:52:48.683996+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1606564852678",
+          "friendly_name": "Info o zapnuti topeni jezirko"
+        },
+        "last_changed": "2022-11-04T06:38:35.940093+00:00",
+        "last_updated": "2022-11-04T06:38:35.940093+00:00",
+        "context": {
+          "id": "01GH0NSQD4A706ZEW9PAZWTGSW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.notifikace_ranni_info",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:00:00.002880+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1608924640297",
+          "friendly_name": "Notifikace-ranni info"
+        },
+        "last_changed": "2022-11-04T06:38:35.940204+00:00",
+        "last_updated": "2022-11-04T08:00:00.116076+00:00",
+        "context": {
+          "id": "01GH0TES02N52ZZPDY4NAB2V6G",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.notifikace_vecerni_info",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-03T18:00:00.002633+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1609004663582",
+          "friendly_name": "Notifikace-vecerni info"
+        },
+        "last_changed": "2022-11-04T06:38:35.940324+00:00",
+        "last_updated": "2022-11-04T06:38:35.940324+00:00",
+        "context": {
+          "id": "01GH0NSQD4YBV5S4XQAA5KGJ1F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.cast_to_hub",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2022-10-30T13:08:47.011109+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1609407763416",
+          "friendly_name": "Cast to HUB"
+        },
+        "last_changed": "2022-11-04T06:38:35.940411+00:00",
+        "last_updated": "2022-11-04T06:38:35.940411+00:00",
+        "context": {
+          "id": "01GH0NSQD4D1JH9S6W9R8VP6XC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.database_purge",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T07:00:00.001346+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1609745837024",
+          "friendly_name": "Database - purge"
+        },
+        "last_changed": "2022-11-04T06:38:35.940484+00:00",
+        "last_updated": "2022-11-04T07:00:00.042927+00:00",
+        "context": {
+          "id": "01GH0Q0XC1Y49VJ6X9KX88XD2M",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.pohyb_garaz_2",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:35:27.851125+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1609947722116",
+          "friendly_name": "Pohyb GARAZ - otevreno rodice"
+        },
+        "last_changed": "2022-11-04T06:38:35.940579+00:00",
+        "last_updated": "2022-11-04T08:35:27.866424+00:00",
+        "context": {
+          "id": "01GH0WFPZA34R19YJYC202XZYP",
+          "parent_id": "01GH0WFPZ7P0H0MPHJ8937J4SA",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.a_on_start",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T06:38:51.072886+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1610224803642",
+          "friendly_name": "A - ON START"
+        },
+        "last_changed": "2022-11-04T06:38:35.940686+00:00",
+        "last_updated": "2022-11-04T06:38:55.740839+00:00",
+        "context": {
+          "id": "01GH0NT660DBBDVNT796EHQK71",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.pohyb_garaz_zavreno",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:39:24.721257+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1611568767861",
+          "friendly_name": "Pohyb GARAZ - zavreno rodice"
+        },
+        "last_changed": "2022-11-04T06:38:35.940797+00:00",
+        "last_updated": "2022-11-04T08:39:35.847317+00:00",
+        "context": {
+          "id": "01GH0WQ957MSPYWRZGAB72JXZE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.a_kuchyn_2p_spinac_on",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-05-17T15:05:00.685115+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1613934330071",
+          "friendly_name": "A-kuchyn-2p-svetlo ON-PIR"
+        },
+        "last_changed": "2022-11-04T06:38:35.940883+00:00",
+        "last_updated": "2022-11-04T06:38:35.940883+00:00",
+        "context": {
+          "id": "01GH0NSQD4Q2EN18NY4M1RA655",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.a_kuchyn_2p_svetlo_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-04-02T15:01:30.405284+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1614073766117",
+          "friendly_name": "A-kuchyn-2p-svetlo OFF"
+        },
+        "last_changed": "2022-11-04T06:38:35.940963+00:00",
+        "last_updated": "2022-11-04T06:38:35.940963+00:00",
+        "context": {
+          "id": "01GH0NSQD4N3G4WQ56QB104SA6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.a_kuchyn_2p_svetlo_off_pir_neni_pohyb",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-06-01T19:31:58.670908+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1614074261816",
+          "friendly_name": "A-kuchyn-2p-svetlo OFF-PIR - neni pohyb"
+        },
+        "last_changed": "2022-11-04T06:38:35.941077+00:00",
+        "last_updated": "2022-11-04T06:38:35.941077+00:00",
+        "context": {
+          "id": "01GH0NSQD5309S29SNXETV6VM5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.indego_nastal_problem",
+        "state": "off",
+        "attributes": {
+          "last_triggered": "2021-09-12T11:25:22.334405+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1621365139924",
+          "friendly_name": "Indego - nastal problem"
+        },
+        "last_changed": "2022-11-04T06:38:35.941173+00:00",
+        "last_updated": "2022-11-04T06:38:35.941173+00:00",
+        "context": {
+          "id": "01GH0NSQD5PMYVPV8F86KAHW49",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.indego_seceni",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-05-31T09:25:46.220162+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1621365311808",
+          "friendly_name": "Indego - seceni"
+        },
+        "last_changed": "2022-11-04T06:38:35.941273+00:00",
+        "last_updated": "2022-11-04T06:38:35.941273+00:00",
+        "context": {
+          "id": "01GH0NSQD5HCK3SZZ464KKPD77",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.indego_navrat_do_nabijecky",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-05-18T19:20:31.081317+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1621365449779",
+          "friendly_name": "Indego - navrat do nabijecky"
+        },
+        "last_changed": "2022-11-04T06:38:35.941389+00:00",
+        "last_updated": "2022-11-04T06:38:35.941389+00:00",
+        "context": {
+          "id": "01GH0NSQD5DVMHY1T82DB3SVNY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.akvarko_zapnout",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-03T15:00:00.002602+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1638812918615",
+          "friendly_name": "akvarko zapnout"
+        },
+        "last_changed": "2022-11-04T06:38:35.941496+00:00",
+        "last_updated": "2022-11-04T06:38:35.941496+00:00",
+        "context": {
+          "id": "01GH0NSQD5HSVF1BAK4TCQBMDR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.akvarko_vypnout",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-03T22:55:00.001559+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1638812974658",
+          "friendly_name": "akvarko vypnout"
+        },
+        "last_changed": "2022-11-04T06:38:35.941601+00:00",
+        "last_updated": "2022-11-04T06:38:35.941601+00:00",
+        "context": {
+          "id": "01GH0NSQD54RMJJ2ZPGKZES3DX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.pohyb_garaz_otevreno_lenka",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:35:27.851443+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1639325937437",
+          "friendly_name": "Pohyb GARAZ - otevreno LENKA"
+        },
+        "last_changed": "2022-11-04T06:38:35.941713+00:00",
+        "last_updated": "2022-11-04T08:35:35.343143+00:00",
+        "context": {
+          "id": "01GH0WFY9FQCHPKWD3TH58FVFM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.pohyb_garaz_zavreno_lenka",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:39:24.721560+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1639325998389",
+          "friendly_name": "Pohyb GARAZ - zavreno LENKA"
+        },
+        "last_changed": "2022-11-04T06:38:35.941797+00:00",
+        "last_updated": "2022-11-04T08:39:25.080704+00:00",
+        "context": {
+          "id": "01GH0WPY9H5DZ5F2DKNXH6RCAS",
+          "parent_id": "01GH0WPY9E9P1BS5ZCH3GPT16D",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.svetlo_garaz_on",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:35:27.852589+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1648537506355",
+          "friendly_name": "SVETLO garaz On"
+        },
+        "last_changed": "2022-11-04T06:38:35.941899+00:00",
+        "last_updated": "2022-11-04T08:35:28.070265+00:00",
+        "context": {
+          "id": "01GH0WFPZB8RSX3JVWX3KWTYNX",
+          "parent_id": "01GH0WFPZ7P0H0MPHJ8937J4SA",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.svetlo_garaz_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:40:14.721534+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1648537560382",
+          "friendly_name": "SVETLO garaz Off"
+        },
+        "last_changed": "2022-11-04T06:38:35.941995+00:00",
+        "last_updated": "2022-11-04T08:40:14.814461+00:00",
+        "context": {
+          "id": "01GH0WRF41W0WMQQ9J6T8G3QJM",
+          "parent_id": "01GH0WPY9E9P1BS5ZCH3GPT16D",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.cast_to_hub_rodice",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-04T08:40:00.001284+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1661151143164",
+          "friendly_name": "Cast to HUB - Rodice"
+        },
+        "last_changed": "2022-11-04T06:38:35.942113+00:00",
+        "last_updated": "2022-11-04T08:40:01.138996+00:00",
+        "context": {
+          "id": "01GH0WR0R110DR32N7X3FD4GAP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.play_radio",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-05-15T21:29:08.425430+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Play Radio"
+        },
+        "last_changed": "2022-11-04T06:38:35.942351+00:00",
+        "last_updated": "2022-11-04T06:38:35.942351+00:00",
+        "context": {
+          "id": "01GH0NSQD6J4GXF0WB2KBA17QR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.stop_radio_if_google_music_selected",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Stop Radio if Google Music selected"
+        },
+        "last_changed": "2022-11-04T06:38:35.942446+00:00",
+        "last_updated": "2022-11-04T06:38:35.942446+00:00",
+        "context": {
+          "id": "01GH0NSQD6MW10665TS100KTMD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.set_music_volume",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-05-15T21:29:21.705620+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Set Music Volume"
+        },
+        "last_changed": "2022-11-04T06:38:35.942533+00:00",
+        "last_updated": "2022-11-04T06:38:35.942533+00:00",
+        "context": {
+          "id": "01GH0NSQD6HWDW4F3KNPCQBMTZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.stop_music",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2021-05-15T21:29:21.701557+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Stop music"
+        },
+        "last_changed": "2022-11-04T06:38:35.942646+00:00",
+        "last_updated": "2022-11-04T06:38:35.942646+00:00",
+        "context": {
+          "id": "01GH0NSQD6EN14AW1Y52TXQ7EF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_select.vyber_cidlo",
+        "state": "2",
+        "attributes": {
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "editable": true,
+          "friendly_name": "vyber_cidlo_rizeni_topeni (1. Misa, 2. Obyvak 2p, 3. Obyvak 1p)"
+        },
+        "last_changed": "2022-11-04T06:38:36.385883+00:00",
+        "last_updated": "2022-11-04T06:38:36.385883+00:00",
+        "context": {
+          "id": "01GH0NSQV16YXDWTM4Y4GGFDTM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.monitor_google_internet",
+        "state": "on",
+        "attributes": {
+          "round_trip_time_avg": 15.806,
+          "round_trip_time_max": 16.598,
+          "round_trip_time_mdev": "",
+          "round_trip_time_min": 14.913,
+          "device_class": "connectivity",
+          "friendly_name": "Monitor google Internet"
+        },
+        "last_changed": "2022-11-04T06:38:36.896392+00:00",
+        "last_updated": "2022-11-04T08:53:41.214739+00:00",
+        "context": {
+          "id": "01GH0XH2PYCBYVPAZB2DAVMGFZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.spojeni_lhota_l2l",
+        "state": "on",
+        "attributes": {
+          "round_trip_time_avg": 28.332,
+          "round_trip_time_max": 38.638,
+          "round_trip_time_mdev": "",
+          "round_trip_time_min": 14.686,
+          "device_class": "connectivity",
+          "friendly_name": "spojení Lhota L2L"
+        },
+        "last_changed": "2022-11-04T06:38:36.896549+00:00",
+        "last_updated": "2022-11-04T08:53:41.276093+00:00",
+        "context": {
+          "id": "01GH0XH2RWHAC3WAB2NJQQBJ41",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.dolca",
+        "state": "on",
+        "attributes": {
+          "round_trip_time_avg": 13.102,
+          "round_trip_time_max": 24.889,
+          "round_trip_time_mdev": "",
+          "round_trip_time_min": 7.835,
+          "device_class": "connectivity",
+          "friendly_name": "dolca"
+        },
+        "last_changed": "2022-11-04T06:38:36.896623+00:00",
+        "last_updated": "2022-11-04T08:53:41.675945+00:00",
+        "context": {
+          "id": "01GH0XH35B93A458CT00Z28RJ1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_ping",
+        "state": "49",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Jesenice",
+          "server_country": "Czechia",
+          "server_id": "17015",
+          "unit_of_measurement": "ms",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Ping"
+        },
+        "last_changed": "2022-11-04T08:10:21.782555+00:00",
+        "last_updated": "2022-11-04T08:10:21.782555+00:00",
+        "context": {
+          "id": "01GH0V1R6P4Z9Z60EY6NDZ0K5P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_download",
+        "state": "19.1",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Jesenice",
+          "server_country": "Czechia",
+          "server_id": "17015",
+          "bytes_received": 24083952,
+          "unit_of_measurement": "Mbit/s",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Download"
+        },
+        "last_changed": "2022-11-04T08:40:43.449564+00:00",
+        "last_updated": "2022-11-04T08:40:43.449564+00:00",
+        "context": {
+          "id": "01GH0WSB5SQQ5E9DHC6QVGQB8A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_upload",
+        "state": "13.3",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Jesenice",
+          "server_country": "Czechia",
+          "server_id": "17015",
+          "bytes_sent": 16670720,
+          "unit_of_measurement": "Mbit/s",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Upload"
+        },
+        "last_changed": "2022-11-04T08:40:43.449712+00:00",
+        "last_updated": "2022-11-04T08:40:43.449712+00:00",
+        "context": {
+          "id": "01GH0WSB5S1K605RF31WY7SS15",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.teplota_jezirko_vresina",
+        "state": "11.19",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Teplota jezirko Vresina"
+        },
+        "last_changed": "2022-11-04T08:53:06.111267+00:00",
+        "last_updated": "2022-11-04T08:53:06.111267+00:00",
+        "context": {
+          "id": "01GH0XG0DZ6XJ1YVQDCMV1S4N1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "11.19",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "climate.topeni_1_patro",
+        "state": "heat",
+        "attributes": {
+          "hvac_modes": [
+            "heat",
+            "off"
+          ],
+          "min_temp": 10.0,
+          "max_temp": 24.0,
+          "target_temp_step": 0.1,
+          "preset_modes": [
+            "none",
+            "away"
+          ],
+          "current_temperature": 21.4,
+          "temperature": 21.5,
+          "hvac_action": "idle",
+          "preset_mode": "none",
+          "friendly_name": "Topeni 1 patro",
+          "supported_features": 17
+        },
+        "last_changed": "2022-11-04T06:38:40.529920+00:00",
+        "last_updated": "2022-11-04T08:53:50.961052+00:00",
+        "context": {
+          "id": "01GH0XHC7HBX88RAD96HAF8WXH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "climate.topeni_jezirko",
+        "state": "off",
+        "attributes": {
+          "hvac_modes": [
+            "heat",
+            "off"
+          ],
+          "min_temp": 1.0,
+          "max_temp": 10.0,
+          "target_temp_step": 0.1,
+          "preset_modes": [
+            "none",
+            "away"
+          ],
+          "current_temperature": 11.2,
+          "temperature": 1.5,
+          "hvac_action": "off",
+          "preset_mode": "none",
+          "friendly_name": "Topeni jezirko",
+          "supported_features": 17
+        },
+        "last_changed": "2022-11-04T06:38:40.530129+00:00",
+        "last_updated": "2022-11-04T08:53:06.112121+00:00",
+        "context": {
+          "id": "01GH0XG0E0B5DX4GFWDE4AVSM3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.teplota_venku_vresina",
+        "state": "11.25",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Teplota Venku Vresina"
+        },
+        "last_changed": "2022-11-04T08:52:37.074717+00:00",
+        "last_updated": "2022-11-04T08:52:37.074717+00:00",
+        "context": {
+          "id": "01GH0XF42JE8SGAZVZ3GC14KNE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "11.25",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.cidlo_jezirko_wifi_signal",
+        "state": "-68.00",
+        "attributes": {
+          "unit_of_measurement": "Rssi",
+          "friendly_name": "Cidlo jezirko Wifi signal"
+        },
+        "last_changed": "2022-11-04T08:16:05.202573+00:00",
+        "last_updated": "2022-11-04T08:16:05.202573+00:00",
+        "context": {
+          "id": "01GH0VC7JJ7174JH6FSJB8FQEM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "-68.00",
+        "native_unit_of_measurement": "Rssi"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.cidlo_jezirko_uptime",
+        "state": "1021.00",
+        "attributes": {
+          "unit_of_measurement": "min",
+          "friendly_name": "Cidlo jezirko uptime"
+        },
+        "last_changed": "2022-11-04T08:53:39.293766+00:00",
+        "last_updated": "2022-11-04T08:53:39.293766+00:00",
+        "context": {
+          "id": "01GH0XH0TX6QA62Z2EG8Y94E8J",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1021.00",
+        "native_unit_of_measurement": "min"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly_martin_control_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "shelly-martin-control Reboot"
+        },
+        "last_changed": "2022-11-04T06:38:40.733325+00:00",
+        "last_updated": "2022-11-04T06:38:40.733325+00:00",
+        "context": {
+          "id": "01GH0NSW2XW1VCYS39JEFN87EB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.safe_mode_boot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "icon": "mdi:restart-alert",
+          "friendly_name": "Safe Mode Boot"
+        },
+        "last_changed": "2022-11-04T06:38:41.011713+00:00",
+        "last_updated": "2022-11-04T06:38:41.011713+00:00",
+        "context": {
+          "id": "01GH0NSWBKDWQCCQB9P2E7TQSS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly_pracovna_vmware_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "shelly-pracovna-vmware Reboot"
+        },
+        "last_changed": "2022-11-04T06:38:40.737850+00:00",
+        "last_updated": "2022-11-04T06:38:40.737850+00:00",
+        "context": {
+          "id": "01GH0NSW31G9HGTAQ0D9ZBE88B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.cidlo_jezirko_cpu_load",
+        "state": "16.00",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "friendly_name": "Cidlo jezirko CPU load"
+        },
+        "last_changed": "2022-11-04T08:53:38.226788+00:00",
+        "last_updated": "2022-11-04T08:53:38.226788+00:00",
+        "context": {
+          "id": "01GH0XGZSJ7QSTZ1MAK7WNSCCC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "16.00",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.senzor_topeni_jezirko",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Senzor_Topeni_Jezirko"
+        },
+        "last_changed": "2022-11-04T06:38:40.804059+00:00",
+        "last_updated": "2022-11-04T06:38:40.804059+00:00",
+        "context": {
+          "id": "01GH0NSW54JAPEB2ZWSV7M7G1V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.senzor_topeni_jezirko_wifi_signal",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "Rssi",
+          "friendly_name": "Senzor_Topeni_Jezirko_ Wifi signal"
+        },
+        "last_changed": "2022-11-04T06:38:40.820426+00:00",
+        "last_updated": "2022-11-04T06:38:40.820426+00:00",
+        "context": {
+          "id": "01GH0NSW5MFBAEGMF3K4A83YQ0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "Rssi"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petr_mi_9_uroven_baterie",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "friendly_name": "petr MI 9 Úroveň baterie",
+          "icon": "mdi:battery-60",
+          "device_class": "battery"
+        },
+        "last_changed": "2022-11-04T06:38:40.837535+00:00",
+        "last_updated": "2022-11-04T06:38:40.837535+00:00",
+        "context": {
+          "id": "01GH0NSW65WZ5TJTPFZY4JCMBY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petr_mi_9_stav_baterie",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "petr MI 9 Stav baterie",
+          "icon": "mdi:battery-minus"
+        },
+        "last_changed": "2022-11-04T06:38:40.837699+00:00",
+        "last_updated": "2022-11-04T06:38:40.837699+00:00",
+        "context": {
+          "id": "01GH0NSW65D01MMCWE696SNSVX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petr_mi_9_typ_nabijecky",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "petr MI 9 Typ nabíječky",
+          "icon": "mdi:battery"
+        },
+        "last_changed": "2022-11-04T06:38:40.837857+00:00",
+        "last_updated": "2022-11-04T06:38:40.837857+00:00",
+        "context": {
+          "id": "01GH0NSW65TPG9EGQG7F0NB8MM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petr_mi_9_zdravi_baterie",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "petr MI 9 Zdraví baterie",
+          "icon": "mdi:battery-heart-variant"
+        },
+        "last_changed": "2022-11-04T06:38:40.837949+00:00",
+        "last_updated": "2022-11-04T06:38:40.837949+00:00",
+        "context": {
+          "id": "01GH0NSW65ZEX4N7R341C39T8Z",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petr_mi_9_teplota_baterie",
+        "state": "unknown",
+        "attributes": {
+          "unit_of_measurement": "°C",
+          "friendly_name": "petr MI 9 Teplota baterie",
+          "icon": "mdi:battery",
+          "device_class": "temperature"
+        },
+        "last_changed": "2022-11-04T06:38:40.838022+00:00",
+        "last_updated": "2022-11-04T06:38:40.838022+00:00",
+        "context": {
+          "id": "01GH0NSW66E32BVZK452PQJAK9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.petr_mi_9_nabiji_se",
+        "state": "off",
+        "attributes": {
+          "friendly_name": "petr MI 9 Nabíjí se",
+          "icon": "mdi:power-plug-off",
+          "device_class": "plug"
+        },
+        "last_changed": "2022-11-04T06:38:40.838094+00:00",
+        "last_updated": "2022-11-04T06:38:40.838094+00:00",
+        "context": {
+          "id": "01GH0NSW66MCZ6Q27MZM24Q0RG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.petr_mi_9",
+        "state": "unknown",
+        "attributes": {
+          "source_type": "gps",
+          "friendly_name": "petr MI 9"
+        },
+        "last_changed": "2022-11-04T06:38:40.838177+00:00",
+        "last_updated": "2022-11-04T06:38:40.838177+00:00",
+        "context": {
+          "id": "01GH0NSW66KS5R23ACN88TV1C9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_battery_level",
+        "state": "51",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:battery-50",
+          "friendly_name": "Lenka - iPhone X Battery Level"
+        },
+        "last_changed": "2022-11-04T06:38:40.838325+00:00",
+        "last_updated": "2022-11-04T06:38:40.838325+00:00",
+        "context": {
+          "id": "01GH0NSW66M9DG4VK1ZK0H45P3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 51,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "Lenka - iPhone X BSSID"
+        },
+        "last_changed": "2022-11-04T06:38:40.838425+00:00",
+        "last_updated": "2022-11-04T06:38:40.838425+00:00",
+        "context": {
+          "id": "01GH0NSW66SXA17Q73JNZ74PTM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_connection_type",
+        "state": "Cellular",
+        "attributes": {
+          "Cellular Technology": "4G",
+          "icon": "mdi:signal",
+          "friendly_name": "Lenka - iPhone X Connection Type"
+        },
+        "last_changed": "2022-11-04T06:38:40.838496+00:00",
+        "last_updated": "2022-11-04T06:38:40.838496+00:00",
+        "context": {
+          "id": "01GH0NSW66XKZJDPQ00AT5QRF3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Cellular",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_sim_1",
+        "state": "VF CZ",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "VF CZ",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "cz",
+          "Mobile Country Code": "230",
+          "Mobile Network Code": "03",
+          "icon": "mdi:sim",
+          "friendly_name": "Lenka - iPhone X SIM 1"
+        },
+        "last_changed": "2022-11-04T06:38:40.838563+00:00",
+        "last_updated": "2022-11-04T06:38:40.838563+00:00",
+        "context": {
+          "id": "01GH0NSW669P0CHF5D410BZW6H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "VF CZ",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_geocoded_location",
+        "state": "Vřesinská\n708 00 Ostrava\nČeská republika",
+        "attributes": {
+          "Administrative Area": "Moravskoslezský",
+          "Areas Of Interest": "N/A",
+          "Country": "Česká republika",
+          "Inland Water": "N/A",
+          "ISO Country Code": "CZ",
+          "Locality": "Ostrava",
+          "Location": [
+            49.822265625,
+            18.160502380868486
+          ],
+          "Name": "Vřesinská",
+          "Ocean": "N/A",
+          "Postal Code": "708 00",
+          "Sub Administrative Area": "Ostrava",
+          "Sub Locality": "Poruba",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Vřesinská",
+          "Time Zone": "Europe/Prague",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "Lenka - iPhone X Geocoded Location"
+        },
+        "last_changed": "2022-11-04T06:38:40.838631+00:00",
+        "last_updated": "2022-11-04T06:38:40.838631+00:00",
+        "context": {
+          "id": "01GH0NSW66MD1FSJNK4RGXXK8E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Vřesinská\n708 00 Ostrava\nČeská republika",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_last_update_trigger",
+        "state": "Significant Location Change",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "Lenka - iPhone X Last Update Trigger"
+        },
+        "last_changed": "2022-11-04T06:38:40.838696+00:00",
+        "last_updated": "2022-11-04T06:38:40.838696+00:00",
+        "context": {
+          "id": "01GH0NSW66P935BFE7H559XDJ8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Significant Location Change",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-50",
+          "friendly_name": "Lenka - iPhone X Battery State"
+        },
+        "last_changed": "2022-11-04T06:38:40.838781+00:00",
+        "last_updated": "2022-11-04T06:38:40.838781+00:00",
+        "context": {
+          "id": "01GH0NSW66Q8M5NRYTJQRMK6RH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_storage",
+        "state": "62.51",
+        "attributes": {
+          "Available": "145,10 GB",
+          "Available (Important)": "176,72 GB",
+          "Available (Opportunistic)": "159,97 GB",
+          "Total": "255,89 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "Lenka - iPhone X Storage"
+        },
+        "last_changed": "2022-11-04T06:38:40.838852+00:00",
+        "last_updated": "2022-11-04T06:38:40.838852+00:00",
+        "context": {
+          "id": "01GH0NSW66YYYXM9SQ12RHXSKX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "62.51",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "Lenka - iPhone X SSID"
+        },
+        "last_changed": "2022-11-04T06:38:40.838915+00:00",
+        "last_updated": "2022-11-04T06:38:40.838915+00:00",
+        "context": {
+          "id": "01GH0NSW66J7KHRT796XB933KW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_activity",
+        "state": "Automotive",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Automotive"
+          ],
+          "icon": "mdi:car",
+          "friendly_name": "Lenka - iPhone X Activity"
+        },
+        "last_changed": "2022-11-04T06:38:40.838980+00:00",
+        "last_updated": "2022-11-04T06:38:40.838980+00:00",
+        "context": {
+          "id": "01GH0NSW66ZQ46YF3NJDTSFYSJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Automotive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_steps",
+        "state": "69",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "Lenka - iPhone X Steps"
+        },
+        "last_changed": "2022-11-04T06:38:40.839044+00:00",
+        "last_updated": "2022-11-04T06:38:40.839044+00:00",
+        "context": {
+          "id": "01GH0NSW67CG0SEY8YFXWNBZ5S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 69,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "Lenka - iPhone X Average Active Pace"
+        },
+        "last_changed": "2022-11-04T06:38:40.839118+00:00",
+        "last_updated": "2022-11-04T06:38:40.839118+00:00",
+        "context": {
+          "id": "01GH0NSW675909E5PNBRXNC5TE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_distance",
+        "state": "43",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "Lenka - iPhone X Distance"
+        },
+        "last_changed": "2022-11-04T06:38:40.839200+00:00",
+        "last_updated": "2022-11-04T06:38:40.839200+00:00",
+        "context": {
+          "id": "01GH0NSW67R2JP3ZSAJ5RMR191",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 43,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_floors_ascended",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "Lenka - iPhone X Floors Ascended"
+        },
+        "last_changed": "2022-11-04T06:38:40.839356+00:00",
+        "last_updated": "2022-11-04T06:38:40.839356+00:00",
+        "context": {
+          "id": "01GH0NSW673R2RPK28EDY70X5A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.lenka_iphone_x_floors_descended",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "Lenka - iPhone X Floors Descended"
+        },
+        "last_changed": "2022-11-04T06:38:40.839437+00:00",
+        "last_updated": "2022-11-04T06:38:40.839437+00:00",
+        "context": {
+          "id": "01GH0NSW67YV0QM33NCEXHE6BS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.lenka_iphone_x_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "Lenka - iPhone X Focus"
+        },
+        "last_changed": "2022-11-04T06:38:40.839499+00:00",
+        "last_updated": "2022-11-04T06:38:40.839499+00:00",
+        "context": {
+          "id": "01GH0NSW675KJ8XR3FP1P45MVH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.lenka_iphone_x_6",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 51,
+          "latitude": 49.822265625,
+          "longitude": 18.160502380868486,
+          "gps_accuracy": 40,
+          "altitude": 243.0121841430664,
+          "vertical_accuracy": 24.02045249938965,
+          "friendly_name": "Lenka - iPhone X (2)"
+        },
+        "last_changed": "2022-11-04T06:38:40.839682+00:00",
+        "last_updated": "2022-11-04T06:38:40.839682+00:00",
+        "context": {
+          "id": "01GH0NSW67HJTC0NFYSXCPNYRN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_activity",
+        "state": "Stationary",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Stationary"
+          ],
+          "icon": "mdi:human-male",
+          "friendly_name": "Petr’s iPhone Activity"
+        },
+        "last_changed": "2022-11-04T08:42:02.791021+00:00",
+        "last_updated": "2022-11-04T08:42:02.791021+00:00",
+        "context": {
+          "id": "01GH0WVRN7GEPED0Q4M5HCG3RP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_battery_level",
+        "state": "84",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-80",
+          "friendly_name": "Petr’s iPhone Battery Level"
+        },
+        "last_changed": "2022-11-04T08:42:02.791932+00:00",
+        "last_updated": "2022-11-04T08:42:02.791932+00:00",
+        "context": {
+          "id": "01GH0WVRN764VSRD4GS9G9KWQT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 84,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-80",
+          "friendly_name": "Petr’s iPhone Battery State"
+        },
+        "last_changed": "2022-11-04T06:38:40.840003+00:00",
+        "last_updated": "2022-11-04T06:38:40.840003+00:00",
+        "context": {
+          "id": "01GH0NSW68WWE3YJF6BP819ADE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_storage",
+        "state": "17.00",
+        "attributes": {
+          "Available": "18.38 GB",
+          "Available (Important)": "32.18 GB",
+          "Available (Opportunistic)": "21.74 GB",
+          "Total": "127.87 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "Petr’s iPhone Storage"
+        },
+        "last_changed": "2022-11-04T08:50:03.636245+00:00",
+        "last_updated": "2022-11-04T08:50:03.636245+00:00",
+        "context": {
+          "id": "01GH0XAE7MK94VECP4VWZETD9Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "17.00",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_ssid",
+        "state": "Hajenka_net",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Petr’s iPhone SSID"
+        },
+        "last_changed": "2022-11-04T06:55:10.082783+00:00",
+        "last_updated": "2022-11-04T06:55:10.082783+00:00",
+        "context": {
+          "id": "01GH0PR282Q9G0WBFXTTZPCJQ7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Hajenka_net",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_bssid",
+        "state": "b0:b8:67:a3:39:10",
+        "attributes": {
+          "icon": "mdi:wifi-star",
+          "friendly_name": "Petr’s iPhone BSSID"
+        },
+        "last_changed": "2022-11-04T08:42:02.792408+00:00",
+        "last_updated": "2022-11-04T08:42:02.792408+00:00",
+        "context": {
+          "id": "01GH0WVRN8JC3WJQTDYHVKCC01",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "b0:b8:67:a3:39:10",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Petr’s iPhone Connection Type"
+        },
+        "last_changed": "2022-11-04T06:55:10.083003+00:00",
+        "last_updated": "2022-11-04T06:55:10.083003+00:00",
+        "context": {
+          "id": "01GH0PR283TR4W995RD70Q8N3J",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "Petr’s iPhone SIM 2"
+        },
+        "last_changed": "2022-11-04T06:38:40.840400+00:00",
+        "last_updated": "2022-11-04T06:38:40.840400+00:00",
+        "context": {
+          "id": "01GH0NSW68GT7VRVSAKG45MXSD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_geocoded_location",
+        "state": "Pod Budkovcem 5\n747 66 Dolní Lhota\nCzechia",
+        "attributes": {
+          "Administrative Area": "Moravia-Silesia",
+          "Areas Of Interest": "N/A",
+          "Country": "Czechia",
+          "Inland Water": "N/A",
+          "ISO Country Code": "CZ",
+          "Locality": "Dolní Lhota",
+          "Location": [
+            49.84070916805464,
+            18.08237199780636
+          ],
+          "Name": "Pod Budkovcem 5",
+          "Ocean": "N/A",
+          "Postal Code": "747 66",
+          "Sub Administrative Area": "Ostrava",
+          "Sub Locality": "N/A",
+          "Sub Thoroughfare": "5",
+          "Thoroughfare": "Pod Budkovcem",
+          "Time Zone": "Europe/Prague",
+          "Zones": [
+            "LHOTA",
+            "Hajenka"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "Petr’s iPhone Geocoded Location"
+        },
+        "last_changed": "2022-11-04T06:55:10.515476+00:00",
+        "last_updated": "2022-11-04T08:42:02.792790+00:00",
+        "context": {
+          "id": "01GH0WVRN8D7YHGGM8KY5YBXGV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Pod Budkovcem 5\n747 66 Dolní Lhota\nCzechia",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_sim_1",
+        "state": "O2.CZ",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "O2.CZ",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "cz",
+          "Mobile Country Code": "230",
+          "Mobile Network Code": "02",
+          "icon": "mdi:sim",
+          "friendly_name": "Petr’s iPhone SIM 1"
+        },
+        "last_changed": "2022-11-04T06:38:40.840541+00:00",
+        "last_updated": "2022-11-04T06:38:40.840541+00:00",
+        "context": {
+          "id": "01GH0NSW68TVDH4C3F4Z71H57B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "O2.CZ",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "Petr’s iPhone Last Update Trigger"
+        },
+        "last_changed": "2022-11-04T08:42:02.793010+00:00",
+        "last_updated": "2022-11-04T08:42:02.793010+00:00",
+        "context": {
+          "id": "01GH0WVRN9MHM1RPRXHN11VAV5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Background Fetch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_floors_ascended",
+        "state": "2",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "Petr’s iPhone Floors Ascended"
+        },
+        "last_changed": "2022-11-04T08:42:02.791510+00:00",
+        "last_updated": "2022-11-04T08:42:02.791510+00:00",
+        "context": {
+          "id": "01GH0WVRN7ZW2DCMSM11XK2ESH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_floors_descended",
+        "state": "2",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "Petr’s iPhone Floors Descended"
+        },
+        "last_changed": "2022-11-04T06:49:27.029265+00:00",
+        "last_updated": "2022-11-04T06:49:27.029265+00:00",
+        "context": {
+          "id": "01GH0PDK7NPEWJXD7RET3W8RKE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "Petr’s iPhone Average Active Pace"
+        },
+        "last_changed": "2022-11-04T06:46:26.653466+00:00",
+        "last_updated": "2022-11-04T06:46:26.653466+00:00",
+        "context": {
+          "id": "01GH0P832X85XWW77A5PP2NKJ8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_distance",
+        "state": "227",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "Petr’s iPhone Distance"
+        },
+        "last_changed": "2022-11-04T08:42:02.791344+00:00",
+        "last_updated": "2022-11-04T08:42:02.791344+00:00",
+        "context": {
+          "id": "01GH0WVRN770P391WYP1D4M0QM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 227,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.petrs_iphone_steps",
+        "state": "295",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "Petr’s iPhone Steps"
+        },
+        "last_changed": "2022-11-04T08:42:02.791729+00:00",
+        "last_updated": "2022-11-04T08:42:02.791729+00:00",
+        "context": {
+          "id": "01GH0WVRN7FY15XBM92G1DA4R4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 295,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.petrs_iphone_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "Petr’s iPhone Focus"
+        },
+        "last_changed": "2022-11-04T06:38:40.841168+00:00",
+        "last_updated": "2022-11-04T06:38:40.841168+00:00",
+        "context": {
+          "id": "01GH0NSW69SXQN9ZC9CBFTDBE2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.petrs_iphone",
+        "state": "LHOTA",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 84,
+          "latitude": 49.84070916805464,
+          "longitude": 18.08237199780636,
+          "gps_accuracy": 9.616011474614513,
+          "altitude": 285.0941390991211,
+          "vertical_accuracy": 21.82406997680664,
+          "friendly_name": "Petr’s iPhone"
+        },
+        "last_changed": "2022-11-04T08:50:03.076537+00:00",
+        "last_updated": "2022-11-04T08:50:03.076537+00:00",
+        "context": {
+          "id": "01GH0XADP4GQJR2DBJMP9AJPC7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.mira_tel_battery_level",
+        "state": "96",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-90",
+          "friendly_name": "mira_tel Battery Level"
+        },
+        "last_changed": "2022-11-04T08:28:34.468523+00:00",
+        "last_updated": "2022-11-04T08:28:34.468523+00:00",
+        "context": {
+          "id": "01GH0W3394RESFKPEE5Q02YGFD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 96,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.mira_tel_battery_state",
+        "state": "discharging",
+        "attributes": {
+          "icon": "mdi:battery-minus",
+          "friendly_name": "mira_tel Battery State"
+        },
+        "last_changed": "2022-11-04T07:07:17.131913+00:00",
+        "last_updated": "2022-11-04T07:07:17.131913+00:00",
+        "context": {
+          "id": "01GH0QE88B5CTVZSKSHNYDAF6H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "discharging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.mira_tel_charger_type",
+        "state": "none",
+        "attributes": {
+          "icon": "mdi:battery",
+          "friendly_name": "mira_tel Charger Type"
+        },
+        "last_changed": "2022-11-04T07:07:17.132208+00:00",
+        "last_updated": "2022-11-04T07:07:17.132208+00:00",
+        "context": {
+          "id": "01GH0QE88C9AVD5NGACT75TAFG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "none",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.mira_tel_battery_health",
+        "state": "good",
+        "attributes": {
+          "icon": "mdi:battery-heart-variant",
+          "friendly_name": "mira_tel Battery Health"
+        },
+        "last_changed": "2022-11-04T06:38:40.841674+00:00",
+        "last_updated": "2022-11-04T06:38:40.841674+00:00",
+        "context": {
+          "id": "01GH0NSW69AW49A9HKWW11PGPE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "good",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.mira_tel_battery_temperature",
+        "state": "26.9",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "icon": "mdi:battery",
+          "friendly_name": "mira_tel Battery Temperature"
+        },
+        "last_changed": "2022-11-04T08:44:44.836309+00:00",
+        "last_updated": "2022-11-04T08:44:44.836309+00:00",
+        "context": {
+          "id": "01GH0X0PX4FRE5CEATSNJXZZWC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 26.9,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.mira_tel_battery_power",
+        "state": "2.87",
+        "attributes": {
+          "state_class": "measurement",
+          "current": 0.657349,
+          "voltage": 4.371,
+          "unit_of_measurement": "W",
+          "device_class": "power",
+          "icon": "mdi:battery-plus",
+          "friendly_name": "mira_tel Battery Power"
+        },
+        "last_changed": "2022-11-04T08:44:44.836568+00:00",
+        "last_updated": "2022-11-04T08:44:44.836568+00:00",
+        "context": {
+          "id": "01GH0X0PX4M5BCWMA1KJNKCFZQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 2.87,
+        "native_unit_of_measurement": "W"
+      },
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.mira_tel_is_charging",
+        "state": "off",
+        "attributes": {
+          "device_class": "plug",
+          "icon": "mdi:power-plug-off",
+          "friendly_name": "mira_tel Is Charging"
+        },
+        "last_changed": "2022-11-04T07:07:17.132076+00:00",
+        "last_updated": "2022-11-04T07:07:17.132076+00:00",
+        "context": {
+          "id": "01GH0QE88CEVFP90ZMR0KNR4QB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.mira_tel",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "latitude": 49.8187977,
+          "longitude": 18.1844863,
+          "gps_accuracy": 12,
+          "altitude": 266,
+          "course": 0,
+          "speed": 0,
+          "vertical_accuracy": 1,
+          "friendly_name": "mira_tel"
+        },
+        "last_changed": "2022-11-04T08:52:49.323626+00:00",
+        "last_updated": "2022-11-04T08:52:49.323626+00:00",
+        "context": {
+          "id": "01GH0XFG1BJ9V4Y17TVR6M9SMD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly_jezirko_vzduchovani_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "shelly-jezirko-vzduchovani Reboot"
+        },
+        "last_changed": "2022-11-04T08:02:46.015232+00:00",
+        "last_updated": "2022-11-04T08:02:46.015232+00:00",
+        "context": {
+          "id": "01GH0TKV3ZDDMKEBAY87QP6Y1E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.ewelink_ds01_3fa96822_ias_zone",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "opening",
+          "friendly_name": "eWeLink DS01 Iaszone"
+        },
+        "last_changed": "2022-11-04T06:38:48.621606+00:00",
+        "last_updated": "2022-11-04T06:38:48.621606+00:00",
+        "context": {
+          "id": "01GH0NT3SD4DVWFPBVPBAQ6T9N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.pir_kuchyn_ias_zone",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "motion",
+          "friendly_name": "PIR_kuchyn ias_zone"
+        },
+        "last_changed": "2022-11-04T06:38:48.621907+00:00",
+        "last_updated": "2022-11-04T06:38:48.621907+00:00",
+        "context": {
+          "id": "01GH0NT3SDXWVTKY9ND4181KW2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.pir_chodba_ias_zone",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "motion",
+          "friendly_name": "PIR_chodba ias_zone"
+        },
+        "last_changed": "2022-11-04T06:38:48.622153+00:00",
+        "last_updated": "2022-11-04T06:38:48.622153+00:00",
+        "context": {
+          "id": "01GH0NT3SEK3ANVEYN4PTG1RAS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.vrata_garaze_ias_zone",
+        "state": "off",
+        "attributes": {
+          "device_class": "door",
+          "friendly_name": "Vrata GARAZE"
+        },
+        "last_changed": "2022-11-04T08:39:24.718833+00:00",
+        "last_updated": "2022-11-04T08:39:24.718833+00:00",
+        "context": {
+          "id": "01GH0WPY9E9P1BS5ZCH3GPT16D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.tz1800_fcdjzz3s_ty0202_iaszone",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "motion",
+          "friendly_name": "_TZ1800_fcdjzz3s TY0202 Iaszone"
+        },
+        "last_changed": "2022-11-04T06:38:48.622637+00:00",
+        "last_updated": "2022-11-04T06:38:48.622637+00:00",
+        "context": {
+          "id": "01GH0NT3SER52EGX54JMM2K3M7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_th01_572d6a22_identify",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "Teplota Lenka Obyvak Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.622915+00:00",
+        "last_updated": "2022-11-04T06:38:48.622915+00:00",
+        "context": {
+          "id": "01GH0NT3SE00QRNG1KPSQGZHG0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_wamqdr3f_ts011f_eccb07fe_identify",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "zigbee_zasuvka_garaz Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.623178+00:00",
+        "last_updated": "2022-11-04T06:38:48.623178+00:00",
+        "context": {
+          "id": "01GH0NT3SF8FE9DDQP38F4A97A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_ds01_3fa96822_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "eWeLink DS01 Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.623428+00:00",
+        "last_updated": "2022-11-04T06:38:48.623428+00:00",
+        "context": {
+          "id": "01GH0NT3SFNKTD21EN2FAR6FNF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_wb01_70094322_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "spinac_kuchyn Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.623682+00:00",
+        "last_updated": "2022-11-04T06:38:48.623682+00:00",
+        "context": {
+          "id": "01GH0NT3SFAD3YQ5YGTESTGQPX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_ms01_1bee4222_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "PIR_kuchyn Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.623908+00:00",
+        "last_updated": "2022-11-04T06:38:48.623908+00:00",
+        "context": {
+          "id": "01GH0NT3SFN7WA83P5A3SRGXR8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_riwp3k79_ts0505a_5fcffbfe_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "led_RGB Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.624154+00:00",
+        "last_updated": "2022-11-04T06:38:48.624154+00:00",
+        "context": {
+          "id": "01GH0NT3SGQQCCCJ3RJP8QGHDJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_ms01_8ddc6722_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "PIR_chodba Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.624406+00:00",
+        "last_updated": "2022-11-04T06:38:48.624406+00:00",
+        "context": {
+          "id": "01GH0NT3SGK9P84FMF38QKQPNR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_th01_b8506722_identify",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "sonoff_pracovna Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.624639+00:00",
+        "last_updated": "2022-11-04T06:38:48.624639+00:00",
+        "context": {
+          "id": "01GH0NT3SGV2AHQVJ26V1H1V7S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.ewelink_th01_a0486722_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "sonoff_venkovni Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.624886+00:00",
+        "last_updated": "2022-11-04T06:38:48.624886+00:00",
+        "context": {
+          "id": "01GH0NT3SG3S61FAE07MPCXD3D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_riwp3k79_ts0505a_9393d8fe_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "led_lista Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.625138+00:00",
+        "last_updated": "2022-11-04T06:38:48.625138+00:00",
+        "context": {
+          "id": "01GH0NT3SHZ31C669PAVHWCV9X",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_rylaozuc_ts0502a_6a16fbfe_identify",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "_TZ3000_rylaozuc TS0502A Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.625412+00:00",
+        "last_updated": "2022-11-04T06:38:48.625412+00:00",
+        "context": {
+          "id": "01GH0NT3SHDZPZ3XWRJ08YN4CJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_wamqdr3f_ts011f_fecc07fe_identify",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "akvarium Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.625664+00:00",
+        "last_updated": "2022-11-04T06:38:48.625664+00:00",
+        "context": {
+          "id": "01GH0NT3SHC33Y805E0JA1667E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz1800_ejwkn2h2_ty0203_597394fe_identify",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "Vrata GARAZE Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.625915+00:00",
+        "last_updated": "2022-11-04T06:38:48.625915+00:00",
+        "context": {
+          "id": "01GH0NT3SHG420SB0DQ94VZXHP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_wamqdr3f_ts011f_29822bfe_identify",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "zigbee-plug-pergola Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.626168+00:00",
+        "last_updated": "2022-11-04T06:38:48.626168+00:00",
+        "context": {
+          "id": "01GH0NT3SJ0ECBPTZ328Z2VW80",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz3000_wamqdr3f_ts011f_identifybutton",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "zasuvka_misa_akvarium Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.626452+00:00",
+        "last_updated": "2022-11-04T06:38:48.626452+00:00",
+        "context": {
+          "id": "01GH0NT3SJ6S22A98WDA5D2MK2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tz1800_fcdjzz3s_ty0202_identifybutton",
+        "state": "unavailable",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "_TZ1800_fcdjzz3s TY0202 Identify"
+        },
+        "last_changed": "2022-11-04T06:38:48.626701+00:00",
+        "last_updated": "2022-11-04T06:38:48.626701+00:00",
+        "context": {
+          "id": "01GH0NT3SJG32MM2Y99TSED41W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.tz3000_riwp3k79_ts0505a_level_light_color_on_off",
+        "state": "unavailable",
+        "attributes": {
+          "min_color_temp_kelvin": 2000,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 500,
+          "supported_color_modes": [
+            "color_temp",
+            "xy"
+          ],
+          "friendly_name": "led_RGB level, light_color, on_off",
+          "supported_features": 40
+        },
+        "last_changed": "2022-11-04T06:38:48.627194+00:00",
+        "last_updated": "2022-11-04T06:38:48.627194+00:00",
+        "context": {
+          "id": "01GH0NT3SK72K0RD00QYEECMZN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.tz3000_riwp3k79_ts0505a_9393d8fe_level_light_color_on_off",
+        "state": "unavailable",
+        "attributes": {
+          "min_color_temp_kelvin": 2000,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 500,
+          "supported_color_modes": [
+            "color_temp",
+            "xy"
+          ],
+          "friendly_name": "led_lista Light",
+          "supported_features": 40
+        },
+        "last_changed": "2022-11-04T06:38:48.627579+00:00",
+        "last_updated": "2022-11-04T06:38:48.627579+00:00",
+        "context": {
+          "id": "01GH0NT3SKHZYY7Z3MCHSF6S6A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.tz3000_rylaozuc_ts0502a_6a16fbfe_level_light_color_on_off",
+        "state": "unavailable",
+        "attributes": {
+          "min_color_temp_kelvin": 2000,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 500,
+          "supported_color_modes": [
+            "color_temp"
+          ],
+          "friendly_name": "_TZ3000_rylaozuc TS0502A Light",
+          "supported_features": 40
+        },
+        "last_changed": "2022-11-04T06:38:48.627922+00:00",
+        "last_updated": "2022-11-04T06:38:48.627922+00:00",
+        "context": {
+          "id": "01GH0NT3SKP8CDG4YKG61HZ4W6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.zigbee_zasuvka_garaz_power_on_state",
+        "state": "LastState",
+        "attributes": {
+          "options": [
+            "Off",
+            "On",
+            "LastState"
+          ],
+          "friendly_name": "zigbee_zasuvka_garaz Power on state"
+        },
+        "last_changed": "2022-11-04T06:38:48.628225+00:00",
+        "last_updated": "2022-11-04T06:38:48.628225+00:00",
+        "context": {
+          "id": "01GH0NT3SMKKTMBS0HSE9P38KM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.akvarium_power_on_state",
+        "state": "LastState",
+        "attributes": {
+          "options": [
+            "Off",
+            "On",
+            "LastState"
+          ],
+          "friendly_name": "akvarium Power on state"
+        },
+        "last_changed": "2022-11-04T06:38:48.628508+00:00",
+        "last_updated": "2022-11-04T06:38:48.628508+00:00",
+        "context": {
+          "id": "01GH0NT3SM1V8GG111WRMQRWEN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.zigbee_plug_pergola_power_on_state",
+        "state": "LastState",
+        "attributes": {
+          "options": [
+            "Off",
+            "On",
+            "LastState"
+          ],
+          "friendly_name": "zigbee-plug-pergola Power on state"
+        },
+        "last_changed": "2022-11-04T06:38:48.628760+00:00",
+        "last_updated": "2022-11-04T06:38:48.628760+00:00",
+        "context": {
+          "id": "01GH0NT3SMPE8SMG5FE7BZ03ZA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.zasuvka_misa_akvarium_power_on_state",
+        "state": "LastState",
+        "attributes": {
+          "options": [
+            "Off",
+            "On",
+            "LastState"
+          ],
+          "friendly_name": "zasuvka_misa_akvarium Power on state"
+        },
+        "last_changed": "2022-11-04T06:38:48.629022+00:00",
+        "last_updated": "2022-11-04T06:38:48.629022+00:00",
+        "context": {
+          "id": "01GH0NT3SNPRE9VRV7E36AYM2G",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.teplota_prizemi_power",
+        "state": "62",
+        "attributes": {
+          "state_class": "measurement",
+          "battery_voltage": 2.9,
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "1. patro stav baterie"
+        },
+        "last_changed": "2022-11-04T08:12:13.538422+00:00",
+        "last_updated": "2022-11-04T08:12:13.538422+00:00",
+        "context": {
+          "id": "01GH0V55B2PN73ATPBW13XMFHK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.teplota_prizemi_temperature",
+        "state": "22.6",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "1. patro teplota"
+        },
+        "last_changed": "2022-11-04T08:10:25.498372+00:00",
+        "last_updated": "2022-11-04T08:10:25.498372+00:00",
+        "context": {
+          "id": "01GH0V1VTT7TN8J337SEBXYJQQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.teplota_prizemi_humidity",
+        "state": "77.9",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "1. patro vlhkost"
+        },
+        "last_changed": "2022-11-04T08:45:38.304307+00:00",
+        "last_updated": "2022-11-04T08:45:38.304307+00:00",
+        "context": {
+          "id": "01GH0X2B40NVPPBVT1BD9HW4B1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ewelink_ds01_3fa96822_power",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "eWeLink DS01 Battery"
+        },
+        "last_changed": "2022-11-04T06:38:48.630154+00:00",
+        "last_updated": "2022-11-04T06:38:48.630154+00:00",
+        "context": {
+          "id": "01GH0NT3SPDNNRQMHSTDYNFKA4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.spinac_kuchyn_power",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "spinac_kuchyn power"
+        },
+        "last_changed": "2022-11-04T06:38:48.630399+00:00",
+        "last_updated": "2022-11-04T06:38:48.630399+00:00",
+        "context": {
+          "id": "01GH0NT3SPHARF8JMFNBR167W0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pir_kuchyn_power",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "PIR_kuchyn power"
+        },
+        "last_changed": "2022-11-04T06:38:48.630644+00:00",
+        "last_updated": "2022-11-04T06:38:48.630644+00:00",
+        "context": {
+          "id": "01GH0NT3SPKNN0JF7MTSP8ST34",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pir_chodba_power",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "PIR_chodba power"
+        },
+        "last_changed": "2022-11-04T06:38:48.630871+00:00",
+        "last_updated": "2022-11-04T06:38:48.630871+00:00",
+        "context": {
+          "id": "01GH0NT3SP3WSRS97Y1BH2PNVD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sonoff_pracovna_power",
+        "state": "59",
+        "attributes": {
+          "state_class": "measurement",
+          "battery_voltage": 2.9,
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "Pracovna stav baterie"
+        },
+        "last_changed": "2022-11-04T07:03:20.495085+00:00",
+        "last_updated": "2022-11-04T07:03:20.495085+00:00",
+        "context": {
+          "id": "01GH0Q715F8WH1GZPPNR6PBJ04",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sonoff_pracovna_temperature",
+        "state": "21.4",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Pracovna teplota"
+        },
+        "last_changed": "2022-11-04T08:40:25.054687+00:00",
+        "last_updated": "2022-11-04T08:40:25.054687+00:00",
+        "context": {
+          "id": "01GH0WRS6Y44XQSX4Z7HKYX1TY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sonoff_pracovna_humidity",
+        "state": "60.2",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "Pracovna vlhkost"
+        },
+        "last_changed": "2022-11-04T08:38:17.638895+00:00",
+        "last_updated": "2022-11-04T08:38:17.638895+00:00",
+        "context": {
+          "id": "01GH0WMWS6218JNJ9FF9ZESN6Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sonoff_venkovni_power",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "Venkovni stav baterie"
+        },
+        "last_changed": "2022-11-04T06:38:48.631889+00:00",
+        "last_updated": "2022-11-04T06:38:48.631889+00:00",
+        "context": {
+          "id": "01GH0NT3SQXD9D02A0D4KBGJCA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sonoff_venkovni_temperature",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Venkovni teplota"
+        },
+        "last_changed": "2022-11-04T06:38:48.632126+00:00",
+        "last_updated": "2022-11-04T06:38:48.632126+00:00",
+        "context": {
+          "id": "01GH0NT3SR5AGSF2NRCP5B4FYJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sonoff_venkovni_humidity",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "Venkovni vlhkost"
+        },
+        "last_changed": "2022-11-04T06:38:48.632368+00:00",
+        "last_updated": "2022-11-04T06:38:48.632368+00:00",
+        "context": {
+          "id": "01GH0NT3SR25FYCM6CD81TF41N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tz1800_ejwkn2h2_ty0203_power",
+        "state": "94",
+        "attributes": {
+          "state_class": "measurement",
+          "battery_voltage": 2.9,
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "sensor_vrata_garaz stav baterie"
+        },
+        "last_changed": "2022-11-04T06:38:48.632716+00:00",
+        "last_updated": "2022-11-04T06:38:48.632716+00:00",
+        "context": {
+          "id": "01GH0NT3SR0BWNXZ342CBHV74Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tz1800_fcdjzz3s_ty0202_battery",
+        "state": "unavailable",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "_TZ1800_fcdjzz3s TY0202 Battery"
+        },
+        "last_changed": "2022-11-04T06:38:48.632967+00:00",
+        "last_updated": "2022-11-04T06:38:48.632967+00:00",
+        "context": {
+          "id": "01GH0NT3SRM15RN9Q77D6NP6QJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.tz3000_wamqdr3f_ts011f_on_off",
+        "state": "off",
+        "attributes": {
+          "friendly_name": "zigbee_zasuvka on_off"
+        },
+        "last_changed": "2022-11-04T08:40:14.813501+00:00",
+        "last_updated": "2022-11-04T08:40:14.813501+00:00",
+        "context": {
+          "id": "01GH0WRF41W0WMQQ9J6T8G3QJM",
+          "parent_id": "01GH0WPY9E9P1BS5ZCH3GPT16D",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.akvarium_on_off",
+        "state": "off",
+        "attributes": {
+          "friendly_name": "akvarium on_off"
+        },
+        "last_changed": "2022-11-04T06:38:48.633504+00:00",
+        "last_updated": "2022-11-04T06:38:48.633504+00:00",
+        "context": {
+          "id": "01GH0NT3SSR01PWPGZRRVWJFDK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.tz3000_wamqdr3f_ts011f_29822bfe_on_off",
+        "state": "on",
+        "attributes": {
+          "friendly_name": "zigbee_plug-2p"
+        },
+        "last_changed": "2022-11-04T06:38:48.633779+00:00",
+        "last_updated": "2022-11-04T06:38:48.633779+00:00",
+        "context": {
+          "id": "01GH0NT3SSG08TBE7Z032Z88BZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "switch.tz3000_wamqdr3f_ts011f_switch",
+        "state": "on",
+        "attributes": {
+          "friendly_name": "zasuvka_misa_akvarium Switch"
+        },
+        "last_changed": "2022-11-04T06:38:48.634027+00:00",
+        "last_updated": "2022-11-04T06:38:48.634027+00:00",
+        "context": {
+          "id": "01GH0NT3ST27VP7V6AD5QWXAR0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly_mereni_spotreby_domu_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "shelly-mereni-spotreby-domu Reboot"
+        },
+        "last_changed": "2022-11-04T07:51:37.022660+00:00",
+        "last_updated": "2022-11-04T07:51:37.022660+00:00",
+        "context": {
+          "id": "01GH0SZDSY6GS6HVX6FDMEW1RN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-04T08:53:51.035867+00:00"
+    }
+  ]
+}
